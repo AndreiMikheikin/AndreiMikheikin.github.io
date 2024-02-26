@@ -126,26 +126,27 @@
 
     body{
         #top{
+            
             /* about */
             .section-about-padding{
                 .auto-container{
                     .row{
-                        flex-direction: column-reverse;
-                        align-items: center;
                         .about-block{
-                            width: 85%;
-                            padding: 0 15px;
                             .about-image{
                                 #circles-0{
                                     display: none;
                                 }
-                                .image-1, .image-2, .video-area{
+                                /* .image-1, .image-2, .video-area{
                                     transform: scale(.8);
-                                }
+                                } */
                             }
                         }
                         .about-discription{
-                            padding: 0 15px;
+                            position: static;
+                            padding: 0 25px;
+                            margin: 0 auto;
+                            width: 100%;
+                            text-align: center;
                         }
                     }
                 }

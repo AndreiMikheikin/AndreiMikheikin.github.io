@@ -1017,9 +1017,8 @@ body {
                     }
                 }
                 .about-discription{
-                    padding: 20px 10px;
-                    padding-left: 20px;
-                    flex: 360px 0 auto;
+                    margin: 20px 10px;
+                    flex: 0 0 auto;
                     width: 50%;
                     max-width: 100%;
 
@@ -1048,19 +1047,13 @@ body {
                             padding-right: 15px;
                             text-transform: capitalize;
                         }
-                        p{
-                            position: relative;
-                            margin-bottom: 0;
-                            line-height: 1.8;
-                            font-size: $simple-text;
-                        }
                     }
-                    /* p{
+                    p{
                         position: relative;
                         margin-bottom: 0;
                         line-height: 1.8;
                         font-size: $simple-text;
-                    } */
+                    }
                     /* .about-btn{
                         position: relative;
                         padding-top: 20px;
