@@ -76,9 +76,10 @@
                 .auto-container{
                     .row{
                         .contact-block{
-                           width: 50% !important;
-                           margin-bottom: 20px;
-                           border-bottom: 1px solid $li-border;
+                            max-width: 100%;
+                            margin-bottom: 20px;
+                            border-bottom: 1px solid $li-border;
+                            flex: 150px 1 auto;
                         }
                         .contact-block:nth-child(2){
                             order: 2;
