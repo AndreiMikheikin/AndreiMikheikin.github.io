@@ -31,6 +31,7 @@
             .section-about-padding{
                 .auto-container{
                     .row{
+                        flex-direction: column;
                         .about-block{
                             width: 85%;
                             .about-image{
