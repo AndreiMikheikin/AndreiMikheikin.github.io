@@ -31,7 +31,7 @@
             .section-about-padding{
                 .auto-container{
                     .row{
-                        
+                        flex-direction: column-reverse;
                         .about-block{
                             text-align: center;
                             .about-image{
@@ -130,7 +130,7 @@
             .section-about-padding{
                 .auto-container{
                     .row{
-                        flex-direction: column;
+                        flex-direction: column-reverse;
                         align-items: center;
                         .about-block{
                             width: 85%;

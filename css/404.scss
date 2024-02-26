@@ -1,11 +1,6 @@
 @import 'fonts.scss';
 @import 'variables.scss';
 
-@keyframes rotation {
-    from {transform: rotate(0deg);}
-    to {transform: rotate(360deg);}
-}
-
 /* normolize */
 * {
     margin: 0;
@@ -789,6 +784,7 @@ body {
                 flex-direction: row-reverse;
                 flex-wrap: wrap;
                 justify-content: center;
+                align-items: center;
 
                 .about-block{
                     padding: 0 15px;
