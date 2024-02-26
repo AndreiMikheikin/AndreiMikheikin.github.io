@@ -21,6 +21,7 @@ body {
     background: $backg;
     width: 100vw;
     max-width: 1920px;
+    scale: max($numbers: 1);
 }
 
 #top{
