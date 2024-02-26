@@ -1052,13 +1052,19 @@ body {
                             padding-right: 15px;
                             text-transform: capitalize;
                         }
+                        p{
+                            position: relative;
+                            margin-bottom: 0;
+                            line-height: 1.8;
+                            font-size: $simple-text;
+                        }
                     }
-                    p{
+                    /* p{
                         position: relative;
                         margin-bottom: 0;
                         line-height: 1.8;
                         font-size: $simple-text;
-                    }
+                    } */
                     /* .about-btn{
                         position: relative;
                         padding-top: 20px;

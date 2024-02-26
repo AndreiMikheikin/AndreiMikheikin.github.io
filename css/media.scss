@@ -31,13 +31,9 @@
             .section-about-padding{
                 .auto-container{
                     .row{
-                        flex-direction: column;
-                        align-items: center;
-                        padding: 0 15px;
-                        margin: 0 auto;
+                        
                         .about-block{
-                            width: 85%;
-                            padding: 0 15px;
+                            text-align: center;
                             .about-image{
                                 #circles-0{
                                     display: none;
