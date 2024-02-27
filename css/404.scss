@@ -786,6 +786,74 @@ body {
                 justify-content: center;
                 align-items: center;
 
+                .about-discription{
+                    margin: 20px 10px;
+                    flex: 360px 0 auto;
+                    width: 50%;
+                    max-width: 100%;
+
+                    .section-heading{
+                        position: relative;
+                        z-index: 1;
+                        margin-bottom: 20px;
+                        
+                        span{
+                            font-size: $simple-text;
+                            color: $yellow;
+                            margin-bottom: 6px;
+                            display: inline-block;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            letter-spacing: 5px;
+                            position: relative;
+                        }
+                        h2{
+                            font-size: $logo-text * 1.9 - 4px;
+                            font-weight: 700;
+                            line-height: 1;
+                            position: relative;
+                            color: $bf-text;
+                            font-family: $title;
+                            padding-right: 15px;
+                            text-transform: capitalize;
+                        }
+                    }
+                    p{
+                        position: relative;
+                        margin-bottom: 0;
+                        line-height: 1.8;
+                        font-size: $simple-text;
+                    }
+                    /* .about-btn{
+                        position: relative;
+                        padding-top: 20px;
+                        margin: 0 -10px;
+    
+                        a {
+                            margin: 0 10px 10px;
+                            padding: 17px 35px 16px;
+                            color: $btn-text;
+                            background: $yellow;
+                            border: 1px solid $btn-border;
+                            position: relative;
+                            display: inline-flex;
+                            overflow: hidden;
+                            text-align: center;
+                            z-index: 1;
+                            letter-spacing: 1px;
+                            font-weight: 500;
+                            transition: .5s;
+                            text-transform: uppercase;
+                            text-decoration: none;
+                        }
+    
+                        a:hover {
+                            color: $backg;
+                            background-color: $title-color;
+                        }
+                    } */
+                }
+
                 .about-block{
                     padding: 0 15px;
                     flex: 360px 0 auto;
@@ -1003,85 +1071,12 @@ body {
                                             border-color: $title-color;
                                             border-radius: 50%;
                                             
-                                        }
-                                            
-                                            
-
-
-                                        
+                                        }    
                                     }
-                                    
                                 }
                             }    
                         }
                     }
-                }
-                .about-discription{
-                    margin: 20px 10px;
-                    flex: 0 0 auto;
-                    width: 50%;
-                    max-width: 100%;
-
-                    .section-heading{
-                        position: relative;
-                        z-index: 1;
-                        margin-bottom: 20px;
-                        
-                        span{
-                            font-size: $simple-text;
-                            color: $yellow;
-                            margin-bottom: 6px;
-                            display: inline-block;
-                            font-weight: 500;
-                            text-transform: uppercase;
-                            letter-spacing: 5px;
-                            position: relative;
-                        }
-                        h2{
-                            font-size: $logo-text * 1.9 - 4px;
-                            font-weight: 700;
-                            line-height: 1;
-                            position: relative;
-                            color: $bf-text;
-                            font-family: $title;
-                            padding-right: 15px;
-                            text-transform: capitalize;
-                        }
-                    }
-                    p{
-                        position: relative;
-                        margin-bottom: 0;
-                        line-height: 1.8;
-                        font-size: $simple-text;
-                    }
-                    /* .about-btn{
-                        position: relative;
-                        padding-top: 20px;
-                        margin: 0 -10px;
-    
-                        a {
-                            margin: 0 10px 10px;
-                            padding: 17px 35px 16px;
-                            color: $btn-text;
-                            background: $yellow;
-                            border: 1px solid $btn-border;
-                            position: relative;
-                            display: inline-flex;
-                            overflow: hidden;
-                            text-align: center;
-                            z-index: 1;
-                            letter-spacing: 1px;
-                            font-weight: 500;
-                            transition: .5s;
-                            text-transform: uppercase;
-                            text-decoration: none;
-                        }
-    
-                        a:hover {
-                            color: $backg;
-                            background-color: $title-color;
-                        }
-                    } */
                 }
             }
         }
