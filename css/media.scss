@@ -40,6 +40,7 @@
                                 }
                                 .image-1, .image-2, .video-area{
                                     transform: scale(.8);
+                                    height: auto;
                                 }
                             }
                         }
@@ -140,14 +141,16 @@
                             text-align: center;
                         }
                         .about-block{
-                            padding-left: 0;
+                            width: 100%;
+                            padding: 0 15px;
                             .about-image{
                                 #circles-0{
                                     display: none;
                                 }
-                                /* .image-1, .image-2, .video-area{
+                                .image-1, .image-2, .video-area{
                                     transform: scale(.8);
-                                } */
+                                    height: auto;
+                                }
                             }
                         }
                         
