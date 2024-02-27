@@ -32,7 +32,8 @@
                 .auto-container{
                     .row{
                         .about-block{
-                            text-align: center;
+                            width: 100%;
+                            padding: 0 15px;
                             .about-image{
                                 #circles-0{
                                     display: none;
@@ -43,7 +44,7 @@
                             }
                         }
                         .about-discription{
-                            width: 90%;
+                            width: 100%;
                             padding: 0 15px;
                         }
                     }

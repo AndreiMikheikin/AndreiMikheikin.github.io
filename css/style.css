@@ -1593,6 +1593,7 @@ body {
     font-size: 48px !important; }
 
   body #top {
+    position: relative;
     /* main */
     /* book form */
     /* about */
@@ -1663,6 +1664,7 @@ body {
     font-size: 32px !important; }
 
   body #top {
+    position: relative;
     /* main */
     /* book form */
     /* about */
