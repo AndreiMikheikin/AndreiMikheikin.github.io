@@ -31,7 +31,6 @@
             .section-about-padding{
                 .auto-container{
                     .row{
-                        flex-direction: column-reverse;
                         .about-block{
                             text-align: center;
                             .about-image{
@@ -131,7 +130,16 @@
             .section-about-padding{
                 .auto-container{
                     .row{
+                        .about-discription{
+                            position: static;
+                            padding: 0 25px;
+                            margin: 0 auto;
+                            width: 100%;
+                            text-align: center;
+                            order: 2;
+                        }
                         .about-block{
+                            order: 1;
                             .about-image{
                                 #circles-0{
                                     display: none;
@@ -141,13 +149,7 @@
                                 } */
                             }
                         }
-                        .about-discription{
-                            position: static;
-                            padding: 0 25px;
-                            margin: 0 auto;
-                            width: 100%;
-                            text-align: center;
-                        }
+                        
                     }
                 }
             }
