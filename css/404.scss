@@ -1234,144 +1234,143 @@ body {
         }
     }
 
-    /* footer */
+   /* footer */
     footer{
-        position: relative;
-        padding: 120px 0 60px;
-        background: $footer-bg;
+    position: relative;
+    padding: 120px 0 60px;
+    background: $footer-bg;
 
-        .auto-container{
-            position: static;
-            max-width: 1320px;
-            padding: 0 15px;
-            margin: 0 auto;
+    .auto-container{
+        position: static;
+        max-width: 1320px;
+        padding: 0 15px;
+        margin: 0 auto;
 
-            .row{
-                margin-left: -15px;
-                margin-right: -15px;
-                background: $footer-bg;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: center;
+        .row{
+            margin-left: -15px;
+            margin-right: -15px;
+            background: $footer-bg;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
 
-                .contact-block{
-                    padding: 0 15px;
-                    flex: 0 0 auto;
-                    width: 25%;
-                    min-width: 200px;
+            .contact-block{
+                padding: 0 15px;
+                flex: 0 0 auto;
+                width: 25%;
+                min-width: 200px;
 
-                    .contact-block-title{
+                .contact-block-title{
 
-                        h4{
+                    h4{
+                        color: $backg;
+                        margin-bottom: 30px;
+                        font-size: $logo-text - 2px;
+                        line-height: 1.25em;
+                        font-family: $title;
+                    }
+                }
+
+                .contact-block-list{
+                    list-style: none;
+                    padding-left: 0;
+                    
+                    li{
+                        margin-bottom: 8px;
+                        color: $footer-li;
+
+                        a, address{
+                        font-style: normal;
+                        text-decoration: none;
+                        color: $footer-li;
+                        transition: all 0.2s ease;
+                        }
+
+                        a:hover{
+                            color: $yellow;
+                        }
+                    }
+
+                }
+
+                .contact-block-social{
+                    list-style: none;
+                    min-width: 250px;
+                    height: auto;
+
+                    a{
+                        display: inline-block;
+                        margin-top: 30px;
+                        margin-right: 25px;
+                        margin-bottom: 15px;
+                        font-size: $book-text;
+                        color: $footer-li;
+                        transition: all .2s ease;
+                    }
+
+                    a[href*="facebook"]:hover #path4532,
+                    a[href*="instagram"]:hover #path6,
+                    a[href*="vk"]:hover #r4{
+                        fill: $yellow !important;
+                    }
+                }
+                
+                .footer-form{
+                    position: relative;
+
+                    form{
+                        line-height: inherit;
+
+                        input{
+                            background: transparent;
+                            border-color: hsla(0,0%,100%,.15);
+                            color: $footer-li;
+                            width: 85%;
+                            height: 60px;
+                            border: 1px solid $footer-li;
+                        }
+
+                        button[type="submit"]{
+                            cursor: pointer;
                             color: $backg;
-                            margin-bottom: 30px;
-                            font-size: $logo-text - 2px;
-                            line-height: 1.25em;
-                            font-family: $title;
+                            height: 60px;
+                            position: absolute;
+                            top: 0;
+                            right: 0;
+                            display: inline-flex;
+                            overflow: hidden;
+                            padding: 17px 35px 16px;
+                            text-align: center;
+                            z-index: 1;
+                            letter-spacing: 1px;
+                            font-weight: 500;
+                            text-transform: uppercase;
+                            transition: .5s;
+                            background-color: $yellow;
                         }
-                    }
-
-                    .contact-block-list{
-                        list-style: none;
-                        padding-left: 0;
-                        
-                        li{
-                            margin-bottom: 8px;
-                            color: $footer-li;
-
-                            a, address{
-                            font-style: normal;
-                            text-decoration: none;
-                            color: $footer-li;
-                            transition: all 0.2s ease;
-                            }
-
-                            a:hover{
-                                color: $yellow;
-                            }
+        
+                        [type="submit"]:hover {
+                            color: $backg;
+                            background-color: $title-color;
                         }
 
-                    }
-
-                    .contact-block-social{
-                        list-style: none;
-                        min-width: 250px;
-                        height: auto;
-
-                        a{
-                            display: inline-block;
-                            margin-top: 30px;
-                            margin-right: 25px;
-                            margin-bottom: 15px;
-                            font-size: $book-text;
-                            color: $footer-li;
-                            transition: all .2s ease;
-                        }
-
-                        a[href*="facebook"]:hover #path4532,
-                        a[href*="instagram"]:hover #path6,
-                        a[href*="vk"]:hover #r4{
-                            fill: $yellow !important;
-                        }
-                    }
-                    
-                    .footer-form{
-                        position: relative;
-                        padding: 0 10px;
-
-                        form{
-                            line-height: inherit;
-
-                            input{
-                                background: transparent;
-                                border-color: hsla(0,0%,100%,.15);
-                                color: $footer-li;
-                                width: 85%;
-                                height: 60px;
-                                border: 1px solid $footer-li;
-                            }
-
-                            button[type="submit"]{
-                                cursor: pointer;
-                                color: $backg;
-                                height: 60px;
-                                position: absolute;
-                                top: 0;
-                                right: 0;
-                                display: inline-flex;
-                                overflow: hidden;
-                                padding: 17px 35px 16px;
-                                text-align: center;
-                                z-index: 1;
-                                letter-spacing: 1px;
-                                font-weight: 500;
-                                text-transform: uppercase;
-                                transition: .5s;
-                                background-color: $yellow;
-                            }
-            
-                            [type="submit"]:hover {
-                                color: $backg;
-                                background-color: $title-color;
-                            }
-
-                        }
                     }
                 }
+            }
 
-                .contact-block:nth-child(2){
-                    width: 15%;
-                    min-width: 150px;
-                }
+            .contact-block:nth-child(2){
+                width: 15%;
+                min-width: 150px;
+            }
 
-                .contact-block:last-child{
-                    width: 35%;
-                    min-width: 350px;
-                    
-                }
+            .contact-block:last-child{
+                width: 35%;
+                min-width: 350px;
+                
             }
         }
     }
+}
 
     .scroll-top{
         position: fixed;
