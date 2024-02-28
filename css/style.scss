@@ -1,46 +1,17 @@
 @import 'fonts.scss';
 @import 'variables.scss';
 
-/* normolize */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    border: none;
-    outline: none;
-    font-size: 100%;
-}
-
-/* common */
-body {
-    font-family: $text;
-    font-size: $simple-text;
-    color: $common;
-    line-height: 1.7em;
-    font-weight: 400;
-    background: $backg;
-}
-
 #top{
-    position: relative;
-    margin: 0 auto;
-    width: 100%;
     min-width: 300px;
 
     /* header */
     header {
-        position: relative;
-        width: 100%;
         max-width: 1920px;
-        margin: 0 auto;
         height: 75px;
         min-height: 75px;
 
         .container {
-            position: relative;
-            width: 100%;
             max-width: 1290px;
-            margin: 0 auto;
             height: 75px;
             min-height: 75px;
             display: flex;
@@ -51,9 +22,9 @@ body {
             .logo {
                 height: 48.15px;
                 min-height: 48px;
+                flex: 0 0 auto;
 
                 a {
-                    text-decoration: none;
                     display: flex;
                     flex-wrap: nowrap;
                     align-items: center;
@@ -110,6 +81,7 @@ body {
                 }
 
                 .mobile-column-btn:hover {
+                    transform: scale(1.01);
                     color: $yellow;
                 }
             }
@@ -144,7 +116,6 @@ body {
                             font-weight: 500;
                             line-height: 30px;
                             text-transform: capitalize;
-                            text-decoration: none;
                             color: $title-color;
                             padding: 3px 0;
                             opacity: 1;
@@ -195,7 +166,6 @@ body {
                                     font-size: $links-text;
                                     color: $backg;
                                     font-weight: 500;
-                                    text-decoration: none;
                                 }
                             }
 
@@ -252,7 +222,6 @@ body {
                     font-weight: 500;
                     transition: .5s;
                     text-transform: uppercase;
-                    text-decoration: none;
                 }
 
                 a:hover {
@@ -352,7 +321,6 @@ body {
                     min-height: 48px;
 
                     a {
-                        text-decoration: none;
                         display: flex;
                         flex-wrap: nowrap;
                         align-items: center;
@@ -415,7 +383,6 @@ body {
                                     color: $backg;
                                     text-transform: uppercase;
                                     transition: all .5s ease;
-                                    text-decoration: none;
                                 }
 
                                 .not-droped1{
@@ -599,23 +566,18 @@ body {
 
     /* main */
     main {
-        width: 100%;
         max-width: 1920px;
         height: 100%;
-        position: relative;
         top: 0;
         left: 0;
         right: 0;
-        margin: 0 auto;
         background: url(../img/main_background.jpg) no-repeat;
         background-size: cover;
         background-position: center;
 
         .container {
             padding: 100px 15px;
-            position: relative;
             max-width: 1290px;
-            margin: 0 auto;
             display: flex;
             flex-wrap: wrap;
             align-items: center;
@@ -677,7 +639,6 @@ body {
                         font-weight: 500;
                         transition: .5s;
                         text-transform: uppercase;
-                        text-decoration: none;
                     }
 
                     a:hover {
@@ -691,11 +652,9 @@ body {
 
     /* booking form */
     .auto-container{
-        width: 100%;
         max-width: 1920px;
         padding: 20px 0 8px;
         background-color: $bf-bg;
-        margin: 0 auto;
 
         .booking-form{
             position: relative;
@@ -767,11 +726,7 @@ body {
 
     /* spesial offers section */
     .section-offer-padding{
-        padding: 190px 0 120px;
-        position: relative;
-        width: 100%;
         max-width: 1920px;
-        margin: 0 auto;
 
         .grey-bg{
             position: absolute;
@@ -786,7 +741,6 @@ body {
             position: static;
             max-width: 1290px;
             padding: 0 15px;
-            margin: 0 auto;
             background: $backg;
 
             .section-heading{
@@ -817,9 +771,6 @@ body {
             }
 
             .row{
-                margin: 0 -15px;
-                display: flex;
-                flex-wrap: wrap;
                 justify-content: center;
 
                 .offer-block{
@@ -943,29 +894,21 @@ body {
 
     /* about us section */
     .section-about-padding{
-        padding: 80px 0 120px;
         background-color: $bf-bg;
-        position: relative;
-        width: 100%;
         max-width: 1920px;
-        margin: 0 auto;
         
         .auto-container{
             position: static;
             max-width: 1320px;
             padding: 0 15px;
-            margin: 0 auto;
 
             .row{
-                margin: 0 -15px;
-                display: flex;
-                flex-wrap: wrap;
                 justify-content: center;
 
                 .about-block{
                     padding: 0 15px;
                     flex: 260px 0 auto;
-                    width: 50%;
+                    width: auto;
                     max-width: 100%;
 
                     .about-image{
@@ -1126,7 +1069,6 @@ body {
                     max-width: 100%;
 
                     .section-heading{
-                        position: relative;
                         z-index: 1;
                         margin-bottom: 20px;
                         
@@ -1192,21 +1134,17 @@ body {
 
     /* amenities section */
     .section-amenities-padding{
-        position: relative;
-        padding: 150px 0 120px;
         background-color: $backg;
 
         .auto-container{
             position: static;
             padding: 0 15px;
-            margin: 0 auto;
             background-color: $backg;
 
             .wrapper{
                 background-color: $backg;
 
                 .section-heading{
-                    position: relative;
                     z-index: 1;
                     margin-bottom: 50px;
                     text-align: center;
@@ -1227,7 +1165,6 @@ body {
                         font-size: 3rem;
                         font-weight: 700;
                         line-height: 1;
-                        position: relative;
                         color: $bf-text;
                         font-family: $title;
                         text-transform: capitalize;
@@ -1241,9 +1178,6 @@ body {
                 }
 
                 .row{
-                    margin: 0 -15px;
-                    display: flex;
-                    flex-wrap: wrap;
                     justify-content: center;
 
                     .icon-box{
@@ -1338,7 +1272,6 @@ body {
                     }
 
                     .icon-box:hover>.icon>[class*="icon-"]{
-                        color: $yellow;
                         transition: .5s;
                     }
                 }
@@ -1348,23 +1281,15 @@ body {
 
     /* contact form section */
     .section-contactform-padding{
-        padding: 80px 0 120px;
         background-color: $bf-bg;
-        position: relative;
-        width: 100%;
         max-width: 1920px;
-        margin: 0 auto;
         
         .auto-container{
             position: static;
             max-width: 1320px;
             padding: 0 15px;
-            margin: 0 auto;
             
             .row{
-                margin: 0 -15px;
-                display: flex;
-                flex-wrap: wrap;
                 justify-content: center;
                 
                 .contact-discription{
@@ -1374,7 +1299,6 @@ body {
                     max-width: 100%;
 
                     .section-heading{
-                        position: relative;
                         z-index: 1;
                         margin-bottom: 20px;
                         
@@ -1407,7 +1331,6 @@ body {
                         font-size: $simple-text;
                         
                         a{
-                            text-decoration: none;
                             color: $bf-text;
                         }
                         a:hover{
@@ -1657,7 +1580,6 @@ body {
 
     /* footer */
     footer{
-        position: relative;
         padding: 120px 0 60px;
         background: $footer-bg;
 
@@ -1665,14 +1587,9 @@ body {
             position: static;
             max-width: 1320px;
             padding: 0 15px;
-            margin: 0 auto;
 
             .row{
-                margin-left: -15px;
-                margin-right: -15px;
                 background: $footer-bg;
-                display: flex;
-                flex-wrap: wrap;
                 justify-content: center;
 
                 .contact-block{
@@ -1702,7 +1619,6 @@ body {
 
                             a, address{
                             font-style: normal;
-                            text-decoration: none;
                             color: $footer-li;
                             transition: all 0.2s ease;
                             }
@@ -1786,7 +1702,7 @@ body {
 
                 .contact-block:last-child{
                     width: 35%;
-                    min-width: 350px;
+                    min-width: 250px;
                     
                 }
             }
@@ -1814,10 +1730,6 @@ body {
         .scroll-text:hover{
             transform: scale(1.1);
         }
-    }
-    
-    .scroll-top:hover{
-        color: $yellow;
     }
 }
 

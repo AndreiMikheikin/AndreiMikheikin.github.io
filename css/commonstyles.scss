@@ -1,3 +1,44 @@
-.section-padding{
-    padding: 150px 0 120px;
+@import 'variables.scss';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    font-size: 100%;
 }
+
+body {
+    font-family: $text;
+    font-size: $simple-text;
+    color: $common;
+    line-height: 1.7em;
+    font-weight: 400;
+    background: $backg;
+}
+
+*[class*="container"],
+*[class*="section"],
+#top, header, main, footer,
+.back-to-home{
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+}
+
+*[class*="padding"]{
+    padding: 100px 0 120px;
+    
+}
+
+*[class*="row"]{
+    margin: 0 -15px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a, address{text-decoration: none;}
+
+.scroll-text:hover,
+a:hover, .icon-box:hover>.icon>[class*="icon-"] {color: $yellow;}
