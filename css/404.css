@@ -12,6 +12,7 @@
   /* back to home section */
   /* about us section */
   /* amenities section */
+  /* contacts section */
   /* footer */ }
   #top header {
     position: absolute;
@@ -969,6 +970,31 @@
           color: #c7a610;
           -webkit-transition: .5s;
           transition: .5s; }
+  #top .section-contact-padding .auto-container {
+    position: static;
+    max-width: 1320px;
+    padding: 0 15px; }
+    #top .section-contact-padding .auto-container .section-heading {
+      z-index: 1;
+      margin-bottom: 20px; }
+      #top .section-contact-padding .auto-container .section-heading span {
+        font-size: 16px;
+        color: #c7a610;
+        margin-bottom: 6px;
+        display: inline-block;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        position: relative; }
+      #top .section-contact-padding .auto-container .section-heading h2 {
+        font-size: 56.8px;
+        font-weight: 700;
+        line-height: 1;
+        position: relative;
+        color: #2b2d42;
+        font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
+        padding-right: 15px;
+        text-transform: capitalize; }
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
