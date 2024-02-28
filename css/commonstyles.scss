@@ -38,7 +38,10 @@ body {
     flex-wrap: wrap;
 }
 
-a, address{text-decoration: none;}
+a, address{
+    text-decoration: none;
+    font-style: normal;
+}
 
 .scroll-text:hover,
 a:hover, .icon-box:hover>.icon>[class*="icon-"] {color: $yellow;}
