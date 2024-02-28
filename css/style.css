@@ -361,6 +361,8 @@
                   text-transform: uppercase;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
+                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:hover {
+                  color: #c7a610; }
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped1 {
                   display: none; }
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped2 {
