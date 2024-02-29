@@ -1301,6 +1301,8 @@
         width: 30%; }
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 10px 10px; }
+          body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
+            margin: 0 auto; }
       body #top .section-contact-padding .auto-container .row .map {
         width: 65%;
         margin: 0 !important; } }
@@ -1345,9 +1347,11 @@
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
       body #top .section-contact-padding .auto-container .row .contact-form {
-        width: 80%; }
+        width: 100%; }
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 30px 60px; }
+          body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
+            margin: 0 auto; }
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 90vw;
@@ -1379,6 +1383,10 @@
       right: 10px; }
     body #top header .container .link-btn {
       display: none; }
+  body #top .section-contact-padding .auto-container .row .contact-form {
+    width: 100%; }
+    body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
+      margin: 0 auto; }
   body #top .section-contact-padding .auto-container .row .map {
     width: 100%;
     height: 120vw;
@@ -1424,6 +1432,8 @@
         width: 100%; }
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 15px 20px; }
+          body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
+            margin: 0 auto; }
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 150vw;
