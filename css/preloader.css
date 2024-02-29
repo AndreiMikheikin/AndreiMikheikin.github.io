@@ -1,0 +1,114 @@
+@keyframes infinite-spinning {
+   from {
+      transform: rotate(0deg);
+   }
+
+   to {
+      transform: rotate(360deg);
+   }
+}
+
+@keyframes infinite-jumping {
+
+   0%,
+   100% {
+      top: 50%;
+   }
+
+   30% {
+      top: 49%;
+   }
+
+   35% {
+      top: 50%;
+   }
+
+   75% {
+      top: 48.5%;
+   }
+
+   80% {
+      top: 50%;
+   }
+}
+
+@keyframes infinite-jumping1 {
+
+   0%,
+   100% {
+      top: 50.3%;
+   }
+
+   30% {
+      top: 49.3%;
+   }
+
+   35% {
+      top: 50.3%;
+   }
+
+   75% {
+      top: 48.8%;
+   }
+
+   80% {
+      top: 50.3%;
+   }
+}
+
+@keyframes infinite-move {
+   0% {
+      left: 40%;
+   }
+
+   100% {
+      left: 60%;
+   }
+}
+
+@keyframes infinite-move1 {
+   0% {
+      left: 39.7%;
+   }
+
+   100% {
+      left: 59.7%;
+   }
+}
+
+#preloader {
+   position: fixed;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+   background-color: #ffffff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 99999999;
+}
+
+#preloader .spinner {
+   width: 100px;
+   height: 100px;
+}
+
+
+#preloader .spinner #svg9 {
+   position: absolute;
+   top: 50%;
+   left: 40%;
+   animation: infinite-spinning 10s linear infinite
+   /* , infinite-jumping 5s linear infinite, infinite-move 10s linear infinite */
+   ;
+}
+
+#preloader .spinner #svg8 {
+   position: absolute;
+   top: 50.3%;
+   left: 39.7%;
+   animation: infinite-spinning 10s linear infinite
+   /* , infinite-jumping1 5s linear infinite, infinite-move1 10s linear infinite */
+   ;
+}
