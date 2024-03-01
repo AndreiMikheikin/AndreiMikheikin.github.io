@@ -1399,6 +1399,158 @@
         }
     }
 
+    /* testimonials section */
+    .section-testimonials-padding{
+        max-width: 1320px;
+
+        .auto-container{
+            position: static;
+            padding: 0 15px;
+
+            .section-heading{
+                z-index: 1;
+                margin-bottom: 20px;
+                text-align: center;
+                
+                span{
+                    font-size: $simple-text;
+                    color: $yellow;
+                    margin-bottom: 6px;
+                    display: inline-block;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    position: relative;
+                }
+                h2{
+                    font-size: $logo-text * 1.9 - 4px;
+                    font-weight: 700;
+                    line-height: 1;
+                    position: relative;
+                    color: $bf-text;
+                    font-family: $title;
+                    padding-right: 15px;
+                    text-transform: capitalize;
+                }
+            }
+
+            .row{
+                justify-content: space-around;
+
+                .flexelement{
+                    padding: 0 15px;
+                    flex: 250px 1 auto;
+                    width: 33.3333333333%;
+                    max-width: 100%;
+
+                    .testimonial-block{
+                        margin-bottom: 108px;
+                        position: relative;
+                        background: $backg;
+                        text-align: center;
+                        padding: 50px 50px 0;
+                        box-shadow: 0 10px 80px rgba(0,0,0,.07);
+                        min-height: max-content;
+
+                        .testimonial-quote::before{
+                            left: -55px;
+                        }
+                        .testimonial-quote::after{
+                            right: -55px;
+                        }
+                        .testimonial-quote::before,
+                        .testimonial-quote::after{
+                            position: absolute;
+                            content: "";
+                            width: 40px;
+                            height: 1px;
+                            top: 20px;
+                            background: $btn-border;
+                        }
+
+                        .testimonial-quote{
+                            background: $yellow;
+                            box-shadow: 0 20px 60px 10px rgba(0,0,0,.07);
+                            border-radius: 20px;
+                            position: relative;
+                            bottom: 0;
+                            width: 40px;
+                            height: 40px;
+                            text-align: center;
+                            color: $backg;
+                            line-height: 44px;
+                            margin: 0 auto 25px;
+
+                            .icon-17::before{
+                                content: "\e244";
+                            }
+
+                            .icon-17{
+                                font-family: $icon;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-feature-settings: normal;
+                                font-variant: normal;
+                                text-transform: none;
+                                line-height: 1;
+                            }
+                        }
+
+                        .content{
+                            height: 300px;
+                            
+                            .review{
+                                margin-bottom: 20px;
+                                line-height: 1.8rem;
+                                font-size: $under-title-text;
+                                color: $btn-text;
+
+                                a{
+                                    color: $common;
+                                    font-size: $links-text;
+                                }
+                            }
+                        }
+
+                        .guest-name{
+                            font-size: $logo-text - 2px;
+                            font-weight: 700;
+                            position: relative;
+                            line-height: 1.25em;
+                            margin: 0;
+                            background: none;
+                            color: $bf-text;
+                            font-family: $title;
+                        }
+
+                        .disignation{
+                            margin-bottom: -12px;
+                            line-height: 1.8;
+                            font-size: $simple-text;
+                        }
+
+                        .author-thumb{
+                            position: relative;
+                            display: inline-flex;
+                            bottom: 0;
+                            left: 0;
+                            width: 100%;
+                            transform: translateY(50%);
+                            justify-content: center;
+
+                            img{
+                                border-radius: 50%;
+                                display: inline-block;
+                                max-width: 100%;
+                                height: auto;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
     /* footer */
     footer{
         padding: 120px 0 60px;

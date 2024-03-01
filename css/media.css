@@ -1,9 +1,17 @@
 /* font-family */
 /* font-size */
 /* color */
+@media only all and (max-width: 1230px) {
+  body #top {
+    /* testimonials */ }
+    body #top .section-testimonials-padding .auto-container .row .flexelement {
+      width: 49.9%; }
+      body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
+        height: 170px; } }
 @media only all and (max-width: 1050px) {
   body #top {
-    /* contacts */ }
+    /* contacts */
+    /* testimonials */ }
     body #top header .container .mobile-column {
       display: block; }
     body #top header .container .main-menu {
@@ -19,7 +27,11 @@
             margin: 0 auto; }
       body #top .section-contact-padding .auto-container .row .map {
         width: 65%;
-        margin: 0 !important; } }
+        margin: 0 !important; }
+    body #top .section-testimonials-padding .auto-container .row .flexelement {
+      width: 49.9%; }
+      body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
+        height: 300px; } }
 @media only all and (max-width: 768px) {
   [class*="padding"] {
     padding: 70px 12px; }
@@ -31,6 +43,7 @@
     /* about */
     /* amenities */
     /* contacts */
+    /* testimonials */
     /* footer */ }
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
@@ -70,6 +83,10 @@
         width: 100%;
         height: 90vw;
         margin: 0 !important; }
+    body #top .section-testimonials-padding .auto-container .row .flexelement {
+      width: 100%; }
+      body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
+        height: 300px; }
     body #top footer {
       padding: 50px 0 20px; }
       body #top footer .auto-container .row .contact-block {
@@ -88,23 +105,30 @@
             -ms-flex-order: 3;
                 order: 3; } }
 @media only all and (max-width: 560px) {
-  body #top header .container {
-    padding: 0 10px;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between; }
-    body #top header .container .mobile-column {
-      right: 10px; }
-    body #top header .container .link-btn {
-      display: none; }
-  body #top .section-contact-padding .auto-container .row .contact-form {
-    width: 100%; }
-    body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
-      margin: 0 auto; }
-  body #top .section-contact-padding .auto-container .row .map {
-    width: 100%;
-    height: 120vw;
-    margin: 0 !important; } }
+  body #top {
+    /* contact */
+    /* testimonials */ }
+    body #top header .container {
+      padding: 0 10px;
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
+      body #top header .container .mobile-column {
+        right: 10px; }
+      body #top header .container .link-btn {
+        display: none; }
+    body #top .section-contact-padding .auto-container .row .contact-form {
+      width: 100%; }
+      body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
+        margin: 0 auto; }
+    body #top .section-contact-padding .auto-container .row .map {
+      width: 100%;
+      height: 120vw;
+      margin: 0 !important; }
+    body #top .section-testimonials-padding .auto-container .row .flexelement {
+      width: 100%; }
+      body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
+        height: 170px; } }
 @media only all and (max-width: 400px) {
   [class*="padding"] {
     padding: 50px 5px; }
@@ -116,6 +140,7 @@
     /* about */
     /* amenities */
     /* contacts */
+    /* testimonials */
     /* footer */ }
     body #top .section-about-padding {
       padding: 50px 10px 5px; }
@@ -152,6 +177,10 @@
         width: 100%;
         height: 150vw;
         margin: 0 !important; }
+    body #top .section-testimonials-padding .auto-container .row .flexelement {
+      width: 100%; }
+      body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
+        height: 350px; }
     body #top footer {
       padding: 50px 0 20px; }
       body #top footer .auto-container .row .contact-block {

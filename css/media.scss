@@ -1,5 +1,28 @@
 @import 'variables.scss';
 
+@media only all and (max-width: 1230px){
+    body{
+        #top{
+
+            /* testimonials */
+            .section-testimonials-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            width: 49.9%;
+                            .testimonial-block{
+                                .content{
+                                    height: 170px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media only all and (max-width: 1050px){
     body{
         #top{
@@ -38,6 +61,22 @@
                             width: 65%;
                             margin: 0 !important;
 
+                        }
+                    }
+                }
+            }
+
+            /* testimonials */
+            .section-testimonials-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            width: 49.9%;
+                            .testimonial-block{
+                                .content{
+                                    height: 300px;
+                                }
+                            }
                         }
                     }
                 }
@@ -139,6 +178,22 @@
                 }
             }
 
+            /* testimonials */
+            .section-testimonials-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            width: 100%;
+                            .testimonial-block{
+                                .content{
+                                    height: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             /* footer */
             footer{
                 padding: 50px 0 20px;
@@ -180,6 +235,7 @@
                 }
             }
 
+            /* contact */
             .section-contact-padding{
                 .auto-container{
                     .row{
@@ -200,6 +256,22 @@
                             width: 100%;
                             height: 120vw;
                             margin: 0 !important;
+                        }
+                    }
+                }
+            }
+
+            /* testimonials */
+            .section-testimonials-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            width: 100%;
+                            .testimonial-block{
+                                .content{
+                                    height: 170px;
+                                }
+                            }
                         }
                     }
                 }
@@ -296,6 +368,22 @@
                             height: 150vw;
                             margin: 0 !important;
 
+                        }
+                    }
+                }
+            }
+
+            /* testimonials */
+            .section-testimonials-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            width: 100%;
+                            .testimonial-block{
+                                .content{
+                                    height: 350px;
+                                }
+                            }
                         }
                     }
                 }
