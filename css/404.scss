@@ -1208,79 +1208,86 @@
                     text-transform: capitalize;
                 }
             }
+
             .contact-info{
                 display: flex;
                 flex-wrap: wrap;
                 list-style: none;
-                margin-bottom: 40px;
-                
                 li{
-                    margin-right: 70px;
-                    border-left: 1px solid $footer-li;
-
-                    h4{
-                        text-align: left;
-                        margin-bottom: 10px;
-                        font-size: $under-title-text - 2px;
-                        font-weight: 700;
-                        position: relative;
-                        line-height: 1.25em;
-                        background: none;
-                        color: $bf-text;
-                        font-family: $title;
-                        text-transform: capitalize;
-
-                        i{
-                            color: $yellow;
-                            font-family: $icon;
-                            font-style: normal;
-                            font-weight: 400;
-                            font-feature-settings: normal;
-                            font-variant: normal;
-                            text-transform: none;
-                            line-height: 1;
-                            margin-right: 10px;
-                            font-size: $under-title-text;
-                        }
-                        .icon-13::before {
-                            position: relative;
-                            content: "\e0c8";
-                            top: 3;
-                            left: 5px;
-                        }
-                        .icon-14::before {
-                            position: relative;
-                            content: "\e0b0";
-                            top: 3;
-                            left: 5px;
-                        }
-                        .icon-15::before {
-                            position: relative;
-                            content: "\e0b0";
-                            top: 3;
-                            left: 5px;
-                        }
-                        .icon-16::before {
-                            position: relative;
-                            content: "\e158";
-                            top: 3;
-                            left: 5px;
-                        }
+                    ul{
+                        display: flex;
+                        flex-wrap: wrap;
+                        list-style: none;
+                        margin-bottom: 40px;
                         
-                    }
-                    p{
-                        line-height: 1.8;
-                        font-size: $simple-text - 5px;
-                        margin-bottom: 1rem;
-                        padding-left: 7px;
-                        a{
-                            color: $common;
+                        li{
+                            margin-right: 70px;
+                            border-left: 1px solid $footer-li;
+
+                            h4{
+                                text-align: left;
+                                margin-bottom: 10px;
+                                font-size: $under-title-text - 2px;
+                                font-weight: 700;
+                                position: relative;
+                                line-height: 1.25em;
+                                background: none;
+                                color: $bf-text;
+                                font-family: $title;
+                                text-transform: capitalize;
+
+                                i{
+                                    color: $yellow;
+                                    font-family: $icon;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-feature-settings: normal;
+                                    font-variant: normal;
+                                    text-transform: none;
+                                    line-height: 1;
+                                    margin-right: 10px;
+                                    font-size: $under-title-text;
+                                }
+                                .icon-13::before {
+                                    position: relative;
+                                    content: "\e0c8";
+                                    top: 3;
+                                    left: 5px;
+                                }
+                                .icon-14::before {
+                                    position: relative;
+                                    content: "\e0b0";
+                                    top: 3;
+                                    left: 5px;
+                                }
+                                .icon-15::before {
+                                    position: relative;
+                                    content: "\e0b0";
+                                    top: 3;
+                                    left: 5px;
+                                }
+                                .icon-16::before {
+                                    position: relative;
+                                    content: "\e158";
+                                    top: 3;
+                                    left: 5px;
+                                }
+                                
+                            }
+                            p{
+                                line-height: 1.8;
+                                font-size: $simple-text - 5px;
+                                margin-bottom: 1rem;
+                                padding-left: 7px;
+                                a{
+                                    color: $common;
+                                }
+                            }
                         }
+                        .location{
+                            border: none;
+                        margin-right: 10px;}
                     }
-                }
-                li:first-child{
-                    border: none;
-                    margin-right: 10px;
                 }
             }
             .row{

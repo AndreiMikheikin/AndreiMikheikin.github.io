@@ -68,8 +68,14 @@
         -webkit-box-flex: 100px;
             -ms-flex: 100px 1 auto;
                 flex: 100px 1 auto; }
-    body #top .section-contact-padding .auto-container .contact-info li {
+    body #top .section-contact-padding .auto-container .contact-info li ul .location {
       border-left: 1px solid #bebec3 !important; }
+    body #top .section-contact-padding .auto-container .contact-info li ul .A1 {
+      margin-right: 71px; }
+    body #top .section-contact-padding .auto-container .contact-info li ul li:last-child {
+      width: 200px; }
+    body #top .section-contact-padding .auto-container .contact-info li ul:first-child {
+      margin-bottom: 0; }
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }

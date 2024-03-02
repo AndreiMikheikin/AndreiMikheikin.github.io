@@ -147,7 +147,20 @@
                 .auto-container{
                     .contact-info{
                         li{
-                            border-left: 1px solid $footer-li !important;
+                            ul{
+                                .location{
+                                    border-left: 1px solid $footer-li !important;
+                                }
+                                .A1{
+                                    margin-right: 71px;
+                                }
+                                li:last-child{
+                                    width: 200px;
+                                }
+                            }
+                            ul:first-child{
+                                margin-bottom: 0;
+                            }        
                         }
                     }
                     .row{
