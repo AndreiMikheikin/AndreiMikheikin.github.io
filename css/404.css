@@ -90,8 +90,6 @@
           #top header .container .mobile-column .mobile-column-btn span::before {
             position: absolute;
             content: "\e5d2";
-            right: 50%;
-            top: 50%;
             font-family: "Material Symbols Outlined"; }
         #top header .container .mobile-column .mobile-column-btn:hover {
           color: #c7a610; }

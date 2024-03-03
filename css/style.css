@@ -1,5 +1,4 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Cormorant:wght@300;400;500;700&family=Open+Sans:wght@400;600;700&display=swap");
 /* font-family */
 /* font-size */
 /* color */
@@ -91,8 +90,6 @@
           #top header .container .mobile-column .mobile-column-btn span::before {
             position: absolute;
             content: "\e5d2";
-            right: center;
-            top: center;
             font-family: "Material Symbols Outlined"; }
         #top header .container .mobile-column .mobile-column-btn:hover {
           -webkit-transform: scale(1.01);
