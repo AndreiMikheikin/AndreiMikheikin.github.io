@@ -1069,6 +1069,8 @@
               padding-left: 7px; }
               #top .section-contact-padding .auto-container .contact-info li ul li p a {
                 color: #6e6e6e; }
+              #top .section-contact-padding .auto-container .contact-info li ul li p a:hover {
+                color: #c7a610; }
           #top .section-contact-padding .auto-container .contact-info li ul .location {
             border: none;
             margin-right: 10px; }

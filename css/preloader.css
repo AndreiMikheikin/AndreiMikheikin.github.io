@@ -100,7 +100,7 @@
    top: 50%;
    left: 40%;
    animation: infinite-spinning 10s linear infinite
-   /* , infinite-jumping 5s linear infinite, infinite-move 10s linear infinite */
+   , infinite-jumping 5s linear infinite, infinite-move 10s linear infinite
    ;
 }
 
@@ -109,6 +109,6 @@
    top: 50.3%;
    left: 39.7%;
    animation: infinite-spinning 10s linear infinite
-   /* , infinite-jumping1 5s linear infinite, infinite-move1 10s linear infinite */
+   , infinite-jumping1 5s linear infinite, infinite-move1 10s linear infinite
    ;
 }

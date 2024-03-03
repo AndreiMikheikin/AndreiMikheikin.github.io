@@ -1282,11 +1282,15 @@
                                 a{
                                     color: $common;
                                 }
+                                a:hover {
+                                    color: $yellow;
+                                }
                             }
                         }
                         .location{
                             border: none;
-                        margin-right: 10px;}
+                            margin-right: 10px;
+                        }
                     }
                 }
             }
