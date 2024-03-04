@@ -43,5 +43,4 @@ a, address{
     font-style: normal;
 }
 
-.scroll-text:hover,
-a:hover, .icon-box:hover>.icon>[class*="icon-"] {color: $yellow;}
+.scroll-text:hover, a:hover, .icon-box:hover>.icon>[class*="icon"] {color: $yellow;}

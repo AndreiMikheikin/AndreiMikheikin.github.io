@@ -48,8 +48,7 @@ a, address {
   font-style: normal; }
 
 /* line 46, commonstyles.scss */
-.scroll-text:hover,
-a:hover, .icon-box:hover > .icon > [class*="icon-"] {
+.scroll-text:hover, a:hover, .icon-box:hover > .icon > [class*="icon"] {
   color: #c7a610; }
 
 /*# sourceMappingURL=commonstyles.css.map */
