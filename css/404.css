@@ -1640,9 +1640,6 @@
 /* font-size */
 /* color */
 @media only all and (max-width: 1230px) {
-  /* line 5, media.scss */
-  body #top {
-    /* testimonials */ }
     /* line 11, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 49.9%; }
@@ -1650,10 +1647,6 @@
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 170px; } }
 @media only all and (max-width: 1050px) {
-  /* line 28, media.scss */
-  body #top {
-    /* contacts */
-    /* testimonials */ }
     /* line 31, media.scss */
     body #top header .container .mobile-column {
       display: block; }
@@ -1691,14 +1684,6 @@
   /* line 94, media.scss */
   h1, h2 {
     font-size: 48px !important; }
-
-  /* line 99, media.scss */
-  body #top {
-    /* about */
-    /* amenities */
-    /* contacts */
-    /* testimonials */
-    /* footer */ }
     /* line 104, media.scss */
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
@@ -1787,10 +1772,6 @@
             -ms-flex-order: 3;
                 order: 3; } }
 @media only all and (max-width: 560px) {
-  /* line 237, media.scss */
-  body #top {
-    /* contact */
-    /* testimonials */ }
     /* line 239, media.scss */
     body #top header .container {
       padding: 0 10px;
@@ -1828,14 +1809,6 @@
   /* line 301, media.scss */
   h1, h2 {
     font-size: 32px !important; }
-
-  /* line 306, media.scss */
-  body #top {
-    /* about */
-    /* amenities */
-    /* contacts */
-    /* testimonials */
-    /* footer */ }
     /* line 309, media.scss */
     body #top .section-about-padding {
       padding: 50px 10px 5px; }

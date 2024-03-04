@@ -1,27 +1,27 @@
-h1.anim, .offer-block.anim{
+h1.anim, .offer-block.anim, p.anim{
     transform: translateX(-20%);
     transition: all 1.5s;
     opacity: 0;
 }
-h1.anim.active, .offer-block.anim.active{
+h1.anim.active, .offer-block.anim.active, p.anim.active{
     transform: translateX(0);
     opacity: 1;
 }
 
-h4.anim, span.anim, .icon-box.anim{
+h3.anim, h4.anim, span.anim, .icon-box.anim{
     transform: rotateY(90deg);
     transition: 2s;
 }
-h4.anim.active, span.anim.active, .icon-box.anim.active{
+h3.anim.active, h4.anim.active, span.anim.active, .icon-box.anim.active{
     transform: rotateY(0);
 }
 
-h2.anim{
+h2.anim, .flexelement.anim {
     transform: rotateX(90deg);
     transition: all 2s;
     opacity: 0;
 }
-h2.anim.active{
+h2.anim.active, .flexelement.anim.active {
     transform: rotateX(0);
     opacity: 1;
 }
