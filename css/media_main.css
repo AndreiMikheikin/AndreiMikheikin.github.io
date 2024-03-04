@@ -2,17 +2,22 @@
 /* font-size */
 /* color */
 @media only all and (max-width: 1050px) {
+  /* line 8, media_main.scss */
   body #top header .container .mobile-column {
     display: block; }
+  /* line 11, media_main.scss */
   body #top header .container .main-menu {
     display: none; } }
 @media only all and (max-width: 768px) {
+  /* line 22, media_main.scss */
   [class*="padding"] {
     padding: 70px 12px; }
 
+  /* line 26, media_main.scss */
   h1, h2 {
     font-size: 48px !important; }
 
+  /* line 31, media_main.scss */
   body #top {
     /* main */
     /* book form */
@@ -20,10 +25,13 @@
     /* amenities */
     /* contactform */
     /* footer */ }
+    /* line 33, media_main.scss */
     body #top main {
       background: none; }
+      /* line 36, media_main.scss */
       body #top main .container {
         padding: 50px 5px; }
+    /* line 41, media_main.scss */
     body #top main:before {
       content: ' ';
       display: block;
@@ -37,66 +45,82 @@
       background-repeat: no-repeat;
       background-position: 47% 0;
       background-size: cover; }
+    /* line 61, media_main.scss */
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
       padding: 0 15px; }
+      /* line 65, media_main.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
         display: none; }
+    /* line 70, media_main.scss */
     body #top .section-about-padding .auto-container .row .about-discription {
       position: static;
       padding: 0 25px;
       margin: 0 auto;
       width: 100%;
       text-align: center; }
+    /* line 86, media_main.scss */
     body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
       margin: 0 10px 15px;
       padding: 20px 10px !important;
       width: auto !important;
-      -webkit-box-flex: 100px;
-          -ms-flex: 100px 1 auto;
-              flex: 100px 1 auto; }
+      -webkit-box-flex: 0;
+          -ms-flex: 0 1 auto;
+              flex: 0 1 auto; }
+    /* line 101, media_main.scss */
     body #top .section-contactform-padding .auto-container .row .contact-discription {
       position: static;
       padding: 0 25px;
       margin: 0 auto;
       width: 100%;
       text-align: center; }
+    /* line 110, media_main.scss */
     body #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles {
       display: none; }
+    /* line 120, media_main.scss */
     body #top footer {
       padding: 50px 0 20px; }
+      /* line 125, media_main.scss */
       body #top footer .auto-container .row .contact-block {
         max-width: 100%;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a;
-        -webkit-box-flex: 150px;
-            -ms-flex: 150px 1 auto;
-                flex: 150px 1 auto; }
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+                flex: 0 1 auto; }
+      /* line 131, media_main.scss */
       body #top footer .auto-container .row .contact-block:nth-child(2) {
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2; }
+      /* line 134, media_main.scss */
       body #top footer .auto-container .row .contact-block:nth-child(4) {
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3; } }
 @media only all and (max-width: 560px) {
+  /* line 148, media_main.scss */
   body #top header .container {
     padding: 0 10px;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between; }
+    /* line 151, media_main.scss */
     body #top header .container .mobile-column {
       right: 10px; }
+    /* line 154, media_main.scss */
     body #top header .container .link-btn {
       display: none; } }
 @media only all and (max-width: 400px) {
+  /* line 165, media_main.scss */
   [class*="padding"] {
     padding: 50px 5px; }
 
+  /* line 169, media_main.scss */
   h1, h2 {
     font-size: 32px !important; }
 
+  /* line 174, media_main.scss */
   body #top {
     /* main */
     /* book form */
@@ -104,10 +128,13 @@
     /* amenities */
     /* contctform */
     /* footer */ }
+    /* line 176, media_main.scss */
     body #top main {
       background: none; }
+      /* line 179, media_main.scss */
       body #top main .container {
         padding: 50px 5px; }
+    /* line 184, media_main.scss */
     body #top main:before {
       content: ' ';
       display: block;
@@ -121,32 +148,40 @@
       background-repeat: no-repeat;
       background-position: 47% 0;
       background-size: cover; }
+    /* line 204, media_main.scss */
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
       padding: 0 15px; }
+      /* line 208, media_main.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
         display: none; }
+    /* line 213, media_main.scss */
     body #top .section-about-padding .auto-container .row .about-discription {
       position: static;
       padding: 0 25px;
       margin: 0 auto;
       width: 100%;
       text-align: center; }
+    /* line 229, media_main.scss */
     body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
       margin: 0 15px 15px;
       padding: 30px 0;
       width: 150px;
       min-width: 100px; }
+    /* line 244, media_main.scss */
     body #top .section-contactform-padding .auto-container .row .contact-discription {
       position: static;
       padding: 0 25px;
       margin: 0 auto;
       width: 100%;
       text-align: center; }
+    /* line 253, media_main.scss */
     body #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles {
       display: none; }
+    /* line 263, media_main.scss */
     body #top footer {
       padding: 50px 0 20px; }
+      /* line 268, media_main.scss */
       body #top footer .auto-container .row .contact-block {
         width: 85% !important;
         margin-bottom: 20px;

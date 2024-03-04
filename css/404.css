@@ -2,6 +2,7 @@
 /* font-family */
 /* font-size */
 /* color */
+/* line 3, 404.scss */
 #top {
   min-width: 300px;
   max-width: 1920px;
@@ -14,6 +15,7 @@
   /* contacts section */
   /* testimonials section */
   /* footer */ }
+  /* line 8, 404.scss */
   #top header {
     position: absolute;
     max-width: 1920px;
@@ -21,6 +23,7 @@
     min-height: 75px;
     z-index: 999999;
     /* mobile menu */ }
+    /* line 15, 404.scss */
     #top header .container {
       max-width: 1290px;
       height: 75.15px;
@@ -38,9 +41,11 @@
       /* mobile column */
       /* navigation */
       /* header button */ }
+      /* line 24, 404.scss */
       #top header .container .logo {
         height: 48.15px;
         min-height: 48px; }
+        /* line 28, 404.scss */
         #top header .container .logo a {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -50,6 +55,7 @@
           -webkit-box-align: center;
               -ms-flex-align: center;
                   align-items: center; }
+          /* line 33, 404.scss */
           #top header .container .logo a img {
             display: inline-block;
             vertical-align: middle;
@@ -57,12 +63,14 @@
             max-width: 100%;
             height: 48px;
             background: transparent; }
+          /* line 42, 404.scss */
           #top header .container .logo a span {
             vertical-align: middle;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
             font-size: 32px;
             color: #fff;
             font-weight: 500; }
+      /* line 54, 404.scss */
       #top header .container .mobile-column {
         display: none;
         position: relative;
@@ -73,6 +81,7 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 0 0px;
                 flex: 0 0 0; }
+        /* line 61, 404.scss */
         #top header .container .mobile-column .mobile-column-btn {
           display: block;
           position: relative;
@@ -87,14 +96,18 @@
           margin: 13px 0 13px 15px;
           -webkit-transition: .3s;
           transition: .3s; }
+          /* line 75, 404.scss */
           #top header .container .mobile-column .mobile-column-btn span::before {
             position: absolute;
             content: "\e5d2";
             font-family: "Material Symbols Outlined"; }
+        /* line 82, 404.scss */
         #top header .container .mobile-column .mobile-column-btn:hover {
           color: #c7a610; }
+      /* line 88, 404.scss */
       #top header .container .main-menu {
         position: relative; }
+        /* line 91, 404.scss */
         #top header .container .main-menu ul {
           position: relative;
           display: -webkit-box;
@@ -106,12 +119,14 @@
               -ms-flex-align: center;
                   align-items: center;
           list-style: none; }
+          /* line 98, 404.scss */
           #top header .container .main-menu ul li {
             position: relative;
             padding: 20px 0;
             margin-right: 30px;
             -webkit-transition: all .3s ease;
             transition: all .3s ease; }
+            /* line 104, 404.scss */
             #top header .container .main-menu ul li a {
               position: relative;
               display: block;
@@ -123,14 +138,17 @@
               color: #fff;
               padding: 3px 0;
               opacity: 1; }
+            /* line 117, 404.scss */
             #top header .container .main-menu ul li a:hover {
               color: #c7a610; }
+            /* line 121, 404.scss */
             #top header .container .main-menu ul li a.expand-more::before {
               position: absolute;
               content: "\e5cc";
               right: -15px;
               top: 5px;
               font-family: 'Material Symbols Outlined'; }
+            /* line 129, 404.scss */
             #top header .container .main-menu ul li ul {
               padding: 0;
               display: block !important;
@@ -150,11 +168,13 @@
               -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
                       box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
               border-top: 1px solid #c7a610; }
+              /* line 146, 404.scss */
               #top header .container .main-menu ul li ul li {
                 position: relative;
                 width: 100%;
                 height: 40px;
                 padding: 0 25px; }
+                /* line 152, 404.scss */
                 #top header .container .main-menu ul li ul li a {
                   position: relative;
                   display: block;
@@ -166,6 +186,7 @@
                   font-size: 17px;
                   color: #fff;
                   font-weight: 500; }
+              /* line 165, 404.scss */
               #top header .container .main-menu ul li ul li::before {
                 position: absolute;
                 content: "";
@@ -176,6 +197,7 @@
                 display: block;
                 -webkit-transition: all .5s ease;
                 transition: all .5s ease; }
+          /* line 178, 404.scss */
           #top header .container .main-menu ul li::before {
             position: absolute;
             content: "";
@@ -184,14 +206,18 @@
             width: 23px;
             height: 1px;
             opacity: 0; }
+          /* line 188, 404.scss */
           #top header .container .main-menu ul li:hover ul {
             visibility: visible;
             opacity: 1;
             top: 45px; }
+          /* line 194, 404.scss */
           #top header .container .main-menu ul a:hover {
             color: #c7a610; }
+      /* line 201, 404.scss */
       #top header .container .link-btn {
         position: relative; }
+        /* line 204, 404.scss */
         #top header .container .link-btn a {
           padding: 11px 30px 10px;
           color: #fff;
@@ -209,9 +235,11 @@
           -webkit-transition: .5s;
           transition: .5s;
           text-transform: uppercase; }
+        /* line 220, 404.scss */
         #top header .container .link-btn a:hover {
           color: #fff;
           background-color: #c7a610; }
+    /* line 228, 404.scss */
     #top header .mobile-menu {
       display: none;
       opacity: 1;
@@ -224,6 +252,7 @@
       max-width: 100%;
       height: 100%;
       z-index: 999999; }
+      /* line 241, 404.scss */
       #top header .mobile-menu .menu-drop {
         opacity: 0.7;
         visibility: visible;
@@ -238,6 +267,7 @@
         height: 100%;
         z-index: 1;
         background-color: #c7a610; }
+      /* line 255, 404.scss */
       #top header .mobile-menu .close-btn {
         position: absolute;
         right: 20px;
@@ -251,6 +281,7 @@
         z-index: 10;
         -webkit-transition: all .9s ease;
         transition: all .9s ease; }
+        /* line 268, 404.scss */
         #top header .mobile-menu .close-btn span {
           display: inline-block;
           font-style: normal;
@@ -259,14 +290,17 @@
           font-variant: normal;
           text-rendering: auto;
           line-height: 1; }
+        /* line 277, 404.scss */
         #top header .mobile-menu .close-btn span::before {
           position: absolute;
           content: "\e5cd";
           top: 0;
           right: 0;
           font-family: "Material Symbols Outlined"; }
+      /* line 286, 404.scss */
       #top header .mobile-menu .close-btn:hover {
         color: #c7a610; }
+      /* line 290, 404.scss */
       #top header .mobile-menu .menu-box {
         opacity: 1;
         visibility: visible;
@@ -285,6 +319,7 @@
         padding: 0;
         z-index: 5;
         border-radius: 0; }
+        /* line 307, 404.scss */
         #top header .mobile-menu .menu-box .nav-logo {
           position: relative;
           padding: 30px 25px;
@@ -293,6 +328,7 @@
           margin-top: 25px;
           height: 48.15px;
           min-height: 48px; }
+          /* line 316, 404.scss */
           #top header .mobile-menu .menu-box .nav-logo a {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -302,6 +338,7 @@
             -webkit-box-align: center;
                 -ms-flex-align: center;
                     align-items: center; }
+            /* line 321, 404.scss */
             #top header .mobile-menu .menu-box .nav-logo a img {
               display: inline-block;
               vertical-align: middle;
@@ -309,27 +346,33 @@
               max-width: 100%;
               height: 48px;
               background: #202020; }
+            /* line 330, 404.scss */
             #top header .mobile-menu .menu-box .nav-logo a span {
               vertical-align: middle;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               font-size: 32px;
               color: #c7a610;
               font-weight: 500; }
+        /* line 341, 404.scss */
         #top header .mobile-menu .menu-box .menu-wrapper {
           position: relative; }
+          /* line 344, 404.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse {
             display: block !important;
             width: 100%; }
+            /* line 348, 404.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix {
               position: relative;
               display: block;
               width: 100%;
               float: none;
               list-style: none; }
+              /* line 355, 404.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li {
                 position: relative;
                 display: block;
                 border-top: 1px solid rgba(255, 255, 255, 0.1); }
+                /* line 360, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:before {
                   content: "";
                   position: absolute;
@@ -338,6 +381,7 @@
                   height: 0;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
+                /* line 369, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a {
                   position: relative;
                   display: block;
@@ -350,26 +394,36 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   text-decoration: none; }
+                /* line 382, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:hover {
                   color: #c7a610; }
+                /* line 384, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped1 {
                   display: none; }
+                /* line 388, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped2 {
                   display: none; }
+                /* line 392, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped3 {
                   display: none; }
+                /* line 396, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped4 {
                   display: none; }
+                /* line 400, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped {
                   display: block; }
+                  /* line 403, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li:first-child {
                     border-top: 1px solid rgba(255, 255, 255, 0.1); }
+                  /* line 408, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a {
                     font-size: 15px;
                     margin-left: 20px;
                     text-transform: capitalize; }
+                  /* line 414, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a:hover {
                     color: #c7a610; }
+                /* line 420, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 {
                   position: absolute;
                   right: 6px;
@@ -386,11 +440,14 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
+                  /* line 436, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 span::before {
                     content: ""; }
+                  /* line 440, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
+                /* line 446, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 {
                   position: absolute;
                   right: 6px;
@@ -407,11 +464,14 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
+                  /* line 462, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 span::before {
                     content: ""; }
+                  /* line 466, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
+                /* line 472, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 {
                   position: absolute;
                   right: 6px;
@@ -428,11 +488,14 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
+                  /* line 488, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 span::before {
                     content: ""; }
+                  /* line 492, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
+                /* line 498, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 {
                   position: absolute;
                   right: 6px;
@@ -449,19 +512,25 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
+                  /* line 514, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 span::before {
                     content: ""; }
+                  /* line 518, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
+              /* line 525, 404.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover .expand-more, #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover [class*="dropdown"] {
                 color: #c7a610; }
+            /* line 530, 404.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix:last-child {
               border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+          /* line 535, 404.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse::after {
             display: block;
             clear: both;
             content: ""; }
+        /* line 542, 404.scss */
         #top header .mobile-menu .menu-box .social-links {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -469,21 +538,25 @@
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
+          /* line 546, 404.scss */
           #top header .mobile-menu .menu-box .social-links a {
             margin-top: 30px;
             margin-right: 20px;
             font-size: 15px;
             -webkit-transition: all .2s ease;
             transition: all .2s ease; }
+          /* line 553, 404.scss */
           #top header .mobile-menu .menu-box .social-links a[href*="www.facebook"]:hover #path4533,
           #top header .mobile-menu .menu-box .social-links a[href*="www.instagram"]:hover #path5,
           #top header .mobile-menu .menu-box .social-links a[href*="vk.com"]:hover #rect4570 {
             fill: #c7a610 !important; }
+  /* line 564, 404.scss */
   #top main {
     max-width: 1920px;
     top: 0;
     left: 0;
     right: 0; }
+    /* line 570, 404.scss */
     #top main .page-title {
       position: relative;
       padding: 290px 0 245px;
@@ -491,10 +564,12 @@
       background: url(../img/entrance.jpg) no-repeat;
       background-size: cover;
       background-position: center; }
+      /* line 578, 404.scss */
       #top main .page-title .auto-container {
         position: static;
         max-width: 1320px;
         padding: 0 15px; }
+        /* line 583, 404.scss */
         #top main .page-title .auto-container h1 {
           color: #fff;
           position: relative;
@@ -503,6 +578,7 @@
           font-weight: 700;
           font-size: 80px;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
+    /* line 594, 404.scss */
     #top main .page-title::after {
       position: absolute;
       content: "";
@@ -510,14 +586,17 @@
       left: 0;
       right: 0;
       bottom: 0; }
+  /* line 605, 404.scss */
   #top .back-to-home {
     max-width: 1920px;
     padding: 22px 0;
     background: #faf5f2; }
+    /* line 610, 404.scss */
     #top .back-to-home .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
+      /* line 615, 404.scss */
       #top .back-to-home .auto-container .list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -526,18 +605,22 @@
             -ms-flex-pack: center;
                 justify-content: center;
         list-style: none; }
+        /* line 620, 404.scss */
         #top .back-to-home .auto-container .list li {
           color: #2c2a49;
           font-size: 17px;
           font-weight: 500;
           margin-right: 10px;
           position: relative; }
+          /* line 627, 404.scss */
           #top .back-to-home .auto-container .list li a {
             color: #2c2a49;
             -webkit-transition: .3s;
             transition: .3s; }
+          /* line 632, 404.scss */
           #top .back-to-home .auto-container .list li a:hover {
             color: #c7a610; }
+        /* line 637, 404.scss */
         #top .back-to-home .auto-container .list li + li::before {
           content: "\e5cc";
           font-family: 'Material Symbols Outlined';
@@ -547,14 +630,18 @@
           margin-right: 9px;
           position: relative;
           top: 2px; }
+  /* line 652, 404.scss */
   #top .section-home-padding {
     position: relative; }
+    /* line 655, 404.scss */
     #top .section-home-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
+      /* line 660, 404.scss */
       #top .section-home-padding .auto-container .content {
         text-align: center; }
+        /* line 663, 404.scss */
         #top .section-home-padding .auto-container .content h2 {
           font-weight: 700;
           line-height: 1;
@@ -562,6 +649,7 @@
           position: relative;
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
+        /* line 672, 404.scss */
         #top .section-home-padding .auto-container .content h3 {
           margin-bottom: 30px;
           font-size: 28px;
@@ -570,15 +658,18 @@
           position: relative;
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
+        /* line 682, 404.scss */
         #top .section-home-padding .auto-container .content p {
           margin-bottom: 30px;
           color: #6e6e6e;
           line-height: 1.8;
           font-size: 16px; }
+        /* line 689, 404.scss */
         #top .section-home-padding .auto-container .content .link-btn {
           position: relative;
           padding-top: 20px;
           margin: 0 -10px; }
+          /* line 694, 404.scss */
           #top .section-home-padding .auto-container .content .link-btn a {
             margin: 0 10px 10px;
             padding: 17px 35px 16px;
@@ -597,25 +688,30 @@
             -webkit-transition: .5s;
             transition: .5s;
             text-transform: uppercase; }
+          /* line 711, 404.scss */
           #top .section-home-padding .auto-container .content .link-btn a:hover {
             color: #fff;
             background-color: #2c2a49; }
+  /* line 721, 404.scss */
   #top .section-about-padding {
     background-color: #fff;
     max-width: 1920px; }
+    /* line 725, 404.scss */
     #top .section-about-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
+      /* line 730, 404.scss */
       #top .section-about-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
+        /* line 733, 404.scss */
         #top .section-about-padding .auto-container .row .about-discription {
           margin: 20px 10px;
-          -webkit-box-flex: 260px;
-              -ms-flex: 260px 0 auto;
-                  flex: 260px 0 auto;
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 auto;
+                  flex: 0 0 auto;
           width: 48%;
           max-width: 100%;
                 /* .about-btn{
@@ -645,9 +741,11 @@
                         background-color: $title-color;
                     }
                 } */ }
+          /* line 739, 404.scss */
           #top .section-about-padding .auto-container .row .about-discription .section-heading {
             z-index: 1;
             margin-bottom: 20px; }
+            /* line 743, 404.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading span {
               font-size: 16px;
               color: #c7a610;
@@ -657,6 +755,7 @@
               text-transform: uppercase;
               letter-spacing: 5px;
               position: relative; }
+            /* line 753, 404.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading h2 {
               font-size: 56.8px;
               font-weight: 700;
@@ -666,30 +765,36 @@
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               padding-right: 15px;
               text-transform: capitalize; }
+          /* line 764, 404.scss */
           #top .section-about-padding .auto-container .row .about-discription p {
             position: relative;
             margin-bottom: 0;
             line-height: 1.8;
             font-size: 16px; }
+        /* line 799, 404.scss */
         #top .section-about-padding .auto-container .row .about-block {
           padding: 0 15px;
-          -webkit-box-flex: 260px;
-              -ms-flex: 260px 0 auto;
-                  flex: 260px 0 auto;
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 auto;
+                  flex: 0 0 auto;
           width: 50%;
           max-width: 100%; }
+          /* line 805, 404.scss */
           #top .section-about-padding .auto-container .row .about-block .about-image {
             margin-bottom: 30px;
             position: relative; }
+            /* line 809, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
               position: absolute;
               left: -50px;
               bottom: 20px;
               -webkit-transition: all .7s ease;
               transition: all .7s ease; }
+            /* line 815, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover {
               -webkit-transform: rotate(-150deg);
                       transform: rotate(-150deg); }
+            /* line 819, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-3,
@@ -724,6 +829,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .2s;
                       transition-delay: .2s; }
+            /* line 854, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-3,
@@ -769,6 +875,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .3s;
                       transition-delay: .3s; }
+            /* line 900, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-3,
@@ -797,6 +904,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .4s;
                       transition-delay: .4s; }
+            /* line 929, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-3,
@@ -814,20 +922,25 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .5s;
                       transition-delay: .5s; }
+            /* line 947, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image-1 {
               position: relative; }
+              /* line 950, 404.scss */
               #top .section-about-padding .auto-container .row .about-block .about-image .image-1 img {
                 display: inline-block;
                 max-width: 100%;
                 vertical-align: middle; }
+            /* line 957, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image-2 {
               text-align: right;
               margin-top: -180px; }
+              /* line 961, 404.scss */
               #top .section-about-padding .auto-container .row .about-block .about-image .image-2 img {
                 display: inline-block;
                 max-width: 100%;
                 height: auto;
                 vertical-align: middle; }
+            /* line 969, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
               position: absolute;
               left: 50%;
@@ -838,16 +951,20 @@
               text-align: center;
               color: #fff;
               padding-top: 38px; }
+              /* line 980, 404.scss */
               #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn {
                 font-size: 70px;
                 margin-bottom: 15px;
                 cursor: pointer; }
+                /* line 985, 404.scss */
                 #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn {
                   position: static; }
+                  /* line 988, 404.scss */
                   #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a {
                     text-decoration: none;
                     -webkit-transition: .3s;
                     transition: .3s; }
+                    /* line 992, 404.scss */
                     #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a .icon-1 {
                       font-family: "Material Symbols Outlined" !important;
                       font-style: normal;
@@ -863,22 +980,28 @@
                       border-radius: 50%;
                       -webkit-transition: .5s ease-in-out;
                       transition: .5s ease-in-out; }
+                    /* line 1007, 404.scss */
                     #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a .icon-1::before {
                       content: "\e037"; }
+                    /* line 1011, 404.scss */
                     #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a .icon-1:hover {
                       border: 5px dashed;
                       border-color: #2c2a49;
                       border-radius: 50%; }
+  /* line 1028, 404.scss */
   #top .section-amenities-padding {
     background-color: #faf5f2;
     max-width: 1920px; }
+    /* line 1032, 404.scss */
     #top .section-amenities-padding .auto-container {
       position: static;
       padding: 0 15px; }
+      /* line 1038, 404.scss */
       #top .section-amenities-padding .auto-container .wrapper .section-heading {
         z-index: 1;
         margin-bottom: 50px;
         text-align: center; }
+        /* line 1043, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-small {
           font-size: 16px;
           color: #c7a610;
@@ -887,6 +1010,7 @@
           font-weight: 500;
           text-transform: uppercase;
           letter-spacing: 5px; }
+        /* line 1053, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-big {
           margin-bottom: 20px;
           font-size: 3rem;
@@ -895,14 +1019,17 @@
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           text-transform: capitalize; }
+        /* line 1063, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading p {
           color: #6e6e6e;
           line-height: 1.8;
           font-size: 16px; }
+      /* line 1070, 404.scss */
       #top .section-amenities-padding .auto-container .wrapper .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
+        /* line 1073, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
           position: relative;
           margin: 0 1.5rem 30px;
@@ -916,12 +1043,14 @@
                   flex: 0 0 auto;
           width: 20%;
           min-width: 230px; }
+          /* line 1085, 404.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon {
             font-size: 45px;
             color: #2b2d42;
             margin-bottom: 15px;
             -webkit-transition: .5s;
             transition: .5s; }
+            /* line 1091, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon [class*="icon-"] {
               font-family: "Material Symbols Outlined" !important;
               font-style: normal;
@@ -931,55 +1060,74 @@
               font-variant: normal;
               text-transform: none;
               line-height: 1; }
+            /* line 1101, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-1::before {
               content: "\e63e"; }
+            /* line 1105, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-2::before {
               content: "\efdd"; }
+            /* line 1109, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-3::before {
               content: "\e9c7"; }
+            /* line 1113, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-4::before {
               content: "\f6f9"; }
+            /* line 1117, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-5::before {
               content: "\ea43"; }
+            /* line 1121, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-6::before {
               content: "\f00c"; }
+            /* line 1125, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-7::before {
               content: "\ea47"; }
+            /* line 1129, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-8::before {
               content: "\e406"; }
+            /* line 1133, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-9::before {
               content: "\f8a2"; }
+            /* line 1137, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-10::before {
               content: "\f168"; }
+            /* line 1141, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-11::before {
               content: "\e6f8"; }
+            /* line 1145, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-12::before {
               content: "\e561"; }
+          /* line 1150, 404.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box p {
             text-transform: uppercase;
             margin-bottom: 0;
             font-weight: 500;
             line-height: 1.8;
             font-size: 16px; }
+        /* line 1159, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover {
           -webkit-transform: scale(1.05);
                   transform: scale(1.05);
           -webkit-box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1);
                   box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1); }
+        /* line 1164, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover > .icon > [class*="icon-"] {
           color: #c7a610;
           -webkit-transition: .5s;
           transition: .5s; }
+  /* line 1174, 404.scss */
   #top .section-contact-padding {
     position: relative;
     max-width: 1320px; }
+    /* line 1178, 404.scss */
     #top .section-contact-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
+      /* line 1183, 404.scss */
       #top .section-contact-padding .auto-container .section-heading {
         z-index: 1;
         margin-bottom: 20px; }
+        /* line 1187, 404.scss */
         #top .section-contact-padding .auto-container .section-heading span {
           font-size: 16px;
           color: #c7a610;
@@ -989,6 +1137,7 @@
           text-transform: uppercase;
           letter-spacing: 5px;
           position: relative; }
+        /* line 1197, 404.scss */
         #top .section-contact-padding .auto-container .section-heading h2 {
           font-size: 56.8px;
           font-weight: 700;
@@ -998,6 +1147,7 @@
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           padding-right: 15px;
           text-transform: capitalize; }
+      /* line 1209, 404.scss */
       #top .section-contact-padding .auto-container .contact-info {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1005,6 +1155,7 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         list-style: none; }
+        /* line 1214, 404.scss */
         #top .section-contact-padding .auto-container .contact-info li ul {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1013,9 +1164,11 @@
               flex-wrap: wrap;
           list-style: none;
           margin-bottom: 40px; }
+          /* line 1220, 404.scss */
           #top .section-contact-padding .auto-container .contact-info li ul li {
             margin-right: 70px;
             border-left: 1px solid #bebec3; }
+            /* line 1224, 404.scss */
             #top .section-contact-padding .auto-container .contact-info li ul li h4 {
               text-align: left;
               margin-bottom: 10px;
@@ -1027,6 +1180,7 @@
               color: #2b2d42;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               text-transform: capitalize; }
+              /* line 1236, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 i {
                 color: #c7a610;
                 font-family: "Material Symbols Outlined";
@@ -1039,38 +1193,47 @@
                 line-height: 1;
                 margin-right: 10px;
                 font-size: 18px; }
+              /* line 1248, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-13::before {
                 position: relative;
                 content: "\e0c8";
                 top: 3px;
                 left: 5px; }
+              /* line 1254, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-14::before {
                 position: relative;
                 content: "\e0b0";
                 top: 3px;
                 left: 5px; }
+              /* line 1260, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-15::before {
                 position: relative;
                 content: "\e0b0";
                 top: 3px;
                 left: 5px; }
+              /* line 1266, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-16::before {
                 position: relative;
                 content: "\e158";
                 top: 3px;
                 left: 5px; }
+            /* line 1274, 404.scss */
             #top .section-contact-padding .auto-container .contact-info li ul li p {
               line-height: 1.8;
               font-size: 11px;
               margin-bottom: 1rem;
               padding-left: 7px; }
+              /* line 1279, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li p a {
                 color: #6e6e6e; }
+              /* line 1282, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li p a:hover {
                 color: #c7a610; }
+          /* line 1287, 404.scss */
           #top .section-contact-padding .auto-container .contact-info li ul .location {
             border: none;
             margin-right: 10px; }
+      /* line 1294, 404.scss */
       #top .section-contact-padding .auto-container .row {
         padding-top: 30px;
         -webkit-box-pack: center;
@@ -1078,6 +1241,7 @@
                 justify-content: center;
         -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 -1px 30px rgba(0, 0, 0, 0.3);
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 -1px 30px rgba(0, 0, 0, 0.3); }
+        /* line 1299, 404.scss */
         #top .section-contact-padding .auto-container .row .contact-form {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1086,14 +1250,17 @@
           width: 35%;
           max-width: 100%;
           position: relative; }
+          /* line 1306, 404.scss */
           #top .section-contact-padding .auto-container .row .contact-form .contact-form-group {
             position: relative; }
+            /* line 1309, 404.scss */
             #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
               position: relative;
               background: #fff;
               padding: 50px 70px;
               max-width: 560px;
               margin: 0 0 30px auto; }
+              /* line 1316, 404.scss */
               #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form {
                 margin-left: -15px;
                 margin-right: -15px;
@@ -1102,6 +1269,7 @@
                 display: flex;
                 -ms-flex-wrap: wrap;
                     flex-wrap: wrap; }
+                /* line 1322, 404.scss */
                 #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group {
                   margin-bottom: 20px;
                   padding: 0 15px;
@@ -1110,6 +1278,7 @@
                           flex: 0 0 auto;
                   width: 100%;
                   max-width: 100%; }
+                  /* line 1329, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group input[type="text"] {
                     background: #fff;
                     border: 1px solid;
@@ -1118,6 +1287,7 @@
                     width: 85%;
                     height: 50px;
                     color: #6e6e6e; }
+                  /* line 1339, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group textarea {
                     background: #fff;
                     border: 1px solid;
@@ -1129,20 +1299,24 @@
                     color: #6e6e6e;
                     overflow: hidden;
                     resize: vertical; }
+                  /* line 1352, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p {
                     color: #6e6e6e;
                     line-height: 1.8;
                     font-size: 16px;
                     margin-top: 0;
                     margin-bottom: 1rem; }
+                    /* line 1359, 404.scss */
                     #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p input[type="checkbox"] {
                       margin-right: 5px;
                       position: relative;
                       top: 2px; }
+                /* line 1366, 404.scss */
                 #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
                   position: relative;
                   padding-top: 20px;
                   margin: 0 -10px; }
+                  /* line 1371, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn button[type="submit"] {
                     cursor: pointer;
                     color: #fff;
@@ -1160,27 +1334,33 @@
                     -webkit-transition: .5s;
                     transition: .5s;
                     background-color: #c7a610; }
+                  /* line 1387, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn [type="submit"]:hover {
                     color: #fff;
                     background-color: #2c2a49; }
+        /* line 1397, 404.scss */
         #top .section-contact-padding .auto-container .row .map {
           padding: 0 15px;
-          -webkit-box-flex: 300px;
-              -ms-flex: 300px 0 auto;
-                  flex: 300px 0 auto;
+          -webkit-box-flex: 0;
+              -ms-flex: 0 0 auto;
+                  flex: 0 0 auto;
           width: 60%;
           max-width: 100%;
           position: relative;
           margin-left: -30px; }
+  /* line 1411, 404.scss */
   #top .section-testimonials-padding {
     max-width: 1320px; }
+    /* line 1414, 404.scss */
     #top .section-testimonials-padding .auto-container {
       position: static;
       padding: 0 15px; }
+      /* line 1418, 404.scss */
       #top .section-testimonials-padding .auto-container .section-heading {
         z-index: 1;
         margin-bottom: 20px;
         text-align: center; }
+        /* line 1423, 404.scss */
         #top .section-testimonials-padding .auto-container .section-heading span {
           font-size: 16px;
           color: #c7a610;
@@ -1190,6 +1370,7 @@
           text-transform: uppercase;
           letter-spacing: 5px;
           position: relative; }
+        /* line 1433, 404.scss */
         #top .section-testimonials-padding .auto-container .section-heading h2 {
           font-size: 56.8px;
           font-weight: 700;
@@ -1199,16 +1380,19 @@
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           padding-right: 15px;
           text-transform: capitalize; }
+      /* line 1445, 404.scss */
       #top .section-testimonials-padding .auto-container .row {
         -ms-flex-pack: distribute;
             justify-content: space-around; }
+        /* line 1448, 404.scss */
         #top .section-testimonials-padding .auto-container .row .flexelement {
           padding: 0 15px;
-          -webkit-box-flex: 250px;
-              -ms-flex: 250px 1 auto;
-                  flex: 250px 1 auto;
+          -webkit-box-flex: 0;
+              -ms-flex: 0 1 auto;
+                  flex: 0 1 auto;
           width: 33.3333333333%;
           max-width: 100%; }
+          /* line 1454, 404.scss */
           #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block {
             margin-bottom: 108px;
             position: relative;
@@ -1220,10 +1404,13 @@
             min-height: -webkit-max-content;
             min-height: -moz-max-content;
             min-height: max-content; }
+            /* line 1463, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::before {
               left: -55px; }
+            /* line 1466, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::after {
               right: -55px; }
+            /* line 1469, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::before,
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::after {
               position: absolute;
@@ -1232,6 +1419,7 @@
               height: 1px;
               top: 20px;
               background: #e5e5e5; }
+            /* line 1479, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote {
               background: #c7a610;
               -webkit-box-shadow: 0 20px 60px 10px rgba(0, 0, 0, 0.07);
@@ -1245,8 +1433,10 @@
               color: #fff;
               line-height: 44px;
               margin: 0 auto 25px; }
+              /* line 1492, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote .icon-17::before {
                 content: "\e244"; }
+              /* line 1496, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote .icon-17 {
                 font-family: "Material Symbols Outlined";
                 font-style: normal;
@@ -1256,16 +1446,20 @@
                 font-variant: normal;
                 text-transform: none;
                 line-height: 1; }
+            /* line 1507, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
               height: 300px; }
+              /* line 1510, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content .review {
                 margin-bottom: 20px;
                 line-height: 1.8rem;
                 font-size: 18px;
                 color: #222; }
+                /* line 1516, 404.scss */
                 #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content .review a {
                   color: #6e6e6e;
                   font-size: 17px; }
+            /* line 1523, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .guest-name {
               font-size: 30px;
               font-weight: 700;
@@ -1275,10 +1469,12 @@
               background: none;
               color: #2b2d42;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
+            /* line 1534, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .disignation {
               margin-bottom: -12px;
               line-height: 1.8;
               font-size: 16px; }
+            /* line 1540, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .author-thumb {
               position: relative;
               display: -webkit-inline-box;
@@ -1292,23 +1488,28 @@
               -webkit-box-pack: center;
                   -ms-flex-pack: center;
                       justify-content: center; }
+              /* line 1549, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .author-thumb img {
                 border-radius: 50%;
                 display: inline-block;
                 max-width: 100%;
                 height: auto; }
+  /* line 1563, 404.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
+    /* line 1567, 404.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
+      /* line 1572, 404.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
+        /* line 1576, 404.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1316,29 +1517,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
+          /* line 1584, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
+          /* line 1593, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
+            /* line 1597, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
+              /* line 1601, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
+              /* line 1607, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
+          /* line 1614, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
+            /* line 1619, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -1348,14 +1556,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
+            /* line 1629, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
+          /* line 1636, 404.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
+            /* line 1639, 404.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
+              /* line 1642, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -1363,6 +1575,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
+              /* line 1651, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -1383,15 +1596,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
+              /* line 1670, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
+        /* line 1679, 404.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
+        /* line 1684, 404.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
+  /* line 1693, 404.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -1404,15 +1621,18 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
+    /* line 1704, 404.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
+    /* line 1711, 404.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
+  /* line 1716, 404.scss */
   #top .scroll-top:hover {
     color: #c7a610; }
 
@@ -1420,193 +1640,259 @@
 /* font-size */
 /* color */
 @media only all and (max-width: 1230px) {
+  /* line 5, media.scss */
   body #top {
     /* testimonials */ }
+    /* line 11, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 49.9%; }
+      /* line 14, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 170px; } }
 @media only all and (max-width: 1050px) {
+  /* line 28, media.scss */
   body #top {
     /* contacts */
     /* testimonials */ }
+    /* line 31, media.scss */
     body #top header .container .mobile-column {
       display: block; }
+    /* line 34, media.scss */
     body #top header .container .main-menu {
       display: none; }
+    /* line 43, media.scss */
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
+      /* line 45, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 30%; }
+        /* line 49, media.scss */
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 10px 10px; }
+          /* line 53, media.scss */
           body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
             margin: 0 auto; }
+      /* line 60, media.scss */
       body #top .section-contact-padding .auto-container .row .map {
         width: 65%;
         margin: 0 !important; }
+    /* line 73, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 49.9%; }
+      /* line 76, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 300px; } }
 @media only all and (max-width: 768px) {
+  /* line 90, media.scss */
   [class*="padding"] {
     padding: 70px 12px; }
 
+  /* line 94, media.scss */
   h1, h2 {
     font-size: 48px !important; }
 
+  /* line 99, media.scss */
   body #top {
     /* about */
     /* amenities */
     /* contacts */
     /* testimonials */
     /* footer */ }
+    /* line 104, media.scss */
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
       padding: 0 15px; }
+      /* line 108, media.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
         display: none; }
+      /* line 111, media.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image .image-1, body #top .section-about-padding .auto-container .row .about-block .about-image .image-2, body #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
         -webkit-transform: scale(0.8);
                 transform: scale(0.8);
         height: auto; }
+    /* line 117, media.scss */
     body #top .section-about-padding .auto-container .row .about-discription {
       width: 100%;
       padding: 0 15px; }
+    /* line 127, media.scss */
     body #top .section-amenities-padding .auto-container {
       width: 100%; }
+      /* line 130, media.scss */
       body #top .section-amenities-padding .auto-container .wrapper .section-heading {
         padding: 0 20px; }
+      /* line 134, media.scss */
       body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
         margin: 0 10px 15px;
         padding: 20px 10px !important;
         width: auto !important;
-        -webkit-box-flex: 100px;
-            -ms-flex: 100px 1 auto;
-                flex: 100px 1 auto; }
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+                flex: 0 1 auto; }
+    /* line 151, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul .location {
       border-left: 1px solid #bebec3 !important; }
+    /* line 154, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul .A1 {
       margin-right: 71px; }
+    /* line 157, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul li:last-child {
       width: 200px; }
+    /* line 161, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul:first-child {
       margin-bottom: 0; }
+    /* line 166, media.scss */
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
+      /* line 169, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
+        /* line 173, media.scss */
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 30px 60px; }
+          /* line 177, media.scss */
           body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
             margin: 0 auto; }
+      /* line 184, media.scss */
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 90vw;
         margin: 0 !important; }
+    /* line 198, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
+      /* line 201, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 300px; }
+    /* line 211, media.scss */
     body #top footer {
       padding: 50px 0 20px; }
+      /* line 216, media.scss */
       body #top footer .auto-container .row .contact-block {
         max-width: 100%;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a;
-        -webkit-box-flex: 150px;
-            -ms-flex: 150px 1 auto;
-                flex: 150px 1 auto; }
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+                flex: 0 1 auto; }
+      /* line 222, media.scss */
       body #top footer .auto-container .row .contact-block:nth-child(2) {
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2; }
+      /* line 225, media.scss */
       body #top footer .auto-container .row .contact-block:nth-child(4) {
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3; } }
 @media only all and (max-width: 560px) {
+  /* line 237, media.scss */
   body #top {
     /* contact */
     /* testimonials */ }
+    /* line 239, media.scss */
     body #top header .container {
       padding: 0 10px;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
+      /* line 242, media.scss */
       body #top header .container .mobile-column {
         right: 10px; }
+      /* line 245, media.scss */
       body #top header .container .link-btn {
         display: none; }
+    /* line 255, media.scss */
     body #top .section-contact-padding .auto-container .row .contact-form {
       width: 100%; }
+      /* line 261, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
         margin: 0 auto; }
+    /* line 268, media.scss */
     body #top .section-contact-padding .auto-container .row .map {
       width: 100%;
       height: 120vw;
       margin: 0 !important; }
+    /* line 281, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
+      /* line 284, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 300px; } }
 @media only all and (max-width: 400px) {
+  /* line 297, media.scss */
   [class*="padding"] {
     padding: 50px 5px; }
 
+  /* line 301, media.scss */
   h1, h2 {
     font-size: 32px !important; }
 
+  /* line 306, media.scss */
   body #top {
     /* about */
     /* amenities */
     /* contacts */
     /* testimonials */
     /* footer */ }
+    /* line 309, media.scss */
     body #top .section-about-padding {
       padding: 50px 10px 5px; }
+      /* line 313, media.scss */
       body #top .section-about-padding .auto-container .row .about-discription {
         position: static;
         padding: 0 25px;
         margin: 0 auto;
         width: 100%;
         text-align: center; }
+      /* line 320, media.scss */
       body #top .section-about-padding .auto-container .row .about-block {
         width: 100%;
         padding: 0 15px; }
+        /* line 324, media.scss */
         body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
           display: none; }
+        /* line 327, media.scss */
         body #top .section-about-padding .auto-container .row .about-block .about-image .image-1, body #top .section-about-padding .auto-container .row .about-block .about-image .image-2, body #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
           height: auto; }
+    /* line 342, media.scss */
     body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
       margin: 0 15px 15px;
       padding: 30px 0;
       width: 150px;
       min-width: 100px; }
+    /* line 358, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li {
       border-left: 1px solid #bebec3 !important; }
+    /* line 362, media.scss */
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
+      /* line 364, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
+        /* line 368, media.scss */
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 15px 20px; }
+          /* line 372, media.scss */
           body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
             margin: 0 auto; }
+      /* line 379, media.scss */
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 150vw;
         margin: 0 !important; }
+    /* line 393, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
+      /* line 396, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 350px; }
+    /* line 406, media.scss */
     body #top footer {
       padding: 50px 0 20px; }
+      /* line 411, media.scss */
       body #top footer .auto-container .row .contact-block {
         width: 80% !important;
         margin-bottom: 20px;
