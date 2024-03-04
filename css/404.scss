@@ -1559,6 +1559,142 @@
         }
     }
 
+    /* questions section*/
+    
+    .section-questions-padding{
+        max-width: 1320px;
+
+        .auto-container{
+            position: static;
+            padding: 0 15px;
+
+            .section-heading{
+                z-index: 1;
+                margin-bottom: 20px;
+                text-align: center;
+                
+                span{
+                    font-size: $simple-text;
+                    color: $yellow;
+                    margin-bottom: 6px;
+                    display: inline-block;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    position: relative;
+                }
+                h2{
+                    font-size: $logo-text * 1.9 - 4px;
+                    font-weight: 700;
+                    line-height: 1;
+                    position: relative;
+                    color: $bf-text;
+                    font-family: $title;
+                    padding-right: 15px;
+                    text-transform: capitalize;
+                }
+            }
+
+            .row{
+                .accordion-box{
+                    margin: 0 35px;
+                    flex: 1 0 270px;
+
+                    .accordion-list{
+                        list-style: none;
+
+                        .accordion-block{
+                            margin-bottom: 20px;
+                            background: $backg;
+                            box-shadow: 0 10px 50px rgba(0,0,0,.1);
+
+                            .accordion-btn{
+                                position: relative;
+                                font-size: $logo-text - 2px;
+                                cursor: pointer;
+                                line-height: $logo-text - 2px;
+                                color: $bf-text;
+                                padding: 20px 60px 20px 30px;
+                                font-family: $title;
+                                transition: all .5s ease;
+
+                                .icon{
+                                    position: absolute;
+                                    right: 30px;
+                                    top: 24px;
+                                    font-size: $under-title-text + 5px;
+                                    color: $icon-color;
+                                    font-family: $icon;
+                                    font-style: normal;
+                                    font-weight: 400;
+                                    font-feature-settings: normal;
+                                    font-variant: normal;
+                                    text-transform: none;
+                                    line-height: 1;
+
+                                    .plus{
+                                        font-weight: 400;
+                                        display: inline-block;
+                                        font-style: normal;
+                                        font-feature-settings: normal;
+                                        font-variant: normal;
+                                        text-rendering: auto;
+                                        line-height: 1;
+                                    }
+
+                                    .plus::before{
+                                        content: "\e145";
+                                    }
+
+                                    .minus{
+                                        font-weight: 400;
+                                        display: inline-block;
+                                        font-style: normal;
+                                        font-feature-settings: normal;
+                                        font-variant: normal;
+                                        text-rendering: auto;
+                                        line-height: 1;
+                                    }
+
+                                    .minus::before{
+                                        content: "\e15b";
+                                    }
+
+                                    .invisible{
+                                        display: none !important;
+                                    }
+                                }
+                            }
+
+                            .active .accordion-content{
+                                display: block;
+                            }
+
+                            .accordion-content{
+                                display: none;
+                                position: relative;
+
+                                .content{
+                                    position: relative;
+                                    padding: 6px 30px 40px;
+
+                                    .text{
+                                        margin-bottom: 0;
+                                        color: $acc-text;
+                                        font-size: $simple-text;
+                                        line-height: 28;
+                                        margin: 0 0 15px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
     /* footer */
     footer{
         padding: 120px 0 60px;

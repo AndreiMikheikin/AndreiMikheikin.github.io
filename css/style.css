@@ -1707,6 +1707,15 @@
   /* line 26, media_main.scss */
   h1, h2 {
     font-size: 48px !important; }
+
+  /* line 31, media_main.scss */
+  body #top {
+    /* main */
+    /* book form */
+    /* about */
+    /* amenities */
+    /* contactform */
+    /* footer */ }
     /* line 33, media_main.scss */
     body #top main {
       background: none; }
@@ -1801,6 +1810,15 @@
   /* line 169, media_main.scss */
   h1, h2 {
     font-size: 32px !important; }
+
+  /* line 174, media_main.scss */
+  body #top {
+    /* main */
+    /* book form */
+    /* about */
+    /* amenities */
+    /* contctform */
+    /* footer */ }
     /* line 176, media_main.scss */
     body #top main {
       background: none; }
@@ -1859,5 +1877,4 @@
         width: 85% !important;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a; } }
-
 /*# sourceMappingURL=style.css.map */

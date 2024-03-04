@@ -14,6 +14,7 @@
   /* amenities section */
   /* contacts section */
   /* testimonials section */
+  /* questions section*/
   /* footer */ }
   /* line 8, 404.scss */
   #top header {
@@ -1494,22 +1495,142 @@
                 display: inline-block;
                 max-width: 100%;
                 height: auto; }
-  /* line 1563, 404.scss */
+  /* line 1564, 404.scss */
+  #top .section-questions-padding {
+    max-width: 1320px; }
+    /* line 1567, 404.scss */
+    #top .section-questions-padding .auto-container {
+      position: static;
+      padding: 0 15px; }
+      /* line 1571, 404.scss */
+      #top .section-questions-padding .auto-container .section-heading {
+        z-index: 1;
+        margin-bottom: 20px;
+        text-align: center; }
+        /* line 1576, 404.scss */
+        #top .section-questions-padding .auto-container .section-heading span {
+          font-size: 16px;
+          color: #c7a610;
+          margin-bottom: 6px;
+          display: inline-block;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          position: relative; }
+        /* line 1586, 404.scss */
+        #top .section-questions-padding .auto-container .section-heading h2 {
+          font-size: 56.8px;
+          font-weight: 700;
+          line-height: 1;
+          position: relative;
+          color: #2b2d42;
+          font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
+          padding-right: 15px;
+          text-transform: capitalize; }
+      /* line 1599, 404.scss */
+      #top .section-questions-padding .auto-container .row .accordion-box {
+        margin: 0 35px;
+        -webkit-box-flex: 1;
+            -ms-flex: 1 0 270px;
+                flex: 1 0 270px; }
+        /* line 1603, 404.scss */
+        #top .section-questions-padding .auto-container .row .accordion-box .accordion-list {
+          list-style: none; }
+          /* line 1606, 404.scss */
+          #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block {
+            margin-bottom: 20px;
+            background: #fff;
+            -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
+                    box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1); }
+            /* line 1611, 404.scss */
+            #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn {
+              position: relative;
+              font-size: 30px;
+              cursor: pointer;
+              line-height: 30px;
+              color: #2b2d42;
+              padding: 20px 60px 20px 30px;
+              font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
+              -webkit-transition: all .5s ease;
+              transition: all .5s ease; }
+              /* line 1621, 404.scss */
+              #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon {
+                position: absolute;
+                right: 30px;
+                top: 24px;
+                font-size: 23px;
+                color: #242424;
+                font-family: "Material Symbols Outlined";
+                font-style: normal;
+                font-weight: 400;
+                -webkit-font-feature-settings: normal;
+                        font-feature-settings: normal;
+                font-variant: normal;
+                text-transform: none;
+                line-height: 1; }
+                /* line 1635, 404.scss */
+                #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .plus {
+                  font-weight: 400;
+                  display: inline-block;
+                  font-style: normal;
+                  -webkit-font-feature-settings: normal;
+                          font-feature-settings: normal;
+                  font-variant: normal;
+                  text-rendering: auto;
+                  line-height: 1; }
+                /* line 1645, 404.scss */
+                #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .plus::before {
+                  content: "\e145"; }
+                /* line 1649, 404.scss */
+                #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .minus {
+                  font-weight: 400;
+                  display: inline-block;
+                  font-style: normal;
+                  -webkit-font-feature-settings: normal;
+                          font-feature-settings: normal;
+                  font-variant: normal;
+                  text-rendering: auto;
+                  line-height: 1; }
+                /* line 1659, 404.scss */
+                #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .minus::before {
+                  content: "\e15b"; }
+                /* line 1663, 404.scss */
+                #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .invisible {
+                  display: none !important; }
+            /* line 1669, 404.scss */
+            #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .active .accordion-content {
+              display: block; }
+            /* line 1673, 404.scss */
+            #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-content {
+              display: none;
+              position: relative; }
+              /* line 1677, 404.scss */
+              #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-content .content {
+                position: relative;
+                padding: 6px 30px 40px; }
+                /* line 1681, 404.scss */
+                #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-content .content .text {
+                  margin-bottom: 0;
+                  color: #333;
+                  font-size: 16px;
+                  line-height: 28;
+                  margin: 0 0 15px; }
+  /* line 1699, 404.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
-    /* line 1567, 404.scss */
+    /* line 1703, 404.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1572, 404.scss */
+      /* line 1708, 404.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1576, 404.scss */
+        /* line 1712, 404.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1517,36 +1638,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
-          /* line 1584, 404.scss */
+          /* line 1720, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 1593, 404.scss */
+          /* line 1729, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
-            /* line 1597, 404.scss */
+            /* line 1733, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
-              /* line 1601, 404.scss */
+              /* line 1737, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
-              /* line 1607, 404.scss */
+              /* line 1743, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
-          /* line 1614, 404.scss */
+          /* line 1750, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
-            /* line 1619, 404.scss */
+            /* line 1755, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -1556,18 +1677,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
-            /* line 1629, 404.scss */
+            /* line 1765, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
-          /* line 1636, 404.scss */
+          /* line 1772, 404.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
-            /* line 1639, 404.scss */
+            /* line 1775, 404.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
-              /* line 1642, 404.scss */
+              /* line 1778, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -1575,7 +1696,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
-              /* line 1651, 404.scss */
+              /* line 1787, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -1596,19 +1717,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
-              /* line 1670, 404.scss */
+              /* line 1806, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
-        /* line 1679, 404.scss */
+        /* line 1815, 404.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
-        /* line 1684, 404.scss */
+        /* line 1820, 404.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
-  /* line 1693, 404.scss */
+  /* line 1829, 404.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -1621,18 +1742,18 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
-    /* line 1704, 404.scss */
+    /* line 1840, 404.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
-    /* line 1711, 404.scss */
+    /* line 1847, 404.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-  /* line 1716, 404.scss */
+  /* line 1852, 404.scss */
   #top .scroll-top:hover {
     color: #c7a610; }
 
@@ -1640,6 +1761,9 @@
 /* font-size */
 /* color */
 @media only all and (max-width: 1230px) {
+  /* line 5, media.scss */
+  body #top {
+    /* testimonials */ }
     /* line 11, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 49.9%; }
@@ -1647,6 +1771,10 @@
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 170px; } }
 @media only all and (max-width: 1050px) {
+  /* line 28, media.scss */
+  body #top {
+    /* contacts */
+    /* testimonials */ }
     /* line 31, media.scss */
     body #top header .container .mobile-column {
       display: block; }
@@ -1684,6 +1812,14 @@
   /* line 94, media.scss */
   h1, h2 {
     font-size: 48px !important; }
+
+  /* line 99, media.scss */
+  body #top {
+    /* about */
+    /* amenities */
+    /* contacts */
+    /* testimonials */
+    /* footer */ }
     /* line 104, media.scss */
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
@@ -1772,6 +1908,10 @@
             -ms-flex-order: 3;
                 order: 3; } }
 @media only all and (max-width: 560px) {
+  /* line 237, media.scss */
+  body #top {
+    /* contact */
+    /* testimonials */ }
     /* line 239, media.scss */
     body #top header .container {
       padding: 0 10px;
@@ -1809,6 +1949,14 @@
   /* line 301, media.scss */
   h1, h2 {
     font-size: 32px !important; }
+
+  /* line 306, media.scss */
+  body #top {
+    /* about */
+    /* amenities */
+    /* contacts */
+    /* testimonials */
+    /* footer */ }
     /* line 309, media.scss */
     body #top .section-about-padding {
       padding: 50px 10px 5px; }
