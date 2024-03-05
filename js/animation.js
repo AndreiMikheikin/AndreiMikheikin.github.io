@@ -19,3 +19,14 @@ let targets = document.querySelectorAll('.anim')
 targets.forEach(target => {
     observer.observe(target);
 });
+
+const mobile = document.querySelector('.mobile-menu');
+const button = document.querySelector('.mobile-column-btn');
+const close = document.querySelector('.close-btn');
+
+button.addEventListener('click', () => {
+    mobile.classList.add('active')
+});
+close.addEventListener('click', () => {
+    mobile.classList.remove('active')
+});

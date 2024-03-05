@@ -15,19 +15,31 @@
   /* footer */ }
   /* line 7, style.scss */
   #top header {
-    max-width: 1920px;
+    position: relative;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background: none;
+    clear: both;
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.03);
+    /* max-width: 1920px;
     height: 75px;
-    min-height: 75px;
-    z-index: 99999;
+    min-height: 75px; */
+    z-index: 9999;
     /* mobile menu */ }
-    /* line 13, style.scss */
+    /* line 21, style.scss */
     #top header .container {
-      max-width: 1290px;
-      height: 75px;
-      min-height: 75px;
-      display: -webkit-box;
-      display: -ms-flexbox;
-      display: flex;
+      position: static;
+      max-width: 1320px;
+      margin: 0 auto;
+      padding: 0 15px;
+      /* height: 75px;
+      min-height: 75px; */
+      display: -webkit-box !important;
+      display: -ms-flexbox !important;
+      display: flex !important;
       -webkit-box-align: center;
           -ms-flex-align: center;
               align-items: center;
@@ -38,14 +50,14 @@
       /* mobile column */
       /* navigation */
       /* header button */ }
-      /* line 22, style.scss */
+      /* line 33, style.scss */
       #top header .container .logo {
         height: 48.15px;
         min-height: 48px;
         -webkit-box-flex: 0;
             -ms-flex: 0 0 auto;
                 flex: 0 0 auto; }
-        /* line 27, style.scss */
+        /* line 38, style.scss */
         #top header .container .logo a {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -55,7 +67,7 @@
           -webkit-box-align: center;
               -ms-flex-align: center;
                   align-items: center; }
-          /* line 32, style.scss */
+          /* line 43, style.scss */
           #top header .container .logo a img {
             display: inline-block;
             vertical-align: middle;
@@ -63,14 +75,14 @@
             max-width: 100%;
             height: 48px;
             background: #fff; }
-          /* line 41, style.scss */
+          /* line 52, style.scss */
           #top header .container .logo a span {
             vertical-align: middle;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
             font-size: 32px;
             color: #2c2a49;
             font-weight: 500; }
-      /* line 53, style.scss */
+      /* line 64, style.scss */
       #top header .container .mobile-column {
         display: none;
         position: relative;
@@ -81,7 +93,7 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 0 0px;
                 flex: 0 0 0; }
-        /* line 60, style.scss */
+        /* line 71, style.scss */
         #top header .container .mobile-column .mobile-column-btn {
           display: block;
           position: relative;
@@ -96,17 +108,17 @@
           margin: 13px 0 13px 15px;
           -webkit-transition: .3s;
           transition: .3s; }
-          /* line 74, style.scss */
+          /* line 85, style.scss */
           #top header .container .mobile-column .mobile-column-btn span::before {
             position: absolute;
             content: "\e5d2";
             font-family: "Material Symbols Outlined"; }
-        /* line 81, style.scss */
+        /* line 92, style.scss */
         #top header .container .mobile-column .mobile-column-btn:hover {
           -webkit-transform: scale(1.01);
                   transform: scale(1.01);
           color: #c7a610; }
-      /* line 88, style.scss */
+      /* line 99, style.scss */
       #top header .container .main-menu {
         background-color: #fff;
         -webkit-box-shadow: none;
@@ -117,7 +129,7 @@
         width: max-content;
         position: relative;
         height: 75px; }
-        /* line 96, style.scss */
+        /* line 107, style.scss */
         #top header .container .main-menu ul {
           position: relative;
           display: -webkit-box;
@@ -129,14 +141,14 @@
               -ms-flex-align: center;
                   align-items: center;
           list-style: none; }
-          /* line 103, style.scss */
+          /* line 114, style.scss */
           #top header .container .main-menu ul li {
             position: relative;
             padding: 20px 0;
             margin-right: 30px;
             -webkit-transition: all .3s ease;
             transition: all .3s ease; }
-            /* line 109, style.scss */
+            /* line 120, style.scss */
             #top header .container .main-menu ul li a {
               position: relative;
               display: block;
@@ -148,17 +160,17 @@
               color: #2c2a49;
               padding: 3px 0;
               opacity: 1; }
-            /* line 122, style.scss */
+            /* line 133, style.scss */
             #top header .container .main-menu ul li a:hover {
               color: #c7a610; }
-            /* line 126, style.scss */
+            /* line 137, style.scss */
             #top header .container .main-menu ul li a.expand-more::before {
               position: absolute;
               content: "\e5cf";
               right: -15px;
               top: 5px;
               font-family: "Material Symbols Outlined"; }
-            /* line 134, style.scss */
+            /* line 145, style.scss */
             #top header .container .main-menu ul li ul {
               padding: 0;
               display: block !important;
@@ -178,13 +190,13 @@
               -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
                       box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
               border-top: 1px solid #c7a610; }
-              /* line 151, style.scss */
+              /* line 162, style.scss */
               #top header .container .main-menu ul li ul li {
                 position: relative;
                 width: 100%;
                 height: 40px;
                 padding: 0 25px; }
-                /* line 157, style.scss */
+                /* line 168, style.scss */
                 #top header .container .main-menu ul li ul li a {
                   position: relative;
                   display: block;
@@ -196,7 +208,7 @@
                   font-size: 17px;
                   color: #fff;
                   font-weight: 500; }
-              /* line 170, style.scss */
+              /* line 181, style.scss */
               #top header .container .main-menu ul li ul li::before {
                 position: absolute;
                 content: "";
@@ -207,7 +219,7 @@
                 display: block;
                 -webkit-transition: all .5s ease;
                 transition: all .5s ease; }
-          /* line 183, style.scss */
+          /* line 194, style.scss */
           #top header .container .main-menu ul li::before {
             position: absolute;
             content: "";
@@ -216,18 +228,18 @@
             width: 23px;
             height: 1px;
             opacity: 0; }
-          /* line 193, style.scss */
+          /* line 204, style.scss */
           #top header .container .main-menu ul li:hover ul {
             visibility: visible;
             opacity: 1;
             top: 45px; }
-          /* line 199, style.scss */
+          /* line 210, style.scss */
           #top header .container .main-menu ul a:hover {
             color: #c7a610; }
-      /* line 206, style.scss */
+      /* line 217, style.scss */
       #top header .container .link-btn {
         position: relative; }
-        /* line 209, style.scss */
+        /* line 220, style.scss */
         #top header .container .link-btn a {
           padding: 11px 30px 10px;
           color: #222;
@@ -245,39 +257,39 @@
           -webkit-transition: .5s;
           transition: .5s;
           text-transform: uppercase; }
-        /* line 225, style.scss */
+        /* line 236, style.scss */
         #top header .container .link-btn a:hover {
           color: #fff;
           background-color: #c7a610; }
-    /* line 233, style.scss */
+    /* line 244, style.scss */
     #top header .mobile-menu {
-      display: none;
-      opacity: 1;
-      visibility: visible;
       position: fixed;
       right: 0;
       top: 0;
-      width: 320px;
+      width: 0;
+      overflow: hidden;
       padding-right: 30px;
       max-width: 100%;
       height: 100%;
-      z-index: 999999; }
-      /* line 246, style.scss */
+      opacity: 0;
+      visibility: hidden;
+      z-index: 999999;
+      -webkit-transition: all .9s ease;
+      transition: all .9s ease; }
+      /* line 258, style.scss */
       #top header .mobile-menu .menu-drop {
-        opacity: 0.7;
-        visibility: visible;
-        -webkit-transition: all .7s ease;
-        transition: all .7s ease;
-        -webkit-transform: translateX(0);
-                transform: translateX(0);
         position: fixed;
         right: 0;
         top: 0;
         width: 100%;
         height: 100%;
         z-index: 1;
+        -webkit-transform: translateX(101%);
+                transform: translateX(101%);
+        -webkit-transition: all .9s ease;
+        transition: all .9s ease;
         background-color: #c7a610; }
-      /* line 260, style.scss */
+      /* line 270, style.scss */
       #top header .mobile-menu .close-btn {
         position: absolute;
         right: 20px;
@@ -291,7 +303,7 @@
         z-index: 10;
         -webkit-transition: all .9s ease;
         transition: all .9s ease; }
-        /* line 273, style.scss */
+        /* line 283, style.scss */
         #top header .mobile-menu .close-btn span {
           display: inline-block;
           font-style: normal;
@@ -300,17 +312,17 @@
           font-variant: normal;
           text-rendering: auto;
           line-height: 1; }
-        /* line 282, style.scss */
+        /* line 292, style.scss */
         #top header .mobile-menu .close-btn span::before {
           position: absolute;
           content: "\e5cd";
           top: 0;
           right: 0;
           font-family: "Material Symbols Outlined"; }
-      /* line 291, style.scss */
+      /* line 301, style.scss */
       #top header .mobile-menu .close-btn:hover {
         color: #c7a610; }
-      /* line 295, style.scss */
+      /* line 305, style.scss */
       #top header .mobile-menu .menu-box {
         opacity: 1;
         visibility: visible;
@@ -329,7 +341,7 @@
         padding: 0;
         z-index: 5;
         border-radius: 0; }
-        /* line 312, style.scss */
+        /* line 322, style.scss */
         #top header .mobile-menu .menu-box .nav-logo {
           position: relative;
           padding: 30px 25px;
@@ -338,7 +350,7 @@
           margin-top: 25px;
           height: 48.15px;
           min-height: 48px; }
-          /* line 321, style.scss */
+          /* line 331, style.scss */
           #top header .mobile-menu .menu-box .nav-logo a {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -348,7 +360,7 @@
             -webkit-box-align: center;
                 -ms-flex-align: center;
                     align-items: center; }
-            /* line 326, style.scss */
+            /* line 336, style.scss */
             #top header .mobile-menu .menu-box .nav-logo a img {
               display: inline-block;
               vertical-align: middle;
@@ -356,33 +368,33 @@
               max-width: 100%;
               height: 48px;
               background: #202020; }
-            /* line 335, style.scss */
+            /* line 345, style.scss */
             #top header .mobile-menu .menu-box .nav-logo a span {
               vertical-align: middle;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               font-size: 32px;
               color: #c7a610;
               font-weight: 500; }
-        /* line 346, style.scss */
+        /* line 356, style.scss */
         #top header .mobile-menu .menu-box .menu-wrapper {
           position: relative; }
-          /* line 349, style.scss */
+          /* line 359, style.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse {
             display: block !important;
             width: 100%; }
-            /* line 353, style.scss */
+            /* line 363, style.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix {
               position: relative;
               display: block;
               width: 100%;
               float: none;
               list-style: none; }
-              /* line 360, style.scss */
+              /* line 370, style.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li {
                 position: relative;
                 display: block;
                 border-top: 1px solid rgba(255, 255, 255, 0.1); }
-                /* line 365, style.scss */
+                /* line 375, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:before {
                   content: "";
                   position: absolute;
@@ -391,7 +403,7 @@
                   height: 0;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
-                /* line 374, style.scss */
+                /* line 384, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a {
                   position: relative;
                   display: block;
@@ -403,36 +415,36 @@
                   text-transform: uppercase;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
-                /* line 386, style.scss */
+                /* line 396, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:hover {
                   color: #c7a610; }
-                /* line 388, style.scss */
+                /* line 398, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped1 {
                   display: none; }
-                /* line 392, style.scss */
+                /* line 402, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped2 {
                   display: none; }
-                /* line 396, style.scss */
+                /* line 406, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped3 {
                   display: none; }
-                /* line 400, style.scss */
+                /* line 410, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped4 {
                   display: none; }
-                /* line 404, style.scss */
+                /* line 414, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped {
                   display: block; }
-                  /* line 407, style.scss */
+                  /* line 417, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li:first-child {
                     border-top: 1px solid rgba(255, 255, 255, 0.1); }
-                  /* line 412, style.scss */
+                  /* line 422, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a {
                     font-size: 15px;
                     margin-left: 20px;
                     text-transform: capitalize; }
-                  /* line 418, style.scss */
+                  /* line 428, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a:hover {
                     color: #c7a610; }
-                /* line 424, style.scss */
+                /* line 434, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 {
                   position: absolute;
                   right: 6px;
@@ -449,14 +461,14 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
-                  /* line 440, style.scss */
+                  /* line 450, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 span::before {
                     content: ""; }
-                  /* line 444, style.scss */
+                  /* line 454, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
-                /* line 450, style.scss */
+                /* line 460, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 {
                   position: absolute;
                   right: 6px;
@@ -473,14 +485,14 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
-                  /* line 466, style.scss */
+                  /* line 476, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 span::before {
                     content: ""; }
-                  /* line 470, style.scss */
+                  /* line 480, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
-                /* line 476, style.scss */
+                /* line 486, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 {
                   position: absolute;
                   right: 6px;
@@ -497,14 +509,14 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
-                  /* line 492, style.scss */
+                  /* line 502, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 span::before {
                     content: ""; }
-                  /* line 496, style.scss */
+                  /* line 506, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
-                /* line 502, style.scss */
+                /* line 512, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 {
                   position: absolute;
                   right: 6px;
@@ -521,25 +533,25 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
-                  /* line 518, style.scss */
+                  /* line 528, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 span::before {
                     content: ""; }
-                  /* line 522, style.scss */
+                  /* line 532, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
-              /* line 529, style.scss */
+              /* line 539, style.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover .expand-more, #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover [class*="dropdown"] {
                 color: #c7a610; }
-            /* line 534, style.scss */
+            /* line 544, style.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix:last-child {
               border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-          /* line 539, style.scss */
+          /* line 549, style.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse::after {
             display: block;
             clear: both;
             content: ""; }
-        /* line 546, style.scss */
+        /* line 556, style.scss */
         #top header .mobile-menu .menu-box .social-links {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -547,19 +559,19 @@
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-          /* line 550, style.scss */
+          /* line 560, style.scss */
           #top header .mobile-menu .menu-box .social-links a {
             margin-top: 30px;
             margin-right: 20px;
             font-size: 15px;
             -webkit-transition: all .2s ease;
             transition: all .2s ease; }
-          /* line 557, style.scss */
+          /* line 567, style.scss */
           #top header .mobile-menu .menu-box .social-links a[href*="www.facebook"]:hover #path4533,
           #top header .mobile-menu .menu-box .social-links a[href*="www.instagram"]:hover #path5,
           #top header .mobile-menu .menu-box .social-links a[href*="vk.com"]:hover #rect4570 {
             fill: #c7a610 !important; }
-  /* line 568, style.scss */
+  /* line 578, style.scss */
   #top main {
     max-width: 1920px;
     height: 100%;
@@ -569,7 +581,7 @@
     background: url(../img/main_background.jpg) no-repeat;
     background-size: cover;
     background-position: center; }
-    /* line 578, style.scss */
+    /* line 588, style.scss */
     #top main .container {
       padding: 100px 15px;
       max-width: 1290px;
@@ -584,12 +596,12 @@
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
-      /* line 586, style.scss */
+      /* line 596, style.scss */
       #top main .container .inner {
         position: relative;
         max-height: 750px;
         padding: 0 10px; }
-        /* line 591, style.scss */
+        /* line 601, style.scss */
         #top main .container .inner h4 {
           position: relative;
           display: block;
@@ -600,7 +612,7 @@
           text-transform: uppercase;
           letter-spacing: 3px;
           line-height: 1.25em; }
-        /* line 603, style.scss */
+        /* line 613, style.scss */
         #top main .container .inner h1 {
           color: #2c2a49;
           position: relative;
@@ -610,19 +622,19 @@
           font-size: 64px;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           margin: 0 0 20px; }
-        /* line 614, style.scss */
+        /* line 624, style.scss */
         #top main .container .inner p {
           color: #2c2a49;
           position: relative;
           font-size: 18px;
           line-height: 32px;
           margin: 0 0 15px; }
-        /* line 622, style.scss */
+        /* line 632, style.scss */
         #top main .container .inner .link-btn {
           position: relative;
           padding-top: 20px;
           margin: 0 -10px; }
-          /* line 627, style.scss */
+          /* line 637, style.scss */
           #top main .container .inner .link-btn a {
             margin: 0 10px 10px;
             padding: 17px 35px 16px;
@@ -641,16 +653,16 @@
             -webkit-transition: .5s;
             transition: .5s;
             text-transform: uppercase; }
-          /* line 644, style.scss */
+          /* line 654, style.scss */
           #top main .container .inner .link-btn a:hover {
             color: #fff;
             background-color: #2c2a49; }
-  /* line 654, style.scss */
+  /* line 664, style.scss */
   #top .auto-container {
     max-width: 1920px;
     padding: 20px 0 8px;
     background-color: #faf5f2; }
-    /* line 659, style.scss */
+    /* line 669, style.scss */
     #top .auto-container .booking-form {
       position: relative;
       max-width: 1290px;
@@ -663,13 +675,13 @@
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end; }
-      /* line 668, style.scss */
+      /* line 678, style.scss */
       #top .auto-container .booking-form .form-group {
         margin: 0 10px 20px;
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1; }
-        /* line 672, style.scss */
+        /* line 682, style.scss */
         #top .auto-container .booking-form .form-group label {
           color: #2b2d42;
           font-weight: 500;
@@ -678,7 +690,7 @@
           font-size: 15px;
           text-align: center;
           line-height: 1.8; }
-        /* line 682, style.scss */
+        /* line 692, style.scss */
         #top .auto-container .booking-form .form-group input[type=date], #top .auto-container .booking-form .form-group select {
           display: block;
           border: 1px solid #fff;
@@ -688,15 +700,15 @@
           padding: 0 10px;
           font-size: inherit;
           line-height: inherit; }
-        /* line 693, style.scss */
+        /* line 703, style.scss */
         #top .auto-container .booking-form .form-group input[type=checkbox] {
           margin-right: 5px; }
-        /* line 697, style.scss */
+        /* line 707, style.scss */
         #top .auto-container .booking-form .form-group span {
           color: #2b2d42;
           font-size: 13px;
           text-transform: uppercase; }
-        /* line 703, style.scss */
+        /* line 713, style.scss */
         #top .auto-container .booking-form .form-group input[type=submit] {
           cursor: pointer;
           width: -webkit-max-content;
@@ -717,14 +729,14 @@
           -webkit-transition: .5s;
           transition: .5s;
           background-color: #c7a610; }
-        /* line 719, style.scss */
+        /* line 729, style.scss */
         #top .auto-container .booking-form .form-group input[type=submit]:hover {
           color: #fff;
           background-color: #2c2a49; }
-  /* line 728, style.scss */
+  /* line 738, style.scss */
   #top .section-offer-padding {
     max-width: 1920px; }
-    /* line 731, style.scss */
+    /* line 741, style.scss */
     #top .section-offer-padding .grey-bg {
       position: absolute;
       left: 0;
@@ -732,19 +744,19 @@
       right: 0;
       height: 340px;
       background-color: #faf5f2; }
-    /* line 740, style.scss */
+    /* line 750, style.scss */
     #top .section-offer-padding .auto-container {
       position: static;
       max-width: 1290px;
       padding: 0 15px;
       background: #fff; }
-      /* line 746, style.scss */
+      /* line 756, style.scss */
       #top .section-offer-padding .auto-container .section-heading {
         position: relative;
         z-index: 1;
         margin-bottom: 60px;
         text-align: center; }
-        /* line 752, style.scss */
+        /* line 762, style.scss */
         #top .section-offer-padding .auto-container .section-heading span {
           font-size: 16px;
           color: #c7a610;
@@ -754,7 +766,7 @@
           text-transform: uppercase;
           letter-spacing: 5px;
           position: relative; }
-        /* line 762, style.scss */
+        /* line 772, style.scss */
         #top .section-offer-padding .auto-container .section-heading h2 {
           font-size: 60px;
           font-weight: 700;
@@ -763,12 +775,12 @@
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           text-transform: capitalize; }
-      /* line 773, style.scss */
+      /* line 783, style.scss */
       #top .section-offer-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 776, style.scss */
+        /* line 786, style.scss */
         #top .section-offer-padding .auto-container .row .offer-block {
           position: relative;
           padding: 0 40px;
@@ -778,19 +790,19 @@
               -ms-flex: 1 1 358px;
                   flex: 1 1 358px;
           max-width: 450px; }
-          /* line 784, style.scss */
+          /* line 794, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-image {
             position: relative;
             margin-bottom: 31px;
             width: 100%;
             overflow: hidden; }
-            /* line 790, style.scss */
+            /* line 800, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-image img {
               width: 100%;
               height: auto;
               -webkit-transition: .7s;
               transition: .7s; }
-          /* line 797, style.scss */
+          /* line 807, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-title {
             margin-bottom: 15px;
             font-size: 30px;
@@ -800,16 +812,16 @@
             background: none;
             color: #2b2d42;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 808, style.scss */
+          /* line 818, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-text {
             position: relative;
             margin-bottom: 0;
             line-height: 1.8;
             font-size: 16px; }
-          /* line 815, style.scss */
+          /* line 825, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-link {
             position: relative; }
-            /* line 818, style.scss */
+            /* line 828, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn {
               width: 60px;
               height: 60px;
@@ -829,7 +841,7 @@
               text-decoration: none;
               -webkit-transition: .3s;
               transition: .3s; }
-              /* line 835, style.scss */
+              /* line 845, style.scss */
               #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn .icon {
                 font-family: 'Material Symbols Outlined';
                 font-style: normal;
@@ -840,13 +852,13 @@
                 text-transform: none;
                 line-height: 1;
                 text-align: center; }
-              /* line 845, style.scss */
+              /* line 855, style.scss */
               #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn .icon::before {
                 content: "\e5c8"; }
-            /* line 850, style.scss */
+            /* line 860, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn:hover {
               color: #fff; }
-            /* line 854, style.scss */
+            /* line 864, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn::before {
               background: #c7a610;
               position: absolute;
@@ -861,15 +873,15 @@
               z-index: -1;
               -webkit-transition: all .5s ease;
               transition: all .5s ease; }
-            /* line 868, style.scss */
+            /* line 878, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn:hover::before {
               -webkit-transform: scale(1);
                       transform: scale(1); }
-        /* line 874, style.scss */
+        /* line 884, style.scss */
         #top .section-offer-padding .auto-container .row .offer-block:hover .offer-image img {
           -webkit-transform: scale(1.2);
                   transform: scale(1.2); }
-        /* line 878, style.scss */
+        /* line 888, style.scss */
         #top .section-offer-padding .auto-container .row .offer-block::before {
           position: absolute;
           content: "";
@@ -884,21 +896,21 @@
                   animation-duration: 0.8s;
           -webkit-animation-delay: 0.2s;
                   animation-delay: 0.2s; }
-  /* line 896, style.scss */
+  /* line 906, style.scss */
   #top .section-about-padding {
     background-color: #faf5f2;
     max-width: 1920px; }
-    /* line 900, style.scss */
+    /* line 910, style.scss */
     #top .section-about-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 905, style.scss */
+      /* line 915, style.scss */
       #top .section-about-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 908, style.scss */
+        /* line 918, style.scss */
         #top .section-about-padding .auto-container .row .about-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -906,22 +918,22 @@
                   flex: 0 0 auto;
           width: auto;
           max-width: 100%; }
-          /* line 914, style.scss */
+          /* line 924, style.scss */
           #top .section-about-padding .auto-container .row .about-block .about-image {
             margin-bottom: 30px;
             position: relative; }
-            /* line 918, style.scss */
+            /* line 928, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
               position: absolute;
               left: -120px;
               top: -110px;
               -webkit-transition: all .7s ease;
               transition: all .7s ease; }
-            /* line 924, style.scss */
+            /* line 934, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover {
               -webkit-transform: rotate(-150deg);
                       transform: rotate(-150deg); }
-            /* line 928, style.scss */
+            /* line 938, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-3,
@@ -956,7 +968,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .2s;
                       transition-delay: .2s; }
-            /* line 963, style.scss */
+            /* line 973, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-3,
@@ -1002,7 +1014,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .3s;
                       transition-delay: .3s; }
-            /* line 1009, style.scss */
+            /* line 1019, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-3,
@@ -1031,7 +1043,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .4s;
                       transition-delay: .4s; }
-            /* line 1038, style.scss */
+            /* line 1048, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-3,
@@ -1049,17 +1061,17 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .5s;
                       transition-delay: .5s; }
-            /* line 1055, style.scss */
+            /* line 1065, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image {
               position: relative;
               overflow: hidden;
               -webkit-transition: all .8s ease;
               transition: all .8s ease; }
-            /* line 1060, style.scss */
+            /* line 1070, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image:hover {
               -webkit-transform: scale(1.05);
                       transform: scale(1.05); }
-        /* line 1065, style.scss */
+        /* line 1075, style.scss */
         #top .section-about-padding .auto-container .row .about-discription {
           margin: 20px 10px;
           -webkit-box-flex: 0;
@@ -1067,11 +1079,11 @@
                   flex: 0 0 auto;
           width: 50%;
           max-width: 100%; }
-          /* line 1071, style.scss */
+          /* line 1081, style.scss */
           #top .section-about-padding .auto-container .row .about-discription .section-heading {
             z-index: 1;
             margin-bottom: 20px; }
-            /* line 1075, style.scss */
+            /* line 1085, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading span {
               font-size: 16px;
               color: #c7a610;
@@ -1081,7 +1093,7 @@
               text-transform: uppercase;
               letter-spacing: 5px;
               position: relative; }
-            /* line 1085, style.scss */
+            /* line 1095, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading h2 {
               font-size: 56.8px;
               font-weight: 700;
@@ -1091,18 +1103,18 @@
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               padding-right: 15px;
               text-transform: capitalize; }
-            /* line 1095, style.scss */
+            /* line 1105, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading p {
               position: relative;
               margin-bottom: 0;
               line-height: 1.8;
               font-size: 16px; }
-          /* line 1102, style.scss */
+          /* line 1112, style.scss */
           #top .section-about-padding .auto-container .row .about-discription .about-btn {
             position: relative;
             padding-top: 20px;
             margin: 0 -10px; }
-            /* line 1107, style.scss */
+            /* line 1117, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .about-btn a {
               margin: 0 10px 10px;
               padding: 17px 35px 16px;
@@ -1122,27 +1134,27 @@
               transition: .5s;
               text-transform: uppercase;
               text-decoration: none; }
-            /* line 1125, style.scss */
+            /* line 1135, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .about-btn a:hover {
               color: #fff;
               background-color: #2c2a49; }
-  /* line 1136, style.scss */
+  /* line 1146, style.scss */
   #top .section-amenities-padding {
     background-color: #fff; }
-    /* line 1139, style.scss */
+    /* line 1149, style.scss */
     #top .section-amenities-padding .auto-container {
       position: static;
       padding: 0 15px;
       background-color: #fff; }
-      /* line 1144, style.scss */
+      /* line 1154, style.scss */
       #top .section-amenities-padding .auto-container .wrapper {
         background-color: #fff; }
-        /* line 1147, style.scss */
+        /* line 1157, style.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading {
           z-index: 1;
           margin-bottom: 50px;
           text-align: center; }
-          /* line 1152, style.scss */
+          /* line 1162, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-small {
             font-size: 16px;
             color: #c7a610;
@@ -1152,7 +1164,7 @@
             text-transform: uppercase;
             letter-spacing: 5px;
             position: relative; }
-          /* line 1163, style.scss */
+          /* line 1173, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-big {
             margin-bottom: 20px;
             font-size: 3rem;
@@ -1161,17 +1173,17 @@
             color: #2b2d42;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
             text-transform: capitalize; }
-          /* line 1173, style.scss */
+          /* line 1183, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .section-heading p {
             color: #6e6e6e;
             line-height: 1.8;
             font-size: 16px; }
-        /* line 1180, style.scss */
+        /* line 1190, style.scss */
         #top .section-amenities-padding .auto-container .wrapper .row {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-          /* line 1183, style.scss */
+          /* line 1193, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
             position: relative;
             margin: 0 1.5rem 30px;
@@ -1185,14 +1197,14 @@
                     flex: 0 0 auto;
             width: 20%;
             min-width: 230px; }
-            /* line 1195, style.scss */
+            /* line 1205, style.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon {
               font-size: 45px;
               color: #2b2d42;
               margin-bottom: 15px;
               -webkit-transition: .5s;
               transition: .5s; }
-              /* line 1201, style.scss */
+              /* line 1211, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon [class*="icon-"] {
                 font-family: "Material Symbols Outlined" !important;
                 font-style: normal;
@@ -1202,74 +1214,74 @@
                 font-variant: normal;
                 text-transform: none;
                 line-height: 1; }
-              /* line 1211, style.scss */
+              /* line 1221, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-1::before {
                 content: "\e63e"; }
-              /* line 1215, style.scss */
+              /* line 1225, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-2::before {
                 content: "\efdd"; }
-              /* line 1219, style.scss */
+              /* line 1229, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-3::before {
                 content: "\e9c7"; }
-              /* line 1223, style.scss */
+              /* line 1233, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-4::before {
                 content: "\f6f9"; }
-              /* line 1227, style.scss */
+              /* line 1237, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-5::before {
                 content: "\ea43"; }
-              /* line 1231, style.scss */
+              /* line 1241, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-6::before {
                 content: "\f00c"; }
-              /* line 1235, style.scss */
+              /* line 1245, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-7::before {
                 content: "\ea47"; }
-              /* line 1239, style.scss */
+              /* line 1249, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-8::before {
                 content: "\e406"; }
-              /* line 1243, style.scss */
+              /* line 1253, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-9::before {
                 content: "\f8a2"; }
-              /* line 1247, style.scss */
+              /* line 1257, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-10::before {
                 content: "\f168"; }
-              /* line 1251, style.scss */
+              /* line 1261, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-11::before {
                 content: "\e6f8"; }
-              /* line 1255, style.scss */
+              /* line 1265, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-12::before {
                 content: "\e561"; }
-            /* line 1260, style.scss */
+            /* line 1270, style.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box p {
               text-transform: uppercase;
               margin-bottom: 0;
               font-weight: 500;
               line-height: 1.8;
               font-size: 16px; }
-          /* line 1269, style.scss */
+          /* line 1279, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover {
             -webkit-transform: scale(1.05);
                     transform: scale(1.05);
             -webkit-box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1);
                     box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1); }
-          /* line 1274, style.scss */
+          /* line 1284, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover > .icon > [class*="icon-"] {
             -webkit-transition: .5s;
             transition: .5s; }
-  /* line 1283, style.scss */
+  /* line 1293, style.scss */
   #top .section-contactform-padding {
     background-color: #faf5f2;
     max-width: 1920px; }
-    /* line 1287, style.scss */
+    /* line 1297, style.scss */
     #top .section-contactform-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1292, style.scss */
+      /* line 1302, style.scss */
       #top .section-contactform-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1295, style.scss */
+        /* line 1305, style.scss */
         #top .section-contactform-padding .auto-container .row .contact-discription {
           padding: 20px 10px;
           -webkit-box-flex: 0;
@@ -1277,11 +1289,11 @@
                   flex: 0 0 auto;
           width: 50%;
           max-width: 100%; }
-          /* line 1301, style.scss */
+          /* line 1311, style.scss */
           #top .section-contactform-padding .auto-container .row .contact-discription .section-heading {
             z-index: 1;
             margin-bottom: 20px; }
-            /* line 1305, style.scss */
+            /* line 1315, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription .section-heading span {
               font-size: 16px;
               color: #c7a610;
@@ -1291,7 +1303,7 @@
               text-transform: uppercase;
               letter-spacing: 5px;
               position: relative; }
-            /* line 1315, style.scss */
+            /* line 1325, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription .section-heading h2 {
               font-size: 56.8px;
               font-weight: 700;
@@ -1301,20 +1313,20 @@
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               padding-right: 15px;
               text-transform: capitalize; }
-          /* line 1326, style.scss */
+          /* line 1336, style.scss */
           #top .section-contactform-padding .auto-container .row .contact-discription p {
             position: relative;
             padding-right: 15px;
             margin-bottom: 0;
             line-height: 1.8;
             font-size: 16px; }
-            /* line 1333, style.scss */
+            /* line 1343, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription p a {
               color: #2b2d42; }
-            /* line 1336, style.scss */
+            /* line 1346, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription p a:hover {
               color: #c7a610; }
-        /* line 1341, style.scss */
+        /* line 1351, style.scss */
         #top .section-contactform-padding .auto-container .row .contact-form {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1323,21 +1335,21 @@
           width: auto;
           max-width: 100%;
           position: relative; }
-          /* line 1348, style.scss */
+          /* line 1358, style.scss */
           #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group {
             position: relative; }
-            /* line 1351, style.scss */
+            /* line 1361, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles {
               position: absolute;
               left: -80px;
               bottom: -110px;
               -webkit-transition: all .7s ease;
               transition: all .7s ease; }
-            /* line 1357, style.scss */
+            /* line 1367, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover {
               -webkit-transform: rotate(150deg);
                       transform: rotate(150deg); }
-            /* line 1361, style.scss */
+            /* line 1371, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g1-1 #p1-1-1-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g1-1 #p1-1-1-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g1-1 #p1-1-1-3,
@@ -1372,7 +1384,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .2s;
                       transition-delay: .2s; }
-            /* line 1396, style.scss */
+            /* line 1406, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g2-1 #p2-1-2-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g2-1 #p2-1-2-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g2-1 #p2-1-2-3,
@@ -1418,7 +1430,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .3s;
                       transition-delay: .3s; }
-            /* line 1442, style.scss */
+            /* line 1452, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g3-1 #p3-1-3-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g3-1 #p3-1-3-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g3-1 #p3-1-3-3,
@@ -1447,7 +1459,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .4s;
                       transition-delay: .4s; }
-            /* line 1471, style.scss */
+            /* line 1481, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g4-1 #p4-1-4-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g4-1 #p4-1-4-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g4-1 #p4-1-4-3,
@@ -1465,14 +1477,14 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .5s;
                       transition-delay: .5s; }
-            /* line 1489, style.scss */
+            /* line 1499, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form {
               position: relative;
               background: #fff;
               padding: 50px 70px;
               max-width: 560px;
               margin: 0 0 30px auto; }
-              /* line 1496, style.scss */
+              /* line 1506, style.scss */
               #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form {
                 margin-left: -15px;
                 margin-right: -15px;
@@ -1481,7 +1493,7 @@
                 display: flex;
                 -ms-flex-wrap: wrap;
                     flex-wrap: wrap; }
-                /* line 1502, style.scss */
+                /* line 1512, style.scss */
                 #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group {
                   margin-bottom: 20px;
                   padding: 0 15px;
@@ -1490,7 +1502,7 @@
                           flex: 0 0 auto;
                   width: 100%;
                   max-width: 100%; }
-                  /* line 1509, style.scss */
+                  /* line 1519, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group input[type="text"] {
                     background: #fff;
                     border: 1px solid;
@@ -1499,7 +1511,7 @@
                     width: 85%;
                     height: 50px;
                     color: #6e6e6e; }
-                  /* line 1519, style.scss */
+                  /* line 1529, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group textarea {
                     background: #fff;
                     border: 1px solid;
@@ -1511,24 +1523,24 @@
                     color: #6e6e6e;
                     overflow: hidden;
                     resize: vertical; }
-                  /* line 1532, style.scss */
+                  /* line 1542, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p {
                     color: #6e6e6e;
                     line-height: 1.8;
                     font-size: 16px;
                     margin-top: 0;
                     margin-bottom: 1rem; }
-                    /* line 1539, style.scss */
+                    /* line 1549, style.scss */
                     #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p input[type="checkbox"] {
                       margin-right: 5px;
                       position: relative;
                       top: 2px; }
-                /* line 1546, style.scss */
+                /* line 1556, style.scss */
                 #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
                   position: relative;
                   padding-top: 20px;
                   margin: 0 -10px; }
-                  /* line 1551, style.scss */
+                  /* line 1561, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn button[type="submit"] {
                     cursor: pointer;
                     color: #fff;
@@ -1546,26 +1558,26 @@
                     -webkit-transition: .5s;
                     transition: .5s;
                     background-color: #c7a610; }
-                  /* line 1567, style.scss */
+                  /* line 1577, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn [type="submit"]:hover {
                     color: #fff;
                     background-color: #2c2a49; }
-  /* line 1582, style.scss */
+  /* line 1592, style.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
-    /* line 1586, style.scss */
+    /* line 1596, style.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1591, style.scss */
+      /* line 1601, style.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1595, style.scss */
+        /* line 1605, style.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1573,36 +1585,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
-          /* line 1603, style.scss */
+          /* line 1613, style.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 1612, style.scss */
+          /* line 1622, style.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
-            /* line 1616, style.scss */
+            /* line 1626, style.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
-              /* line 1620, style.scss */
+              /* line 1630, style.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
-              /* line 1626, style.scss */
+              /* line 1636, style.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
-          /* line 1633, style.scss */
+          /* line 1643, style.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
-            /* line 1638, style.scss */
+            /* line 1648, style.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -1612,18 +1624,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
-            /* line 1648, style.scss */
+            /* line 1658, style.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
-          /* line 1655, style.scss */
+          /* line 1665, style.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
-            /* line 1658, style.scss */
+            /* line 1668, style.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
-              /* line 1661, style.scss */
+              /* line 1671, style.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -1631,7 +1643,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
-              /* line 1670, style.scss */
+              /* line 1680, style.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -1652,19 +1664,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
-              /* line 1689, style.scss */
+              /* line 1699, style.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
-        /* line 1698, style.scss */
+        /* line 1708, style.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
-        /* line 1703, style.scss */
+        /* line 1713, style.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
-  /* line 1712, style.scss */
+  /* line 1722, style.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -1677,14 +1689,14 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
-    /* line 1723, style.scss */
+    /* line 1733, style.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
-    /* line 1730, style.scss */
+    /* line 1740, style.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
@@ -1877,4 +1889,5 @@
         width: 85% !important;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a; } }
+
 /*# sourceMappingURL=style.css.map */

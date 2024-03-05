@@ -226,29 +226,28 @@
 
         /* mobile menu */
         .mobile-menu {
-            display: none;
-            opacity: 1;
-            visibility: visible;
             position: fixed;
             right: 0;
             top: 0;
-            width: 320px;
+            width: 0;
+            overflow: hidden;
             padding-right: 30px;
             max-width: 100%;
             height: 100%;
+            opacity: 0;
+            visibility: hidden;
             z-index: 999999;
+            transition: all .9s ease;
 
             .menu-drop {
-                opacity: 0.7;
-                visibility: visible;
-                transition: all .7s ease;
-                transform: translateX(0);
                 position: fixed;
                 right: 0;
                 top: 0;
                 width: 100%;
                 height: 100%;
                 z-index: 1;
+                transform: translateX(101%);
+                transition: all .9s ease;
                 background-color: $yellow;
             }
 
@@ -376,7 +375,6 @@
                                     color: $backg;
                                     text-transform: uppercase;
                                     transition: all .5s ease;
-                                    text-decoration: none;
                                 }
 
                                 a:hover{color: $yellow;}

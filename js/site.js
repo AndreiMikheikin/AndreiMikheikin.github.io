@@ -3,17 +3,17 @@ window.addEventListener("load",function(){
     e.style.display="none"
 });
 
-$(document).ready(function(e){
-    e("#top>header>#mobMenu>.close-btn").click(function(){
-        e("#top>header>.mobile-menu").css("display","none")
+/* $(document).ready(function(){
+    $('.close-btn').click(function(){
+        $('.mobile-menu').css("display","none")
     });
 });
 
-$(document).ready(function(e){
-    e("#top>header>.container>.mobile-column>.mobile-column-btn").click(function(){
-        e("#top>header>.mobile-menu").css("display","block")
+$(document).ready(function(){
+    $('.mobile-column-btn').click(function(){
+        $('.mobile-menu').css("display","block")
     });
-});
+}); */
 
 $(document).ready(function(){
     var e=document.querySelector(".not-droped1");

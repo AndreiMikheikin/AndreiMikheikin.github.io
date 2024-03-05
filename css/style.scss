@@ -5,16 +5,27 @@
 
     /* header */
     header {
-        max-width: 1920px;
+        position: relative;
+        display: block;
+        width: 100%;
+        top: 0;
+        left: 0;
+        background: none;
+        clear: both;
+        box-shadow: 0 10px 20px rgba(0,0,0,.03);
+        /* max-width: 1920px;
         height: 75px;
-        min-height: 75px;
-        z-index: 99999;
+        min-height: 75px; */
+        z-index: 9999;
 
         .container {
-            max-width: 1290px;
-            height: 75px;
-            min-height: 75px;
-            display: flex;
+            position: static;
+            max-width: 1320px;
+            margin: 0 auto;
+            padding: 0 15px;
+            /* height: 75px;
+            min-height: 75px; */
+            display: flex !important;
             align-items: center;
             justify-content: space-between;
 
@@ -231,29 +242,28 @@
 
         /* mobile menu */
         .mobile-menu {
-            display: none;
-            opacity: 1;
-            visibility: visible;
             position: fixed;
             right: 0;
             top: 0;
-            width: 320px;
+            width: 0;
+            overflow: hidden;
             padding-right: 30px;
             max-width: 100%;
             height: 100%;
+            opacity: 0;
+            visibility: hidden;
             z-index: 999999;
+            transition: all .9s ease;
 
             .menu-drop {
-                opacity: 0.7;
-                visibility: visible;
-                transition: all .7s ease;
-                transform: translateX(0);
                 position: fixed;
                 right: 0;
                 top: 0;
                 width: 100%;
                 height: 100%;
                 z-index: 1;
+                transform: translateX(101%);
+                transition: all .9s ease;
                 background-color: $yellow;
             }
 

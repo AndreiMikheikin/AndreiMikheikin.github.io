@@ -38,4 +38,22 @@ h2.anim.active, .flexelement.anim.active {
           transform: rotateX(0);
   opacity: 1; }
 
+/* line 30, animation.scss */
+#top > header > .mobile-menu.active {
+  visibility: visible;
+  opacity: 1;
+  width: 300px;
+  overflow: auto;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease; }
+
+/* line 38, animation.scss */
+#top > header > .mobile-menu.active .menu-drop {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  visibility: visible;
+  opacity: .7;
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease; }
+
 /*# sourceMappingURL=animation.css.map */
