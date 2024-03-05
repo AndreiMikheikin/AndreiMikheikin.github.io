@@ -1,8 +1,10 @@
+/* preloader */
 window.addEventListener("load",function(){
     var e=document.getElementById("preloader");
     e.style.display="none"
 });
 
+/* hide/show onclick */
 /* $(document).ready(function(){
     $('.close-btn').click(function(){
         $('.mobile-menu').css("display","none")
@@ -15,7 +17,8 @@ $(document).ready(function(){
     });
 }); */
 
-$(document).ready(function(){
+/* accordion on button click */
+/* $(document).ready(function(){
     var e=document.querySelector(".not-droped1");
     o=document.querySelector(".dropdown-btn1");
     o.onclick=function(){
@@ -45,25 +48,26 @@ $(document).ready(function(){
     o.onclick=function(){
         e.classList.toggle("droped")
     };
-});
+}); */
 
+/* accordion on item click */
 $(document).ready(function(){
     $('.accordion-btn').click(function(){
         $(this).next().slideToggle(500);
     });
 });
 
+/* change visibility onclick */
 document.addEventListener("DOMContentLoaded", function(){
-    var buttons = document.querySelectorAll('.accordion-btn');
+    var btns = document.querySelectorAll('.dropdown');
 
-    buttons.forEach(function(button){
-        button.addEventListener('click', function(){
-            var icon = this.querySelector('.icon');
-            var plus = icon.querySelector('.plus');
-            var minus = icon.querySelector('.minus');
+    btns.forEach(function(btn){
+        btn.addEventListener('click', function(){
+            var item = this.querySelector('.not-droped');
+            var icon = this.querySelector('.dropdown-btn');
 
-            plus.classList.toggle('invisible');
-            minus.classList.toggle('invisible');
+            item.classList.toggle('droped');
+            icon.classList.toggle('btn-rotateZ');
         });
     });
 });

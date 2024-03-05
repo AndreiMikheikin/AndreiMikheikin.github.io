@@ -42,7 +42,7 @@ h2.anim.active, .flexelement.anim.active {
 #top > header > .mobile-menu.active {
   visibility: visible;
   opacity: 1;
-  width: 300px;
+  width: 320px;
   overflow: auto;
   -webkit-transition: all .7s ease;
   transition: all .7s ease; }
@@ -55,5 +55,12 @@ h2.anim.active, .flexelement.anim.active {
   opacity: .7;
   -webkit-transition: all .7s ease;
   transition: all .7s ease; }
+
+/* line 45, animation.scss */
+.btn-rotateZ {
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+  -webkit-transition: all .3s;
+  transition: all .3s; }
 
 /*# sourceMappingURL=animation.css.map */

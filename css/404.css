@@ -88,10 +88,10 @@
           position: relative;
           width: 50px;
           height: 50px;
-          line-height: 44px;
+          line-height: 50px;
           text-align: center;
           color: #fff;
-          font-size: 30px;
+          font-size: 36px;
           cursor: pointer;
           border-radius: 50%;
           margin: 13px 0 13px 15px;
@@ -100,15 +100,18 @@
           /* line 75, 404.scss */
           #top header .container .mobile-column .mobile-column-btn span::before {
             position: absolute;
+            right: 8px;
             content: "\e5d2";
             font-family: "Material Symbols Outlined"; }
-        /* line 82, 404.scss */
+        /* line 83, 404.scss */
         #top header .container .mobile-column .mobile-column-btn:hover {
+          -webkit-transform: scale(1.01);
+                  transform: scale(1.01);
           color: #c7a610; }
-      /* line 88, 404.scss */
+      /* line 90, 404.scss */
       #top header .container .main-menu {
         position: relative; }
-        /* line 91, 404.scss */
+        /* line 93, 404.scss */
         #top header .container .main-menu ul {
           position: relative;
           display: -webkit-box;
@@ -120,14 +123,14 @@
               -ms-flex-align: center;
                   align-items: center;
           list-style: none; }
-          /* line 98, 404.scss */
+          /* line 100, 404.scss */
           #top header .container .main-menu ul li {
             position: relative;
             padding: 20px 0;
             margin-right: 30px;
             -webkit-transition: all .3s ease;
             transition: all .3s ease; }
-            /* line 104, 404.scss */
+            /* line 106, 404.scss */
             #top header .container .main-menu ul li a {
               position: relative;
               display: block;
@@ -139,17 +142,17 @@
               color: #fff;
               padding: 3px 0;
               opacity: 1; }
-            /* line 117, 404.scss */
+            /* line 119, 404.scss */
             #top header .container .main-menu ul li a:hover {
               color: #c7a610; }
-            /* line 121, 404.scss */
+            /* line 123, 404.scss */
             #top header .container .main-menu ul li a.expand-more::before {
               position: absolute;
               content: "\e5cc";
               right: -15px;
               top: 5px;
               font-family: 'Material Symbols Outlined'; }
-            /* line 129, 404.scss */
+            /* line 131, 404.scss */
             #top header .container .main-menu ul li ul {
               padding: 0;
               display: block !important;
@@ -169,13 +172,13 @@
               -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
                       box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
               border-top: 1px solid #c7a610; }
-              /* line 146, 404.scss */
+              /* line 148, 404.scss */
               #top header .container .main-menu ul li ul li {
                 position: relative;
                 width: 100%;
                 height: 40px;
                 padding: 0 25px; }
-                /* line 152, 404.scss */
+                /* line 154, 404.scss */
                 #top header .container .main-menu ul li ul li a {
                   position: relative;
                   display: block;
@@ -187,7 +190,7 @@
                   font-size: 17px;
                   color: #fff;
                   font-weight: 500; }
-              /* line 165, 404.scss */
+              /* line 167, 404.scss */
               #top header .container .main-menu ul li ul li::before {
                 position: absolute;
                 content: "";
@@ -198,7 +201,7 @@
                 display: block;
                 -webkit-transition: all .5s ease;
                 transition: all .5s ease; }
-          /* line 178, 404.scss */
+          /* line 180, 404.scss */
           #top header .container .main-menu ul li::before {
             position: absolute;
             content: "";
@@ -207,18 +210,18 @@
             width: 23px;
             height: 1px;
             opacity: 0; }
-          /* line 188, 404.scss */
+          /* line 190, 404.scss */
           #top header .container .main-menu ul li:hover ul {
             visibility: visible;
             opacity: 1;
             top: 45px; }
-          /* line 194, 404.scss */
+          /* line 196, 404.scss */
           #top header .container .main-menu ul a:hover {
             color: #c7a610; }
-      /* line 201, 404.scss */
+      /* line 203, 404.scss */
       #top header .container .link-btn {
         position: relative; }
-        /* line 204, 404.scss */
+        /* line 206, 404.scss */
         #top header .container .link-btn a {
           padding: 11px 30px 10px;
           color: #fff;
@@ -236,11 +239,11 @@
           -webkit-transition: .5s;
           transition: .5s;
           text-transform: uppercase; }
-        /* line 220, 404.scss */
+        /* line 222, 404.scss */
         #top header .container .link-btn a:hover {
           color: #fff;
           background-color: #c7a610; }
-    /* line 228, 404.scss */
+    /* line 230, 404.scss */
     #top header .mobile-menu {
       position: fixed;
       right: 0;
@@ -255,7 +258,7 @@
       z-index: 999999;
       -webkit-transition: all .9s ease;
       transition: all .9s ease; }
-      /* line 242, 404.scss */
+      /* line 244, 404.scss */
       #top header .mobile-menu .menu-drop {
         position: fixed;
         right: 0;
@@ -268,7 +271,7 @@
         -webkit-transition: all .9s ease;
         transition: all .9s ease;
         background-color: #c7a610; }
-      /* line 254, 404.scss */
+      /* line 256, 404.scss */
       #top header .mobile-menu .close-btn {
         position: absolute;
         right: 20px;
@@ -282,7 +285,7 @@
         z-index: 10;
         -webkit-transition: all .9s ease;
         transition: all .9s ease; }
-        /* line 267, 404.scss */
+        /* line 269, 404.scss */
         #top header .mobile-menu .close-btn span {
           display: inline-block;
           font-style: normal;
@@ -291,17 +294,17 @@
           font-variant: normal;
           text-rendering: auto;
           line-height: 1; }
-        /* line 276, 404.scss */
+        /* line 278, 404.scss */
         #top header .mobile-menu .close-btn span::before {
           position: absolute;
           content: "\e5cd";
           top: 0;
           right: 0;
           font-family: "Material Symbols Outlined"; }
-      /* line 285, 404.scss */
+      /* line 287, 404.scss */
       #top header .mobile-menu .close-btn:hover {
         color: #c7a610; }
-      /* line 289, 404.scss */
+      /* line 291, 404.scss */
       #top header .mobile-menu .menu-box {
         opacity: 1;
         visibility: visible;
@@ -320,7 +323,7 @@
         padding: 0;
         z-index: 5;
         border-radius: 0; }
-        /* line 306, 404.scss */
+        /* line 308, 404.scss */
         #top header .mobile-menu .menu-box .nav-logo {
           position: relative;
           padding: 30px 25px;
@@ -329,7 +332,7 @@
           margin-top: 25px;
           height: 48.15px;
           min-height: 48px; }
-          /* line 315, 404.scss */
+          /* line 317, 404.scss */
           #top header .mobile-menu .menu-box .nav-logo a {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -339,7 +342,7 @@
             -webkit-box-align: center;
                 -ms-flex-align: center;
                     align-items: center; }
-            /* line 320, 404.scss */
+            /* line 322, 404.scss */
             #top header .mobile-menu .menu-box .nav-logo a img {
               display: inline-block;
               vertical-align: middle;
@@ -347,33 +350,33 @@
               max-width: 100%;
               height: 48px;
               background: #202020; }
-            /* line 329, 404.scss */
+            /* line 331, 404.scss */
             #top header .mobile-menu .menu-box .nav-logo a span {
               vertical-align: middle;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               font-size: 32px;
               color: #c7a610;
               font-weight: 500; }
-        /* line 340, 404.scss */
+        /* line 342, 404.scss */
         #top header .mobile-menu .menu-box .menu-wrapper {
           position: relative; }
-          /* line 343, 404.scss */
+          /* line 345, 404.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse {
             display: block !important;
             width: 100%; }
-            /* line 347, 404.scss */
+            /* line 349, 404.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix {
               position: relative;
               display: block;
               width: 100%;
               float: none;
               list-style: none; }
-              /* line 354, 404.scss */
+              /* line 356, 404.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li {
                 position: relative;
                 display: block;
                 border-top: 1px solid rgba(255, 255, 255, 0.1); }
-                /* line 359, 404.scss */
+                /* line 361, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:before {
                   content: "";
                   position: absolute;
@@ -382,7 +385,7 @@
                   height: 0;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
-                /* line 368, 404.scss */
+                /* line 370, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a {
                   position: relative;
                   display: block;
@@ -394,37 +397,28 @@
                   text-transform: uppercase;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
-                /* line 380, 404.scss */
+                /* line 382, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:hover {
                   color: #c7a610; }
-                /* line 382, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped1 {
+                /* line 384, 404.scss */
+                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped {
                   display: none; }
-                /* line 386, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped2 {
-                  display: none; }
-                /* line 390, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped3 {
-                  display: none; }
-                /* line 394, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped4 {
-                  display: none; }
-                /* line 398, 404.scss */
+                /* line 388, 404.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped {
                   display: block; }
-                  /* line 401, 404.scss */
+                  /* line 391, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li:first-child {
                     border-top: 1px solid rgba(255, 255, 255, 0.1); }
-                  /* line 406, 404.scss */
+                  /* line 396, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a {
                     font-size: 15px;
                     margin-left: 20px;
                     text-transform: capitalize; }
-                  /* line 412, 404.scss */
+                  /* line 402, 404.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a:hover {
                     color: #c7a610; }
-                /* line 418, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 {
+                /* line 408, 404.scss */
+                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn {
                   position: absolute;
                   right: 6px;
                   top: 6px;
@@ -440,97 +434,25 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
-                  /* line 434, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 span::before {
+                  /* line 424, 404.scss */
+                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn span::before {
                     content: ""; }
-                  /* line 438, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn1 span {
+                  /* line 428, 404.scss */
+                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
-                /* line 444, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 {
-                  position: absolute;
-                  right: 6px;
-                  top: 6px;
-                  width: 32px;
-                  height: 32px;
-                  text-align: center;
-                  font-size: 16px;
-                  line-height: 32px;
-                  color: #fff;
-                  background: rgba(255, 255, 255, 0.1);
-                  cursor: pointer;
-                  border-radius: 2px;
-                  -webkit-transition: all .5s ease;
-                  transition: all .5s ease;
-                  z-index: 5; }
-                  /* line 460, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 span::before {
-                    content: ""; }
-                  /* line 464, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn2 span {
-                    font-family: "Material Symbols Outlined";
-                    font-weight: 900; }
-                /* line 470, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 {
-                  position: absolute;
-                  right: 6px;
-                  top: 6px;
-                  width: 32px;
-                  height: 32px;
-                  text-align: center;
-                  font-size: 16px;
-                  line-height: 32px;
-                  color: #fff;
-                  background: rgba(255, 255, 255, 0.1);
-                  cursor: pointer;
-                  border-radius: 2px;
-                  -webkit-transition: all .5s ease;
-                  transition: all .5s ease;
-                  z-index: 5; }
-                  /* line 486, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 span::before {
-                    content: ""; }
-                  /* line 490, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn3 span {
-                    font-family: "Material Symbols Outlined";
-                    font-weight: 900; }
-                /* line 496, 404.scss */
-                #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 {
-                  position: absolute;
-                  right: 6px;
-                  top: 6px;
-                  width: 32px;
-                  height: 32px;
-                  text-align: center;
-                  font-size: 16px;
-                  line-height: 32px;
-                  color: #fff;
-                  background: rgba(255, 255, 255, 0.1);
-                  cursor: pointer;
-                  border-radius: 2px;
-                  -webkit-transition: all .5s ease;
-                  transition: all .5s ease;
-                  z-index: 5; }
-                  /* line 512, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 span::before {
-                    content: ""; }
-                  /* line 516, 404.scss */
-                  #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn4 span {
-                    font-family: "Material Symbols Outlined";
-                    font-weight: 900; }
-              /* line 523, 404.scss */
+              /* line 435, 404.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover .expand-more, #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover [class*="dropdown"] {
                 color: #c7a610; }
-            /* line 528, 404.scss */
+            /* line 440, 404.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix:last-child {
               border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-          /* line 533, 404.scss */
+          /* line 445, 404.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse::after {
             display: block;
             clear: both;
             content: ""; }
-        /* line 540, 404.scss */
+        /* line 452, 404.scss */
         #top header .mobile-menu .menu-box .social-links {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -538,25 +460,25 @@
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-          /* line 544, 404.scss */
+          /* line 456, 404.scss */
           #top header .mobile-menu .menu-box .social-links a {
             margin-top: 30px;
             margin-right: 20px;
             font-size: 15px;
             -webkit-transition: all .2s ease;
             transition: all .2s ease; }
-          /* line 551, 404.scss */
+          /* line 463, 404.scss */
           #top header .mobile-menu .menu-box .social-links a[href*="www.facebook"]:hover #path4533,
           #top header .mobile-menu .menu-box .social-links a[href*="www.instagram"]:hover #path5,
           #top header .mobile-menu .menu-box .social-links a[href*="vk.com"]:hover #rect4570 {
             fill: #c7a610 !important; }
-  /* line 562, 404.scss */
+  /* line 474, 404.scss */
   #top main {
     max-width: 1920px;
     top: 0;
     left: 0;
     right: 0; }
-    /* line 568, 404.scss */
+    /* line 480, 404.scss */
     #top main .page-title {
       position: relative;
       padding: 290px 0 245px;
@@ -564,12 +486,12 @@
       background: url(../img/entrance.jpg) no-repeat;
       background-size: cover;
       background-position: center; }
-      /* line 576, 404.scss */
+      /* line 488, 404.scss */
       #top main .page-title .auto-container {
         position: static;
         max-width: 1320px;
         padding: 0 15px; }
-        /* line 581, 404.scss */
+        /* line 493, 404.scss */
         #top main .page-title .auto-container h1 {
           color: #fff;
           position: relative;
@@ -578,7 +500,7 @@
           font-weight: 700;
           font-size: 80px;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-    /* line 592, 404.scss */
+    /* line 504, 404.scss */
     #top main .page-title::after {
       position: absolute;
       content: "";
@@ -586,17 +508,17 @@
       left: 0;
       right: 0;
       bottom: 0; }
-  /* line 603, 404.scss */
+  /* line 515, 404.scss */
   #top .back-to-home {
     max-width: 1920px;
     padding: 22px 0;
     background: #faf5f2; }
-    /* line 608, 404.scss */
+    /* line 520, 404.scss */
     #top .back-to-home .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 613, 404.scss */
+      /* line 525, 404.scss */
       #top .back-to-home .auto-container .list {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -605,22 +527,22 @@
             -ms-flex-pack: center;
                 justify-content: center;
         list-style: none; }
-        /* line 618, 404.scss */
+        /* line 530, 404.scss */
         #top .back-to-home .auto-container .list li {
           color: #2c2a49;
           font-size: 17px;
           font-weight: 500;
           margin-right: 10px;
           position: relative; }
-          /* line 625, 404.scss */
+          /* line 537, 404.scss */
           #top .back-to-home .auto-container .list li a {
             color: #2c2a49;
             -webkit-transition: .3s;
             transition: .3s; }
-          /* line 630, 404.scss */
+          /* line 542, 404.scss */
           #top .back-to-home .auto-container .list li a:hover {
             color: #c7a610; }
-        /* line 635, 404.scss */
+        /* line 547, 404.scss */
         #top .back-to-home .auto-container .list li + li::before {
           content: "\e5cc";
           font-family: 'Material Symbols Outlined';
@@ -630,18 +552,18 @@
           margin-right: 9px;
           position: relative;
           top: 2px; }
-  /* line 650, 404.scss */
+  /* line 562, 404.scss */
   #top .section-home-padding {
     position: relative; }
-    /* line 653, 404.scss */
+    /* line 565, 404.scss */
     #top .section-home-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 658, 404.scss */
+      /* line 570, 404.scss */
       #top .section-home-padding .auto-container .content {
         text-align: center; }
-        /* line 661, 404.scss */
+        /* line 573, 404.scss */
         #top .section-home-padding .auto-container .content h2 {
           font-weight: 700;
           line-height: 1;
@@ -649,7 +571,7 @@
           position: relative;
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-        /* line 670, 404.scss */
+        /* line 582, 404.scss */
         #top .section-home-padding .auto-container .content h3 {
           margin-bottom: 30px;
           font-size: 28px;
@@ -658,18 +580,18 @@
           position: relative;
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-        /* line 680, 404.scss */
+        /* line 592, 404.scss */
         #top .section-home-padding .auto-container .content p {
           margin-bottom: 30px;
           color: #6e6e6e;
           line-height: 1.8;
           font-size: 16px; }
-        /* line 687, 404.scss */
+        /* line 599, 404.scss */
         #top .section-home-padding .auto-container .content .link-btn {
           position: relative;
           padding-top: 20px;
           margin: 0 -10px; }
-          /* line 692, 404.scss */
+          /* line 604, 404.scss */
           #top .section-home-padding .auto-container .content .link-btn a {
             margin: 0 10px 10px;
             padding: 17px 35px 16px;
@@ -688,25 +610,25 @@
             -webkit-transition: .5s;
             transition: .5s;
             text-transform: uppercase; }
-          /* line 709, 404.scss */
+          /* line 621, 404.scss */
           #top .section-home-padding .auto-container .content .link-btn a:hover {
             color: #fff;
             background-color: #2c2a49; }
-  /* line 719, 404.scss */
+  /* line 631, 404.scss */
   #top .section-about-padding {
     background-color: #fff;
     max-width: 1920px; }
-    /* line 723, 404.scss */
+    /* line 635, 404.scss */
     #top .section-about-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 728, 404.scss */
+      /* line 640, 404.scss */
       #top .section-about-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 731, 404.scss */
+        /* line 643, 404.scss */
         #top .section-about-padding .auto-container .row .about-discription {
           margin: 20px 10px;
           -webkit-box-flex: 0;
@@ -741,11 +663,11 @@
                         background-color: $title-color;
                     }
                 } */ }
-          /* line 737, 404.scss */
+          /* line 649, 404.scss */
           #top .section-about-padding .auto-container .row .about-discription .section-heading {
             z-index: 1;
             margin-bottom: 20px; }
-            /* line 741, 404.scss */
+            /* line 653, 404.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading span {
               font-size: 16px;
               color: #c7a610;
@@ -755,7 +677,7 @@
               text-transform: uppercase;
               letter-spacing: 5px;
               position: relative; }
-            /* line 751, 404.scss */
+            /* line 663, 404.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading h2 {
               font-size: 56.8px;
               font-weight: 700;
@@ -765,13 +687,13 @@
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               padding-right: 15px;
               text-transform: capitalize; }
-          /* line 762, 404.scss */
+          /* line 674, 404.scss */
           #top .section-about-padding .auto-container .row .about-discription p {
             position: relative;
             margin-bottom: 0;
             line-height: 1.8;
             font-size: 16px; }
-        /* line 797, 404.scss */
+        /* line 709, 404.scss */
         #top .section-about-padding .auto-container .row .about-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -779,22 +701,22 @@
                   flex: 0 0 auto;
           width: 50%;
           max-width: 100%; }
-          /* line 803, 404.scss */
+          /* line 715, 404.scss */
           #top .section-about-padding .auto-container .row .about-block .about-image {
             margin-bottom: 30px;
             position: relative; }
-            /* line 807, 404.scss */
+            /* line 719, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
               position: absolute;
               left: -50px;
               bottom: 20px;
               -webkit-transition: all .7s ease;
               transition: all .7s ease; }
-            /* line 813, 404.scss */
+            /* line 725, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover {
               -webkit-transform: rotate(-150deg);
                       transform: rotate(-150deg); }
-            /* line 817, 404.scss */
+            /* line 729, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-3,
@@ -829,7 +751,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .2s;
                       transition-delay: .2s; }
-            /* line 852, 404.scss */
+            /* line 764, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-3,
@@ -875,7 +797,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .3s;
                       transition-delay: .3s; }
-            /* line 898, 404.scss */
+            /* line 810, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-3,
@@ -904,7 +826,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .4s;
                       transition-delay: .4s; }
-            /* line 927, 404.scss */
+            /* line 839, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-3,
@@ -922,25 +844,25 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .5s;
                       transition-delay: .5s; }
-            /* line 945, 404.scss */
+            /* line 857, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image-1 {
               position: relative; }
-              /* line 948, 404.scss */
+              /* line 860, 404.scss */
               #top .section-about-padding .auto-container .row .about-block .about-image .image-1 img {
                 display: inline-block;
                 max-width: 100%;
                 vertical-align: middle; }
-            /* line 955, 404.scss */
+            /* line 867, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image-2 {
               text-align: right;
               margin-top: -180px; }
-              /* line 959, 404.scss */
+              /* line 871, 404.scss */
               #top .section-about-padding .auto-container .row .about-block .about-image .image-2 img {
                 display: inline-block;
                 max-width: 100%;
                 height: auto;
                 vertical-align: middle; }
-            /* line 967, 404.scss */
+            /* line 879, 404.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
               position: absolute;
               left: 50%;
@@ -951,20 +873,20 @@
               text-align: center;
               color: #fff;
               padding-top: 38px; }
-              /* line 978, 404.scss */
+              /* line 890, 404.scss */
               #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn {
                 font-size: 70px;
                 margin-bottom: 15px;
                 cursor: pointer; }
-                /* line 983, 404.scss */
+                /* line 895, 404.scss */
                 #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn {
                   position: static; }
-                  /* line 986, 404.scss */
+                  /* line 898, 404.scss */
                   #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a {
                     text-decoration: none;
                     -webkit-transition: .3s;
                     transition: .3s; }
-                    /* line 990, 404.scss */
+                    /* line 902, 404.scss */
                     #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a .icon-1 {
                       font-family: "Material Symbols Outlined" !important;
                       font-style: normal;
@@ -980,28 +902,28 @@
                       border-radius: 50%;
                       -webkit-transition: .5s ease-in-out;
                       transition: .5s ease-in-out; }
-                    /* line 1005, 404.scss */
+                    /* line 917, 404.scss */
                     #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a .icon-1::before {
                       content: "\e037"; }
-                    /* line 1009, 404.scss */
+                    /* line 921, 404.scss */
                     #top .section-about-padding .auto-container .row .about-block .about-image .video-area .area-btn .video-btn a .icon-1:hover {
                       border: 5px dashed;
                       border-color: #2c2a49;
                       border-radius: 50%; }
-  /* line 1026, 404.scss */
+  /* line 938, 404.scss */
   #top .section-amenities-padding {
     background-color: #faf5f2;
     max-width: 1920px; }
-    /* line 1030, 404.scss */
+    /* line 942, 404.scss */
     #top .section-amenities-padding .auto-container {
       position: static;
       padding: 0 15px; }
-      /* line 1036, 404.scss */
+      /* line 948, 404.scss */
       #top .section-amenities-padding .auto-container .wrapper .section-heading {
         z-index: 1;
         margin-bottom: 50px;
         text-align: center; }
-        /* line 1041, 404.scss */
+        /* line 953, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-small {
           font-size: 16px;
           color: #c7a610;
@@ -1010,7 +932,7 @@
           font-weight: 500;
           text-transform: uppercase;
           letter-spacing: 5px; }
-        /* line 1051, 404.scss */
+        /* line 963, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-big {
           margin-bottom: 20px;
           font-size: 3rem;
@@ -1019,17 +941,17 @@
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           text-transform: capitalize; }
-        /* line 1061, 404.scss */
+        /* line 973, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading p {
           color: #6e6e6e;
           line-height: 1.8;
           font-size: 16px; }
-      /* line 1068, 404.scss */
+      /* line 980, 404.scss */
       #top .section-amenities-padding .auto-container .wrapper .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1071, 404.scss */
+        /* line 983, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
           position: relative;
           margin: 0 1.5rem 30px;
@@ -1043,14 +965,14 @@
                   flex: 0 0 auto;
           width: 20%;
           min-width: 230px; }
-          /* line 1083, 404.scss */
+          /* line 995, 404.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon {
             font-size: 45px;
             color: #2b2d42;
             margin-bottom: 15px;
             -webkit-transition: .5s;
             transition: .5s; }
-            /* line 1089, 404.scss */
+            /* line 1001, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon [class*="icon-"] {
               font-family: "Material Symbols Outlined" !important;
               font-style: normal;
@@ -1060,74 +982,74 @@
               font-variant: normal;
               text-transform: none;
               line-height: 1; }
-            /* line 1099, 404.scss */
+            /* line 1011, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-1::before {
               content: "\e63e"; }
-            /* line 1103, 404.scss */
+            /* line 1015, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-2::before {
               content: "\efdd"; }
-            /* line 1107, 404.scss */
+            /* line 1019, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-3::before {
               content: "\e9c7"; }
-            /* line 1111, 404.scss */
+            /* line 1023, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-4::before {
               content: "\f6f9"; }
-            /* line 1115, 404.scss */
+            /* line 1027, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-5::before {
               content: "\ea43"; }
-            /* line 1119, 404.scss */
+            /* line 1031, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-6::before {
               content: "\f00c"; }
-            /* line 1123, 404.scss */
+            /* line 1035, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-7::before {
               content: "\ea47"; }
-            /* line 1127, 404.scss */
+            /* line 1039, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-8::before {
               content: "\e406"; }
-            /* line 1131, 404.scss */
+            /* line 1043, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-9::before {
               content: "\f8a2"; }
-            /* line 1135, 404.scss */
+            /* line 1047, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-10::before {
               content: "\f168"; }
-            /* line 1139, 404.scss */
+            /* line 1051, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-11::before {
               content: "\e6f8"; }
-            /* line 1143, 404.scss */
+            /* line 1055, 404.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-12::before {
               content: "\e561"; }
-          /* line 1148, 404.scss */
+          /* line 1060, 404.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box p {
             text-transform: uppercase;
             margin-bottom: 0;
             font-weight: 500;
             line-height: 1.8;
             font-size: 16px; }
-        /* line 1157, 404.scss */
+        /* line 1069, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover {
           -webkit-transform: scale(1.05);
                   transform: scale(1.05);
           -webkit-box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1);
                   box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1); }
-        /* line 1162, 404.scss */
+        /* line 1074, 404.scss */
         #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover > .icon > [class*="icon-"] {
           color: #c7a610;
           -webkit-transition: .5s;
           transition: .5s; }
-  /* line 1172, 404.scss */
+  /* line 1084, 404.scss */
   #top .section-contact-padding {
     position: relative;
     max-width: 1320px; }
-    /* line 1176, 404.scss */
+    /* line 1088, 404.scss */
     #top .section-contact-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1181, 404.scss */
+      /* line 1093, 404.scss */
       #top .section-contact-padding .auto-container .section-heading {
         z-index: 1;
         margin-bottom: 20px; }
-        /* line 1185, 404.scss */
+        /* line 1097, 404.scss */
         #top .section-contact-padding .auto-container .section-heading span {
           font-size: 16px;
           color: #c7a610;
@@ -1137,7 +1059,7 @@
           text-transform: uppercase;
           letter-spacing: 5px;
           position: relative; }
-        /* line 1195, 404.scss */
+        /* line 1107, 404.scss */
         #top .section-contact-padding .auto-container .section-heading h2 {
           font-size: 56.8px;
           font-weight: 700;
@@ -1147,7 +1069,7 @@
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           padding-right: 15px;
           text-transform: capitalize; }
-      /* line 1207, 404.scss */
+      /* line 1119, 404.scss */
       #top .section-contact-padding .auto-container .contact-info {
         display: -webkit-box;
         display: -ms-flexbox;
@@ -1155,7 +1077,7 @@
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
         list-style: none; }
-        /* line 1212, 404.scss */
+        /* line 1124, 404.scss */
         #top .section-contact-padding .auto-container .contact-info li ul {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -1164,11 +1086,11 @@
               flex-wrap: wrap;
           list-style: none;
           margin-bottom: 40px; }
-          /* line 1218, 404.scss */
+          /* line 1130, 404.scss */
           #top .section-contact-padding .auto-container .contact-info li ul li {
             margin-right: 70px;
             border-left: 1px solid #bebec3; }
-            /* line 1222, 404.scss */
+            /* line 1134, 404.scss */
             #top .section-contact-padding .auto-container .contact-info li ul li h4 {
               text-align: left;
               margin-bottom: 10px;
@@ -1180,7 +1102,7 @@
               color: #2b2d42;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               text-transform: capitalize; }
-              /* line 1234, 404.scss */
+              /* line 1146, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 i {
                 color: #c7a610;
                 font-family: "Material Symbols Outlined";
@@ -1193,47 +1115,47 @@
                 line-height: 1;
                 margin-right: 10px;
                 font-size: 18px; }
-              /* line 1246, 404.scss */
+              /* line 1158, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-13::before {
                 position: relative;
                 content: "\e0c8";
                 top: 3px;
                 left: 5px; }
-              /* line 1252, 404.scss */
+              /* line 1164, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-14::before {
                 position: relative;
                 content: "\e0b0";
                 top: 3px;
                 left: 5px; }
-              /* line 1258, 404.scss */
+              /* line 1170, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-15::before {
                 position: relative;
                 content: "\e0b0";
                 top: 3px;
                 left: 5px; }
-              /* line 1264, 404.scss */
+              /* line 1176, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li h4 .icon-16::before {
                 position: relative;
                 content: "\e158";
                 top: 3px;
                 left: 5px; }
-            /* line 1272, 404.scss */
+            /* line 1184, 404.scss */
             #top .section-contact-padding .auto-container .contact-info li ul li p {
               line-height: 1.8;
               font-size: 11px;
               margin-bottom: 1rem;
               padding-left: 7px; }
-              /* line 1277, 404.scss */
+              /* line 1189, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li p a {
                 color: #6e6e6e; }
-              /* line 1280, 404.scss */
+              /* line 1192, 404.scss */
               #top .section-contact-padding .auto-container .contact-info li ul li p a:hover {
                 color: #c7a610; }
-          /* line 1285, 404.scss */
+          /* line 1197, 404.scss */
           #top .section-contact-padding .auto-container .contact-info li ul .location {
             border: none;
             margin-right: 10px; }
-      /* line 1292, 404.scss */
+      /* line 1204, 404.scss */
       #top .section-contact-padding .auto-container .row {
         padding-top: 30px;
         -webkit-box-pack: center;
@@ -1241,7 +1163,7 @@
                 justify-content: center;
         -webkit-box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 -1px 30px rgba(0, 0, 0, 0.3);
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3), 0 -1px 30px rgba(0, 0, 0, 0.3); }
-        /* line 1297, 404.scss */
+        /* line 1209, 404.scss */
         #top .section-contact-padding .auto-container .row .contact-form {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1250,17 +1172,17 @@
           width: 35%;
           max-width: 100%;
           position: relative; }
-          /* line 1304, 404.scss */
+          /* line 1216, 404.scss */
           #top .section-contact-padding .auto-container .row .contact-form .contact-form-group {
             position: relative; }
-            /* line 1307, 404.scss */
+            /* line 1219, 404.scss */
             #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
               position: relative;
               background: #fff;
               padding: 50px 70px;
               max-width: 560px;
               margin: 0 0 30px auto; }
-              /* line 1314, 404.scss */
+              /* line 1226, 404.scss */
               #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form {
                 margin-left: -15px;
                 margin-right: -15px;
@@ -1269,7 +1191,7 @@
                 display: flex;
                 -ms-flex-wrap: wrap;
                     flex-wrap: wrap; }
-                /* line 1320, 404.scss */
+                /* line 1232, 404.scss */
                 #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group {
                   margin-bottom: 20px;
                   padding: 0 15px;
@@ -1278,7 +1200,7 @@
                           flex: 0 0 auto;
                   width: 100%;
                   max-width: 100%; }
-                  /* line 1327, 404.scss */
+                  /* line 1239, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group input[type="text"] {
                     background: #fff;
                     border: 1px solid;
@@ -1287,7 +1209,7 @@
                     width: 85%;
                     height: 50px;
                     color: #6e6e6e; }
-                  /* line 1337, 404.scss */
+                  /* line 1249, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group textarea {
                     background: #fff;
                     border: 1px solid;
@@ -1299,24 +1221,24 @@
                     color: #6e6e6e;
                     overflow: hidden;
                     resize: vertical; }
-                  /* line 1350, 404.scss */
+                  /* line 1262, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p {
                     color: #6e6e6e;
                     line-height: 1.8;
                     font-size: 16px;
                     margin-top: 0;
                     margin-bottom: 1rem; }
-                    /* line 1357, 404.scss */
+                    /* line 1269, 404.scss */
                     #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p input[type="checkbox"] {
                       margin-right: 5px;
                       position: relative;
                       top: 2px; }
-                /* line 1364, 404.scss */
+                /* line 1276, 404.scss */
                 #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
                   position: relative;
                   padding-top: 20px;
                   margin: 0 -10px; }
-                  /* line 1369, 404.scss */
+                  /* line 1281, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn button[type="submit"] {
                     cursor: pointer;
                     color: #fff;
@@ -1334,11 +1256,11 @@
                     -webkit-transition: .5s;
                     transition: .5s;
                     background-color: #c7a610; }
-                  /* line 1385, 404.scss */
+                  /* line 1297, 404.scss */
                   #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn [type="submit"]:hover {
                     color: #fff;
                     background-color: #2c2a49; }
-        /* line 1395, 404.scss */
+        /* line 1307, 404.scss */
         #top .section-contact-padding .auto-container .row .map {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1348,19 +1270,19 @@
           max-width: 100%;
           position: relative;
           margin-left: -30px; }
-  /* line 1409, 404.scss */
+  /* line 1321, 404.scss */
   #top .section-testimonials-padding {
     max-width: 1320px; }
-    /* line 1412, 404.scss */
+    /* line 1324, 404.scss */
     #top .section-testimonials-padding .auto-container {
       position: static;
       padding: 0 15px; }
-      /* line 1416, 404.scss */
+      /* line 1328, 404.scss */
       #top .section-testimonials-padding .auto-container .section-heading {
         z-index: 1;
         margin-bottom: 20px;
         text-align: center; }
-        /* line 1421, 404.scss */
+        /* line 1333, 404.scss */
         #top .section-testimonials-padding .auto-container .section-heading span {
           font-size: 16px;
           color: #c7a610;
@@ -1370,7 +1292,7 @@
           text-transform: uppercase;
           letter-spacing: 5px;
           position: relative; }
-        /* line 1431, 404.scss */
+        /* line 1343, 404.scss */
         #top .section-testimonials-padding .auto-container .section-heading h2 {
           font-size: 56.8px;
           font-weight: 700;
@@ -1380,11 +1302,11 @@
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           padding-right: 15px;
           text-transform: capitalize; }
-      /* line 1443, 404.scss */
+      /* line 1355, 404.scss */
       #top .section-testimonials-padding .auto-container .row {
         -ms-flex-pack: distribute;
             justify-content: space-around; }
-        /* line 1446, 404.scss */
+        /* line 1358, 404.scss */
         #top .section-testimonials-padding .auto-container .row .flexelement {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1392,7 +1314,7 @@
                   flex: 0 1 auto;
           width: 33.3333333333%;
           max-width: 100%; }
-          /* line 1452, 404.scss */
+          /* line 1364, 404.scss */
           #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block {
             margin-bottom: 108px;
             position: relative;
@@ -1404,13 +1326,13 @@
             min-height: -webkit-max-content;
             min-height: -moz-max-content;
             min-height: max-content; }
-            /* line 1461, 404.scss */
+            /* line 1373, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::before {
               left: -55px; }
-            /* line 1464, 404.scss */
+            /* line 1376, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::after {
               right: -55px; }
-            /* line 1467, 404.scss */
+            /* line 1379, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::before,
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote::after {
               position: absolute;
@@ -1419,7 +1341,7 @@
               height: 1px;
               top: 20px;
               background: #e5e5e5; }
-            /* line 1477, 404.scss */
+            /* line 1389, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote {
               background: #c7a610;
               -webkit-box-shadow: 0 20px 60px 10px rgba(0, 0, 0, 0.07);
@@ -1433,10 +1355,10 @@
               color: #fff;
               line-height: 44px;
               margin: 0 auto 25px; }
-              /* line 1490, 404.scss */
+              /* line 1402, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote .icon-17::before {
                 content: "\e244"; }
-              /* line 1494, 404.scss */
+              /* line 1406, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .testimonial-quote .icon-17 {
                 font-family: "Material Symbols Outlined";
                 font-style: normal;
@@ -1446,20 +1368,20 @@
                 font-variant: normal;
                 text-transform: none;
                 line-height: 1; }
-            /* line 1505, 404.scss */
+            /* line 1417, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
               height: 300px; }
-              /* line 1508, 404.scss */
+              /* line 1420, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content .review {
                 margin-bottom: 20px;
                 line-height: 1.8rem;
                 font-size: 18px;
                 color: #222; }
-                /* line 1514, 404.scss */
+                /* line 1426, 404.scss */
                 #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content .review a {
                   color: #6e6e6e;
                   font-size: 17px; }
-            /* line 1521, 404.scss */
+            /* line 1433, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .guest-name {
               font-size: 30px;
               font-weight: 700;
@@ -1469,12 +1391,12 @@
               background: none;
               color: #2b2d42;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-            /* line 1532, 404.scss */
+            /* line 1444, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .disignation {
               margin-bottom: -12px;
               line-height: 1.8;
               font-size: 16px; }
-            /* line 1538, 404.scss */
+            /* line 1450, 404.scss */
             #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .author-thumb {
               position: relative;
               display: -webkit-inline-box;
@@ -1488,25 +1410,25 @@
               -webkit-box-pack: center;
                   -ms-flex-pack: center;
                       justify-content: center; }
-              /* line 1547, 404.scss */
+              /* line 1459, 404.scss */
               #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .author-thumb img {
                 border-radius: 50%;
                 display: inline-block;
                 max-width: 100%;
                 height: auto; }
-  /* line 1562, 404.scss */
+  /* line 1474, 404.scss */
   #top .section-questions-padding {
     max-width: 1320px; }
-    /* line 1565, 404.scss */
+    /* line 1477, 404.scss */
     #top .section-questions-padding .auto-container {
       position: static;
       padding: 0 15px; }
-      /* line 1569, 404.scss */
+      /* line 1481, 404.scss */
       #top .section-questions-padding .auto-container .section-heading {
         z-index: 1;
         margin-bottom: 20px;
         text-align: center; }
-        /* line 1574, 404.scss */
+        /* line 1486, 404.scss */
         #top .section-questions-padding .auto-container .section-heading span {
           font-size: 16px;
           color: #c7a610;
@@ -1516,7 +1438,7 @@
           text-transform: uppercase;
           letter-spacing: 5px;
           position: relative; }
-        /* line 1584, 404.scss */
+        /* line 1496, 404.scss */
         #top .section-questions-padding .auto-container .section-heading h2 {
           font-size: 56.8px;
           font-weight: 700;
@@ -1526,22 +1448,22 @@
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           padding-right: 15px;
           text-transform: capitalize; }
-      /* line 1597, 404.scss */
+      /* line 1509, 404.scss */
       #top .section-questions-padding .auto-container .row .accordion-box {
         margin: 0 35px;
         -webkit-box-flex: 1;
             -ms-flex: 1 0 270px;
                 flex: 1 0 270px; }
-        /* line 1601, 404.scss */
+        /* line 1513, 404.scss */
         #top .section-questions-padding .auto-container .row .accordion-box .accordion-list {
           list-style: none; }
-          /* line 1604, 404.scss */
+          /* line 1516, 404.scss */
           #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block {
             margin-bottom: 20px;
             background: #fff;
             -webkit-box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1);
                     box-shadow: 0 10px 50px rgba(0, 0, 0, 0.1); }
-            /* line 1609, 404.scss */
+            /* line 1521, 404.scss */
             #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn {
               position: relative;
               font-size: 30px;
@@ -1552,7 +1474,7 @@
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               -webkit-transition: all .5s ease;
               transition: all .5s ease; }
-              /* line 1619, 404.scss */
+              /* line 1531, 404.scss */
               #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon {
                 position: absolute;
                 right: 30px;
@@ -1567,7 +1489,7 @@
                 font-variant: normal;
                 text-transform: none;
                 line-height: 1; }
-                /* line 1633, 404.scss */
+                /* line 1545, 404.scss */
                 #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .plus {
                   font-weight: 400;
                   display: inline-block;
@@ -1577,10 +1499,10 @@
                   font-variant: normal;
                   text-rendering: auto;
                   line-height: 1; }
-                /* line 1643, 404.scss */
+                /* line 1555, 404.scss */
                 #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .plus::before {
                   content: "\e145"; }
-                /* line 1647, 404.scss */
+                /* line 1559, 404.scss */
                 #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .minus {
                   font-weight: 400;
                   display: inline-block;
@@ -1590,46 +1512,46 @@
                   font-variant: normal;
                   text-rendering: auto;
                   line-height: 1; }
-                /* line 1657, 404.scss */
+                /* line 1569, 404.scss */
                 #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .minus::before {
                   content: "\e15b"; }
-                /* line 1661, 404.scss */
+                /* line 1573, 404.scss */
                 #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-btn .icon .invisible {
                   display: none !important; }
-            /* line 1667, 404.scss */
+            /* line 1579, 404.scss */
             #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .active .accordion-content {
               display: block; }
-            /* line 1671, 404.scss */
+            /* line 1583, 404.scss */
             #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-content {
               display: none;
               position: relative; }
-              /* line 1675, 404.scss */
+              /* line 1587, 404.scss */
               #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-content .content {
                 position: relative;
                 padding: 6px 30px 40px; }
-                /* line 1679, 404.scss */
+                /* line 1591, 404.scss */
                 #top .section-questions-padding .auto-container .row .accordion-box .accordion-list .accordion-block .accordion-content .content .text {
                   margin-bottom: 0;
                   color: #333;
                   font-size: 16px;
                   line-height: 28;
                   margin: 0 0 15px; }
-  /* line 1697, 404.scss */
+  /* line 1609, 404.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
-    /* line 1701, 404.scss */
+    /* line 1613, 404.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1706, 404.scss */
+      /* line 1618, 404.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1710, 404.scss */
+        /* line 1622, 404.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1637,36 +1559,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
-          /* line 1718, 404.scss */
+          /* line 1630, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 1727, 404.scss */
+          /* line 1639, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
-            /* line 1731, 404.scss */
+            /* line 1643, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
-              /* line 1735, 404.scss */
+              /* line 1647, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
-              /* line 1741, 404.scss */
+              /* line 1653, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
-          /* line 1748, 404.scss */
+          /* line 1660, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
-            /* line 1753, 404.scss */
+            /* line 1665, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -1676,18 +1598,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
-            /* line 1763, 404.scss */
+            /* line 1675, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
-          /* line 1770, 404.scss */
+          /* line 1682, 404.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
-            /* line 1773, 404.scss */
+            /* line 1685, 404.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
-              /* line 1776, 404.scss */
+              /* line 1688, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -1695,7 +1617,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
-              /* line 1785, 404.scss */
+              /* line 1697, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -1716,19 +1638,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
-              /* line 1804, 404.scss */
+              /* line 1716, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
-        /* line 1813, 404.scss */
+        /* line 1725, 404.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
-        /* line 1818, 404.scss */
+        /* line 1730, 404.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
-  /* line 1827, 404.scss */
+  /* line 1739, 404.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -1741,18 +1663,18 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
-    /* line 1838, 404.scss */
+    /* line 1750, 404.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
-    /* line 1845, 404.scss */
+    /* line 1757, 404.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-  /* line 1850, 404.scss */
+  /* line 1762, 404.scss */
   #top .scroll-top:hover {
     color: #c7a610; }
 

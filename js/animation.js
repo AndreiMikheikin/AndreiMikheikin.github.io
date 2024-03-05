@@ -1,3 +1,4 @@
+/* animation onscroll */
 let options = {
     root: null,
     rootMargin: '5px',
@@ -20,6 +21,7 @@ targets.forEach(target => {
     observer.observe(target);
 });
 
+/* animated hide/show onclick */
 const mobile = document.querySelector('.mobile-menu');
 const button = document.querySelector('.mobile-column-btn');
 const close = document.querySelector('.close-btn');

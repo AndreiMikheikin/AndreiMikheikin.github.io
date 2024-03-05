@@ -73,10 +73,10 @@
                     position: relative;
                     width: 50px;
                     height: 50px;
-                    line-height: 44px;
+                    line-height: 50px;
                     text-align: center;
                     color: $title-color;
-                    font-size: 30px;
+                    font-size: $under-title-text * 2;
                     cursor: pointer;
                     border-radius: 50%;
                     margin: 13px 0 13px 15px;
@@ -84,6 +84,7 @@
 
                     span::before{
                         position: absolute;
+                        right: 8px;
                         content: "\e5d2";
                         font-family: $icon;
                     }
@@ -395,19 +396,7 @@
 
                                 a:hover{color: $yellow;}
 
-                                .not-droped1{
-                                    display: none;
-                                }
-
-                                .not-droped2{
-                                    display: none;
-                                }
-
-                                .not-droped3{
-                                    display: none;
-                                }
-
-                                .not-droped4{
+                                .not-droped{
                                     display: none;
                                 }
 
@@ -431,85 +420,7 @@
                                     
                                 }
 
-                                .dropdown-btn1 {
-                                    position: absolute;
-                                    right: 6px;
-                                    top: 6px;
-                                    width: 32px;
-                                    height: 32px;
-                                    text-align: center;
-                                    font-size: 16px;
-                                    line-height: 32px;
-                                    color: $backg;
-                                    background: hsla(0, 0%, 100%, 0.1);
-                                    cursor: pointer;
-                                    border-radius: 2px;
-                                    transition: all .5s ease;
-                                    z-index: 5;
-
-                                    span::before {
-                                        content: "\e5cc"
-                                    }
-
-                                    span{
-                                        font-family: $icon;
-                                        font-weight: 900;
-                                    }
-                                }
-
-                                .dropdown-btn2 {
-                                    position: absolute;
-                                    right: 6px;
-                                    top: 6px;
-                                    width: 32px;
-                                    height: 32px;
-                                    text-align: center;
-                                    font-size: 16px;
-                                    line-height: 32px;
-                                    color: $backg;
-                                    background: hsla(0, 0%, 100%, 0.1);
-                                    cursor: pointer;
-                                    border-radius: 2px;
-                                    transition: all .5s ease;
-                                    z-index: 5;
-
-                                    span::before {
-                                        content: "\e5cc"
-                                    }
-
-                                    span{
-                                        font-family: $icon;
-                                        font-weight: 900;
-                                    }
-                                }
-
-                                .dropdown-btn3 {
-                                    position: absolute;
-                                    right: 6px;
-                                    top: 6px;
-                                    width: 32px;
-                                    height: 32px;
-                                    text-align: center;
-                                    font-size: 16px;
-                                    line-height: 32px;
-                                    color: $backg;
-                                    background: hsla(0, 0%, 100%, 0.1);
-                                    cursor: pointer;
-                                    border-radius: 2px;
-                                    transition: all .5s ease;
-                                    z-index: 5;
-
-                                    span::before {
-                                        content: "\e5cc"
-                                    }
-
-                                    span{
-                                        font-family: $icon;
-                                        font-weight: 900;
-                                    }
-                                }
-
-                                .dropdown-btn4 {
+                                .dropdown-btn {
                                     position: absolute;
                                     right: 6px;
                                     top: 6px;

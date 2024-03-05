@@ -30,7 +30,7 @@ h2.anim.active, .flexelement.anim.active {
 #top>header>.mobile-menu.active{
     visibility: visible;
     opacity: 1;
-    width: 300px;
+    width: 320px;
     overflow: auto;
     transition: all .7s ease;
 }
@@ -40,4 +40,9 @@ h2.anim.active, .flexelement.anim.active {
     visibility: visible;
     opacity: .7;
     transition: all .7s ease;
+}
+
+.btn-rotateZ{
+    transform: rotateZ(90deg);
+    transition: all .3s;
 }
