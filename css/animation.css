@@ -43,11 +43,12 @@ h2.anim.active, .flexelement.anim.active {
   visibility: visible;
   opacity: 1;
   width: 320px;
+  padding-right: 30px;
   overflow: auto;
   -webkit-transition: all .7s ease;
   transition: all .7s ease; }
 
-/* line 38, animation.scss */
+/* line 39, animation.scss */
 #top > header > .mobile-menu.active .menu-drop {
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -56,7 +57,7 @@ h2.anim.active, .flexelement.anim.active {
   -webkit-transition: all .7s ease;
   transition: all .7s ease; }
 
-/* line 45, animation.scss */
+/* line 46, animation.scss */
 .btn-rotateZ {
   -webkit-transform: rotateZ(90deg);
           transform: rotateZ(90deg);
