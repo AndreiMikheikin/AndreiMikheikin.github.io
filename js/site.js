@@ -57,7 +57,7 @@ $(document).ready(function(){
     });
 });
 
-/* change visibility onclick */
+/* change visibility li>ul onclick */
 document.addEventListener("DOMContentLoaded", function(){
     var btns = document.querySelectorAll('.dropdown');
 
@@ -68,6 +68,22 @@ document.addEventListener("DOMContentLoaded", function(){
 
             item.classList.toggle('droped');
             icon.classList.toggle('btn-rotateZ');
+        });
+    });
+});
+
+/* change accordion-btn visibility onclick */
+document.addEventListener("DOMContentLoaded", function(){
+    var buttons = document.querySelectorAll('.accordion-btn');
+
+    buttons.forEach(function(button){
+        button.addEventListener('click', function(){
+            var icon = this.querySelector('.icon');
+            var plus = icon.querySelector('.plus');
+            var minus = icon.querySelector('.minus');
+
+            plus.classList.toggle('invisible');
+            minus.classList.toggle('invisible');
         });
     });
 });
