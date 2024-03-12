@@ -20,8 +20,8 @@ body {
 
 *[class*="container"],
 *[class*="section"],
-#top, header, main, footer,
-.back-to-home{
+article, .back-to-home,
+#top, header, main, footer{
     position: relative;
     width: 100%;
     margin: 0 auto;
@@ -36,6 +36,10 @@ body {
     margin: 0 -15px;
     display: flex;
     flex-wrap: wrap;
+}
+
+sup, sub {
+    font-size: $under-title-text / 2;
 }
 
 a, address{

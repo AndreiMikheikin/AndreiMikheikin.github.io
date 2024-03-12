@@ -1,9 +1,9 @@
-h1.anim, .offer-block.anim, p.anim{
+h1.anim, .offer-block.anim, p.anim, .menu-block.anim{
     transform: translateX(-20%);
     transition: all 1.5s;
     opacity: 0;
 }
-h1.anim.active, .offer-block.anim.active, p.anim.active{
+h1.anim.active, .offer-block.anim.active, p.anim.active, .menu-block.anim.active{
     transform: translateX(0);
     opacity: 1;
 }

@@ -23,8 +23,8 @@ body {
 /* line 21, commonstyles.scss */
 *[class*="container"],
 *[class*="section"],
-#top, header, main, footer,
-.back-to-home {
+article, .back-to-home,
+#top, header, main, footer {
   position: relative;
   width: 100%;
   margin: 0 auto; }
@@ -43,11 +43,15 @@ body {
       flex-wrap: wrap; }
 
 /* line 41, commonstyles.scss */
+sup, sub {
+  font-size: 9px; }
+
+/* line 45, commonstyles.scss */
 a, address {
   text-decoration: none;
   font-style: normal; }
 
-/* line 46, commonstyles.scss */
+/* line 50, commonstyles.scss */
 .scroll-text:hover, a:hover, .icon-box:hover > .icon > [class*="icon"] {
   color: #c7a610; }
 

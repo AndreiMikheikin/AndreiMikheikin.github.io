@@ -1470,7 +1470,6 @@
     }
 
     /* questions section*/
-    
     .section-questions-padding{
         max-width: 1320px;
 
@@ -1604,6 +1603,182 @@
         }
     }
 
+    /* menu section */
+    .section-menu-padding{
+        max-width: 1320px;
+
+        .auto-container{
+            position: static;
+            padding: 0 15px;
+
+            .section-heading{
+                z-index: 1;
+                margin-bottom: 20px;
+                text-align: center;
+                
+                span{
+                    font-size: $simple-text;
+                    color: $yellow;
+                    margin-bottom: 6px;
+                    display: inline-block;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    position: relative;
+                }
+                h2{
+                    font-size: $logo-text * 1.9 - 4px;
+                    font-weight: 700;
+                    line-height: 1;
+                    position: relative;
+                    color: $bf-text;
+                    font-family: $title;
+                    padding-right: 15px;
+                    text-transform: capitalize;
+                }
+            }
+
+            article{
+                z-index: 1;
+                margin-bottom: 20px;
+                text-align: center;
+                
+                h4{
+                    font-size: $logo-text + 4px;
+                    font-weight: 700;
+                    line-height: 1;
+                    position: relative;
+                    color: $common;
+                    font-family: $title;
+                    padding-right: 15px;
+                    text-transform: capitalize;
+                    margin-bottom: 30px;
+                }
+
+                .row{
+                    justify-content: center;
+    
+                    .menu-block{
+                        position: relative;
+                        padding: 0 40px;
+                        margin: 0 10px 60px;
+                        text-align: center;
+                        flex: 1 1 358px;
+                        max-width: 450px;
+    
+                        .menu-image{
+                            position: relative;
+                            margin-bottom: 31px;
+                            width: 100%;
+                            overflow: hidden;
+    
+                            img{
+                                width: 100%;
+                                height: auto;
+                                transition: .7s;
+                            }
+                        }
+                        
+                        .menu-title{
+                            margin-bottom: 15px;
+                            font-size: $logo-text - 2px;
+                            font-weight: 700;
+                            position: relative;
+                            line-height: 1.25em;
+                            background: none;
+                            color: $bf-text;
+                            font-family: $title;
+                        }
+                        
+                        .menu-description{
+                            .menu-position{
+                                .position-text{
+                                    position: relative;
+                                    display: inline-block;
+                                    margin-bottom: 0;
+                                    line-height: 1.8;
+                                    font-size: $simple-text;
+                                    text-align: left;
+                                    width: 75%;
+                                }
+                                .position-price{
+                                    position: relative;
+                                    display: inline-block;
+                                    margin-bottom: 0;
+                                    line-height: 1.8;
+                                    font-size: $simple-text;
+                                    text-align: right;
+                                    width: 20%;
+                                }
+                            }
+                        }
+    
+                        .menu-price{
+                            position: relative;
+    
+                            .price{
+                                width: 60px;
+                                height: 60px;
+                                background: $bf-bg;
+                                box-shadow: 0 10px 80px rgba(0,0,0,.2);
+                                border-radius: 30px;
+                                display: inline-block;
+                                vertical-align: middle;
+                                text-align: center;
+                                line-height: 50px;
+                                position: relative;
+                                transform: translateY(50%);
+                                font-size: $logo-text / 4 + 4px;
+                                z-index: 1;
+                                color: $title-color;
+                                text-decoration: none;
+                                transition: .3s;
+                            }
+    
+                            .price:hover{
+                                color: $backg;
+                            }
+    
+                            .price::before{
+                                background: $yellow;
+                                position: absolute;
+                                content: "";
+                                width: 100%;
+                                height: 100%;
+                                left: 0;
+                                top: 0;
+                                transform: scale(0);
+                                border-radius: 50%;
+                                z-index: -1;
+                                transition: all .5s ease;
+                            }
+    
+                            .price:hover::before{
+                                transform: scale(1);
+                            }
+                        }
+                    }
+    
+                    .menu-block:hover .menu-image img{
+                        transform: scale(1.2);
+                    }
+    
+                    .menu-block::before{
+                        position: absolute;
+                        content: "";
+                        top: 118px;
+                        left: 0;
+                        right: 0;
+                        bottom: 0;
+                        background: $backg;
+                        box-shadow: 0 15px 80px rgba(0,0,0,.1);
+                        animation-duration: 0.8s;
+                        animation-delay: 0.2s;
+                    }
+                }
+            }
+        }
+    }
 
     /* footer */
     footer{
