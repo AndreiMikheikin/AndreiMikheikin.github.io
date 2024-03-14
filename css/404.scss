@@ -1885,6 +1885,59 @@
         }
     }
 
+    /* gallery section */
+    .section-gallery-padding{
+        max-width: 1320px;
+
+        .auto-container{
+            position: static;
+            padding: 0 15px;
+
+            .sortable{
+                .filters{
+                    margin-bottom: 50px;
+                    
+                    .filter-tabs-clearfix{
+                        .filter-btns{
+                            font-weight: 500;
+                            color: $acc-text;
+                            text-transform: uppercase;
+                            margin-bottom: 70px;
+                            display: flex;
+                            justify-content: center;
+                            list-style: none;
+                            padding: 0;
+                            margin: 0;
+
+                            li{
+                                margin: 0 5px 10px;
+                                cursor: pointer;
+                                color: $bf-text;
+                                background: $filter-btns;
+                                padding: 11px 25px;
+                                font-weight: 500;
+                                transition: .5s;
+                                text-align: center;
+                                border-top-left-radius: 10px 10px;
+                                border-top-right-radius: 10px 10px;
+                                box-shadow: 0 -7px 15px rgba(0,0,0,.7);
+                            }
+                            li:hover{
+                                background: $yellow;
+                                color: $backg;
+                            }
+                        }
+                    }
+                    .filter-tabs-clearfix::after{
+                        display: block;
+                        clear: both;
+                        content: "";
+                    }
+                }
+            }
+        }
+    }
+
     /* footer */
     footer{
         padding: 120px 0 60px;
