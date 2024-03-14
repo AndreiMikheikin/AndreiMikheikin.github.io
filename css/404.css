@@ -15,7 +15,8 @@
   /* contacts section */
   /* testimonials section */
   /* questions section*/
-  /* menu section */
+  /* daily menu section */
+  /* banquet menu section */
   /* footer */ }
   /* line 8, 404.scss */
   #top header {
@@ -1706,21 +1707,120 @@
             -webkit-animation-delay: 0.2s;
                     animation-delay: 0.2s; }
   /* line 1784, 404.scss */
+  #top .section-banquet-padding {
+    background: #faf5f2; }
+    /* line 1788, 404.scss */
+    #top .section-banquet-padding .auto-container {
+      position: static;
+      padding: 0 15px;
+      max-width: 1320px; }
+      /* line 1793, 404.scss */
+      #top .section-banquet-padding .auto-container .section-heading {
+        z-index: 1;
+        margin-bottom: 20px;
+        text-align: center; }
+        /* line 1798, 404.scss */
+        #top .section-banquet-padding .auto-container .section-heading span {
+          font-size: 16px;
+          color: #c7a610;
+          margin-bottom: 6px;
+          display: inline-block;
+          font-weight: 500;
+          text-transform: uppercase;
+          letter-spacing: 5px;
+          position: relative; }
+        /* line 1808, 404.scss */
+        #top .section-banquet-padding .auto-container .section-heading h2 {
+          font-size: 56.8px;
+          font-weight: 700;
+          line-height: 1;
+          position: relative;
+          color: #2b2d42;
+          font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
+          padding-right: 15px;
+          text-transform: capitalize; }
+      /* line 1819, 404.scss */
+      #top .section-banquet-padding .auto-container article {
+        z-index: 1;
+        margin-bottom: 20px;
+        text-align: center; }
+        /* line 1824, 404.scss */
+        #top .section-banquet-padding .auto-container article h4 {
+          font-size: 36px;
+          font-weight: 700;
+          line-height: 1;
+          position: relative;
+          color: #6e6e6e;
+          font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
+          padding-right: 15px;
+          text-transform: capitalize;
+          margin-bottom: 30px; }
+        /* line 1836, 404.scss */
+        #top .section-banquet-padding .auto-container article .row {
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center; }
+          /* line 1839, 404.scss */
+          #top .section-banquet-padding .auto-container article .row .banquet-box {
+            padding: 0 15px;
+            -webkit-box-flex: 1;
+                -ms-flex: 1 0 300px;
+                    flex: 1 0 300px;
+            width: 46%;
+            max-width: 100%;
+            margin: 0 1.5rem;
+            background: #faf5f2; }
+            /* line 1847, 404.scss */
+            #top .section-banquet-padding .auto-container article .row .banquet-box .banquet-price-block {
+              -webkit-box-shadow: 0 10px 80px rgba(0, 0, 0, 0.09);
+                      box-shadow: 0 10px 80px rgba(0, 0, 0, 0.09);
+              position: relative;
+              padding: 40px;
+              margin-bottom: 30px;
+              background: #fff; }
+              /* line 1854, 404.scss */
+              #top .section-banquet-padding .auto-container article .row .banquet-box .banquet-price-block .container {
+                position: relative; }
+                /* line 1857, 404.scss */
+                #top .section-banquet-padding .auto-container article .row .banquet-box .banquet-price-block .container .price {
+                  position: absolute;
+                  right: 0;
+                  top: 0;
+                  font-size: 22px;
+                  color: #c7a610;
+                  line-height: 1.8; }
+                /* line 1865, 404.scss */
+                #top .section-banquet-padding .auto-container article .row .banquet-box .banquet-price-block .container h4 {
+                  font-size: 30px;
+                  font-weight: 700;
+                  position: relative;
+                  line-height: 1.25em;
+                  color: #2b2d42;
+                  font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
+                  margin: 0;
+                  text-align: left; }
+                /* line 1875, 404.scss */
+                #top .section-banquet-padding .auto-container article .row .banquet-box .banquet-price-block .container .divider {
+                  border-bottom: 1px solid #faf5f2;
+                  -o-border-image: url(../img/divider.png) 1 repeat;
+                     border-image: url(../img/divider.png) 1 repeat;
+                  margin: 10px 0; }
+  /* line 1889, 404.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
-    /* line 1788, 404.scss */
+    /* line 1893, 404.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1793, 404.scss */
+      /* line 1898, 404.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1797, 404.scss */
+        /* line 1902, 404.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1728,36 +1828,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
-          /* line 1805, 404.scss */
+          /* line 1910, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 1814, 404.scss */
+          /* line 1919, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
-            /* line 1818, 404.scss */
+            /* line 1923, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
-              /* line 1822, 404.scss */
+              /* line 1927, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
-              /* line 1828, 404.scss */
+              /* line 1933, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
-          /* line 1835, 404.scss */
+          /* line 1940, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
-            /* line 1840, 404.scss */
+            /* line 1945, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -1767,18 +1867,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
-            /* line 1850, 404.scss */
+            /* line 1955, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
-          /* line 1857, 404.scss */
+          /* line 1962, 404.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
-            /* line 1860, 404.scss */
+            /* line 1965, 404.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
-              /* line 1863, 404.scss */
+              /* line 1968, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -1786,7 +1886,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
-              /* line 1872, 404.scss */
+              /* line 1977, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -1807,19 +1907,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
-              /* line 1891, 404.scss */
+              /* line 1996, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
-        /* line 1900, 404.scss */
+        /* line 2005, 404.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
-        /* line 1905, 404.scss */
+        /* line 2010, 404.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
-  /* line 1914, 404.scss */
+  /* line 2019, 404.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -1832,18 +1932,18 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
-    /* line 1925, 404.scss */
+    /* line 2030, 404.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
-    /* line 1932, 404.scss */
+    /* line 2037, 404.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-  /* line 1937, 404.scss */
+  /* line 2042, 404.scss */
   #top .scroll-top:hover {
     color: #c7a610; }
 
@@ -2108,4 +2208,5 @@
         width: 80% !important;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a; } }
+
 /*# sourceMappingURL=404.css.map */
