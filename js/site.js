@@ -106,9 +106,10 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 /* gallery */
-new Gallery(document.getElementById('gallery-1'), {margin: 10});
-new Gallery(document.getElementById('gallery-2'), {margin: 10});
-new Gallery(document.getElementById('gallery-3'), {margin: 10});
-new Gallery(document.getElementById('gallery-4'), {margin: 10});
-new Gallery(document.getElementById('gallery-5'), {margin: 10});
-new Gallery(document.getElementById('gallery-6'), {margin: 10});
+// Select all gallery elements
+const galleryElements = document.querySelectorAll('.gallery');
+
+// Initialize Gallery instances for each gallery element
+galleryElements.forEach((galleryElement) => {
+    new Gallery(galleryElement);
+});
