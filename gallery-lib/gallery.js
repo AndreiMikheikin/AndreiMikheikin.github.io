@@ -144,7 +144,7 @@ class Gallery {
     dragging(evt) {
         this.dragX = evt.pageX;
         const dragShift = this.dragX - this.clickX;
-        this.x = Math.max(Math.min(this.startX + dragShift, 0), this.maximumX);
+        this.x = Math.max(Math.min(this.startX + dragShift, easing), this.maximumX + easing);
     
         this.setStylePosition();
     
@@ -189,7 +189,7 @@ class Gallery {
     draggingTouch(evt) {
         this.dragX = evt.touches[0].pageX; // Use touches array for touch events
         const dragShift = this.dragX - this.clickX;
-        this.x = Math.max(Math.min(this.startX + dragShift, 0), this.maximumX);
+        this.x = Math.max(Math.min(this.startX + dragShift, easing), this.maximumX + easing);
     
         this.setStylePosition();
     
