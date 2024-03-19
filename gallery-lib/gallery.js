@@ -32,6 +32,9 @@ class Gallery {
         this.moveToRight = this.moveToRight.bind(this);
         this.changeCurrentSlide = this.changeCurrentSlide.bind(this);
         this.changeActiveDotClass = this.changeActiveDotClass.bind(this);
+        this.startTouch = this.startTouch.bind(this);
+        this.draggingTouch = this.draggingTouch.bind(this);
+        this.stopTouch = this.stopTouch.bind(this);
 
         this.manageHTML();
         this.setParameters();
@@ -92,6 +95,10 @@ class Gallery {
         window.addEventListener('pointerup', this.stopDrag);
         window.addEventListener('pointercancel', this.stopDrag);
 
+        this.lineNode.addEventListener('touchstart', this.startTouch);
+        window.addEventListener('touchend', this.stopTouch);
+        window.addEventListener('touchcancel', this.stopTouch);
+
         this.dotsNode.addEventListener('click', this.clickDots);
         this.navLeft.addEventListener('click', this.moveToLeft);
         this.navRight.addEventListener('click', this.moveToRight);
@@ -102,6 +109,10 @@ class Gallery {
         this.lineNode.removeEventListener('pointerdown', this.startDrag);
         window.removeEventListener('pointerup', this.stopDrag);
         window.removeEventListener('pointercancel', this.stopDrag);
+
+        this.lineNode.addEventListener('touchstart', this.startTouch);
+        window.addEventListener('touchend', this.stopTouch);
+        window.addEventListener('touchcancel', this.stopTouch);
 
         this.dotsNode.removeEventListener('click', this.clickDots);
         this.navLeft.removeEventListener('click', this.moveToLeft);
@@ -132,6 +143,51 @@ class Gallery {
 
     dragging(evt) {
         this.dragX = evt.pageX;
+        const dragShift = this.dragX - this.clickX;
+        this.x = Math.max(Math.min(this.startX + dragShift, 0), this.maximumX);
+    
+        this.setStylePosition();
+    
+        // Active slide changing
+        if (
+            dragShift > 20 &&
+            !this.currentSlideWasChanged &&
+            this.currentSlide > 0
+        ) {
+            this.currentSlideWasChanged = true;
+            this.currentSlide = this.currentSlide - 1;
+        }
+    
+        if (
+            dragShift < -20 &&
+            !this.currentSlideWasChanged &&
+            this.currentSlide < this.size - 1
+        ) {
+            this.currentSlideWasChanged = true;
+            this.currentSlide = this.currentSlide + 1;
+        }
+    }
+
+    startTouch(evt) {
+        this.currentSlideWasChanged = false;
+        this.clickX = evt.touches[0].pageX; // Use touches array for touch events
+        this.startX = this.x;
+
+        this.resetStyleTransition();
+
+        this.containerNode.classList.add(GalleryDraggableClassName);
+        window.addEventListener('touchmove', this.draggingTouch); // Use touchmove event
+    }
+
+    stopTouch() {
+        window.removeEventListener('touchmove', this.draggingTouch);
+
+        this.containerNode.classList.remove(GalleryDraggableClassName);
+        this.changeCurrentSlide();
+    }
+
+    draggingTouch(evt) {
+        this.dragX = evt.touches[0].pageX; // Use touches array for touch events
         const dragShift = this.dragX - this.clickX;
         this.x = Math.max(Math.min(this.startX + dragShift, 0), this.maximumX);
     
