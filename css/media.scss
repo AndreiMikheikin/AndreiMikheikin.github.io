@@ -207,6 +207,28 @@
                 }
             }
 
+            /* gallery section */
+            .section-gallery-padding{
+                .auto-container{
+                    .sortable{
+                        .filters{
+                            .filter-tabs-clearfix{
+                                .filter-btns{
+                                    margin-bottom: 30px;
+                                    a{
+                                        padding: 5px 12px;
+                                        font-size: 50%;
+                                    }
+                                }
+                            }
+                            .filter-tabs-clearfix::after{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
             /* footer */
             footer{
                 padding: 50px 0 20px;
