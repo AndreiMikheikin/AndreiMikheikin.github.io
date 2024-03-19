@@ -81,6 +81,28 @@
                     }
                 }
             }
+
+            /* gallery section */
+            .section-gallery-padding{
+                .auto-container{
+                    .sortable{
+                        .filters{
+                            .filter-tabs-clearfix{
+                                .filter-btns{
+                                    margin-bottom: 30px;
+                                    a{
+                                        padding: 5px 12px;
+                                        line-height: 1.2;
+                                    }
+                                }
+                            }
+                            .filter-tabs-clearfix::after{
+                                display: none;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     
@@ -217,7 +239,8 @@
                                     margin-bottom: 30px;
                                     a{
                                         padding: 5px 12px;
-                                        font-size: 50%;
+                                        font-size: 10px;
+                                        line-height: 1.2;
                                     }
                                 }
                             }
@@ -306,6 +329,29 @@
                                 .content{
                                     height: 300px;
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* gallery section */
+            .section-gallery-padding{
+                .auto-container{
+                    .sortable{
+                        .filters{
+                            .filter-tabs-clearfix{
+                                .filter-btns{
+                                    margin-bottom: 20px;
+                                    a{
+                                        padding: 5px 8px;
+                                        font-size: 8px;
+                                        line-height: 1.2;
+                                    }
+                                }
+                            }
+                            .filter-tabs-clearfix::after{
+                                display: none;
                             }
                         }
                     }
@@ -418,6 +464,29 @@
                                 .content{
                                     height: 350px;
                                 }
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* gallery section */
+            .section-gallery-padding{
+                .auto-container{
+                    .sortable{
+                        .filters{
+                            .filter-tabs-clearfix{
+                                .filter-btns{
+                                    margin-bottom: 10px;
+                                    a{
+                                        padding: 5px 2px;
+                                        font-size: 7px;
+                                        line-height: 1.2;
+                                    }
+                                }
+                            }
+                            .filter-tabs-clearfix::after{
+                                display: none;
                             }
                         }
                     }
