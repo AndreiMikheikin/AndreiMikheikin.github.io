@@ -12,7 +12,8 @@
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/animation.css">
     <link rel="stylesheet" href="css/404.css">
-    <script src="js/gallery.js"></script>
+    <link rel="stylesheet" href="gallery-lib/gallery.css">
+    
     <title>Старый Хутор | Галерея</title>
 </head>
 
@@ -818,51 +819,51 @@
                 <div class="sortable">
                     <div class="filters">
                         <div class="filter-tabs-clearfix">
-                            <ul class="filter-btns">
-                                <li class="filter">территория</li>
-                                <li class="filter">дом с камином</li>
-                                <li class="filter">дом с баней</li>
-                                <li class="filter">бенкетный зал</li>
-                                <li class="filter">беседки</li>
-                                <li class="filter">разное</li>
-                            </ul>
+                            <div class="filter-btns">
+                                <a class="filter" href="#gallery-1">территория</a></li>
+                                <a class="filter" href="#gallery-2">дом с камином</a></li>
+                                <a class="filter" href="#gallery-3">дом с баней</a></li>
+                                <a class="filter" href="#gallery-4">бенкетный зал</a></li>
+                                <a class="filter" href="#gallery-5">беседки</a></li>
+                                <a class="filter" href="#gallery-6">разное</a></li>
+                            </div>
                         </div>
                     </div>
-                    <div id="gallery" class="galery-1">1
-                        <div class="slide slide-1"></div>
-                        <div class="slide slide-2"></div>
-                        <div class="slide slide-3"></div>
-                        <div class="slide slide-4"></div>
+                    <div id="gallery-1" class="gallery active">
+                        <div class="slide slide-1">1</div>
+                        <div class="slide slide-2">2</div>
+                        <div class="slide slide-3">3</div>
+                        <div class="slide slide-4">4</div>
                     </div>
-                    <div id="gallery" class="galery-2">2
-                        <div class="slide slide-1"></div>
-                        <div class="slide slide-2"></div>
-                        <div class="slide slide-3"></div>
-                        <div class="slide slide-4"></div>
+                    <div id="gallery-2" class="gallery active">
+                        <div class="slide slide-1">1</div>
+                        <div class="slide slide-2">2</div>
+                        <div class="slide slide-3">3</div>
+                        <div class="slide slide-4">4</div>
                     </div>
-                    <div id="gallery" class="galery-3">3
-                        <div class="slide slide-1"></div>
-                        <div class="slide slide-2"></div>
-                        <div class="slide slide-3"></div>
-                        <div class="slide slide-4"></div>
+                    <div id="gallery-3" class="gallery active">
+                        <div class="slide slide-1">1</div>
+                        <div class="slide slide-2">2</div>
+                        <div class="slide slide-3">3</div>
+                        <div class="slide slide-4">4</div>
                     </div>
-                    <div id="gallery" class="galery-4">4
-                        <div class="slide slide-1"></div>
-                        <div class="slide slide-2"></div>
-                        <div class="slide slide-3"></div>
-                        <div class="slide slide-4"></div>
+                    <div id="gallery-4" class="gallery active">
+                        <div class="slide slide-1">1</div>
+                        <div class="slide slide-2">2</div>
+                        <div class="slide slide-3">3</div>
+                        <div class="slide slide-4">4</div>
                     </div>
-                    <div id="gallery" class="galery-5">5
-                        <div class="slide slide-1"></div>
-                        <div class="slide slide-2"></div>
-                        <div class="slide slide-3"></div>
-                        <div class="slide slide-4"></div>
+                    <div id="gallery-5" class="gallery active">
+                        <div class="slide slide-1">1</div>
+                        <div class="slide slide-2">2</div>
+                        <div class="slide slide-3">3</div>
+                        <div class="slide slide-4">4</div>
                     </div>
-                    <div id="gallery" class="galery-6">6
-                        <div class="slide slide-1"></div>
-                        <div class="slide slide-2"></div>
-                        <div class="slide slide-3"></div>
-                        <div class="slide slide-4"></div>
+                    <div id="gallery-6" class="gallery active">
+                        <div class="slide slide-1">1</div>
+                        <div class="slide slide-2">2</div>
+                        <div class="slide slide-3">3</div>
+                        <div class="slide slide-4">4</div>
                     </div>
                 </div>
             </div>
@@ -979,8 +980,10 @@
 
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
-    <script src="js/animation.js"></script>    
+    <script src="js/animation.js"></script>
+    <script src="gallery-lib/gallery.js"></script>  
     <script src="js/site.js"></script>
+    
 </body>
 
 </html>

@@ -57,6 +57,23 @@ $(document).ready(function(){
     });
 });
 
+/* filter tab class active add/remove */
+$(document).ready(function(){
+    $('.filter').click(function(e){
+        e.preventDefault();
+
+        $('.filter').removeClass('active');
+        $('.gallery').removeClass('active');
+
+        $(this).addClass('active');
+        $($(this).attr('href')).addClass('active');
+    });
+
+    $('.filter:first').click();
+});
+
+
+
 /* change visibility li>ul onclick */
 document.addEventListener("DOMContentLoaded", function(){
     var btns = document.querySelectorAll('.dropdown');
@@ -87,3 +104,11 @@ document.addEventListener("DOMContentLoaded", function(){
         });
     });
 });
+
+/* gallery */
+new Gallery(document.getElementById('gallery-1'), {margin: 10});
+new Gallery(document.getElementById('gallery-2'), {margin: 10});
+new Gallery(document.getElementById('gallery-3'), {margin: 10});
+new Gallery(document.getElementById('gallery-4'), {margin: 10});
+new Gallery(document.getElementById('gallery-5'), {margin: 10});
+new Gallery(document.getElementById('gallery-6'), {margin: 10});

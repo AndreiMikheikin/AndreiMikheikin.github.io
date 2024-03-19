@@ -1908,8 +1908,8 @@
                             list-style: none;
                             padding: 0;
                             margin: 0;
-
-                            li{
+                            
+                            a{
                                 margin: 0 5px 10px;
                                 cursor: pointer;
                                 color: $bf-text;
@@ -1922,9 +1922,16 @@
                                 border-top-right-radius: 10px 10px;
                                 box-shadow: 0 -7px 15px rgba(0,0,0,.7);
                             }
-                            li:hover{
+
+                            a:hover{
                                 background: $yellow;
                                 color: $backg;
+                            }
+
+                            .filter.active{
+                                background: $yellow;
+                                color: $backg;
+                                box-shadow: 0 -10px 15px $yellow;
                             }
                         }
                     }
@@ -1934,6 +1941,32 @@
                         content: "";
                     }
                 }
+                
+                [id^="gallery"]{
+                    display: none;
+
+                    .slide{
+                        height: 20rem;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        color: $backg;
+                    }
+
+                    .slide-1 {
+                        background: $common;
+                    }
+                    .slide-2 {
+                        background: $theme-color;
+                    }
+                    .slide-3 {
+                        background: $title-color;
+                    }
+                    .slide-4 {
+                        background: $yellow;
+                    }
+                }
+                [id^="gallery"].active{display: block;}
             }
         }
     }
