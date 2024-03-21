@@ -1946,8 +1946,9 @@
                     display: none;
 
                     .slide{
-                        width: 100vw;
-                        height: auto;
+                        width: auto;
+                        margin: 0 auto;
+                        height: 80vh;
                         pointer-events: none;
                         display: flex;
                         align-items: center;
