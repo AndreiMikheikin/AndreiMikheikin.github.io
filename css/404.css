@@ -1866,7 +1866,7 @@
         display: none; }
         /* line 1948, 404.scss */
         #top .section-gallery-padding .auto-container .sortable [id^="gallery"] .slide {
-          width: 95%;
+          width: 100%;
           height: auto;
           pointer-events: none;
           display: -webkit-box;
@@ -2331,4 +2331,5 @@
         width: 80% !important;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a; } }
+
 /*# sourceMappingURL=404.css.map */
