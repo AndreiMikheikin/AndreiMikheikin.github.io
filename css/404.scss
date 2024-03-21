@@ -1858,12 +1858,12 @@
                                     position: absolute;
                                     right: 0;
                                     top: 0;
-                                    font-size: $under-title-text + 4px;
-                                    color: $yellow;
+                                    font-size: $under-title-text;
+                                    color: $title-color;
                                     line-height: 1.8;
                                 }
                                 h4{
-                                    font-size: $logo-text - 2px;
+                                    font-size: $under-title-text + 4px;
                                     font-weight: 700;
                                     position: relative;
                                     line-height: 1.25em;
@@ -1875,8 +1875,18 @@
                                 .divider{
                                     border-bottom: 1px solid $bf-bg;
                                     border-image: url(../img/divider.png) 1 repeat;
-                                    margin: 10px 0;
+                                    margin: 5px 0;
                                 }
+                                .reciep {
+                                    font-size: $book-text - 5px;
+                                    text-align: left;
+                                    line-height: 1;
+                                }
+                            }
+                            .container:not(:first-child){
+                                margin-top: 15px;
+                                border-top: 2px dotted $yellow;
+                                
                             }
                         }
                     }
