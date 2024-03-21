@@ -1946,26 +1946,12 @@
                     display: none;
 
                     .slide{
-                        width: 100%;
+                        width: 95%;
                         height: auto;
                         pointer-events: none;
                         display: flex;
                         align-items: center;
                         justify-content: center;
-                        color: $backg;
-                    }
-
-                    .slide-1 {
-                        background: $common;
-                    }
-                    .slide-2 {
-                        background: $theme-color;
-                    }
-                    .slide-3 {
-                        background: $title-color;
-                    }
-                    .slide-4 {
-                        background: $yellow;
                     }
                 }
                 [id^="gallery"].active{display: block;}

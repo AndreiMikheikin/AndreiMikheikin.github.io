@@ -119,15 +119,16 @@ class Gallery {
         this.lineNode.removeEventListener('pointerdown', this.startDrag);
         window.removeEventListener('pointerup', this.stopDrag);
         window.removeEventListener('pointercancel', this.stopDrag);
-
-        this.lineNode.addEventListener('touchstart', this.startTouch);
-        window.addEventListener('touchend', this.stopTouch);
-        window.addEventListener('touchcancel', this.stopTouch);
-
+    
+        this.lineNode.removeEventListener('touchstart', this.startTouch);
+        window.removeEventListener('touchend', this.stopTouch);
+        window.removeEventListener('touchcancel', this.stopTouch);
+    
         this.dotsNode.removeEventListener('click', this.clickDots);
         this.navLeft.removeEventListener('click', this.moveToLeft);
         this.navRight.removeEventListener('click', this.moveToRight);
     }
+    
 
     resizeGallery() {
         this.setParameters();
