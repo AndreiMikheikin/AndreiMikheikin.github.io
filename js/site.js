@@ -109,7 +109,15 @@ document.addEventListener("DOMContentLoaded", function(){
 // Select all gallery elements
 const galleryElements = document.querySelectorAll('.gallery');
 
-// Initialize Gallery instances for each gallery element
+// Initialize each gallery only once
 galleryElements.forEach((galleryElement) => {
-    new Gallery(galleryElement);
+    // Check if the gallery has already been initialized
+    if (!galleryElement.dataset.galleryInitialized) {
+        // Initialize the gallery
+        new Gallery(galleryElement);
+
+        // Mark the gallery as initialized
+        galleryElement.dataset.galleryInitialized = true;
+    }
 });
+
