@@ -1866,7 +1866,7 @@
         display: none; }
         /* line 1948, 404.scss */
         #top .section-gallery-padding .auto-container .sortable [id^="gallery"] .slide {
-          width: 100%;
+          width: 100vw;
           height: auto;
           pointer-events: none;
           display: -webkit-box;
