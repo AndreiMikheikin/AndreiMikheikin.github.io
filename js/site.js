@@ -106,18 +106,19 @@ document.addEventListener("DOMContentLoaded", function(){
 });
 
 /* gallery */
-// Select all gallery elements
-const galleryElements = document.querySelectorAll('.gallery');
+document.addEventListener('DOMContentLoaded', function() {
+    // Select all gallery elements
+    const galleryElements = document.querySelectorAll('.gallery');
 
-// Initialize each gallery only once
-galleryElements.forEach((galleryElement) => {
-    // Check if the gallery has already been initialized
-    if (!galleryElement.dataset.galleryInitialized) {
-        // Initialize the gallery
-        new Gallery(galleryElement);
+    // Initialize each gallery only once
+    galleryElements.forEach((galleryElement) => {
+        // Check if the gallery has already been initialized
+        if (!galleryElement.dataset.galleryInitialized) {
+            // Initialize the gallery
+            new Gallery(galleryElement);
 
-        // Mark the gallery as initialized
-        galleryElement.dataset.galleryInitialized = true;
-    }
+            // Mark the gallery as initialized
+            galleryElement.dataset.galleryInitialized = true;
+        }
+    });
 });
-

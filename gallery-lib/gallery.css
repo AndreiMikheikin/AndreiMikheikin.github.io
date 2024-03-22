@@ -55,9 +55,9 @@
     .gallery-nav-left,
     .gallery-nav-right {
         position: absolute;
-        top: 50%;
-        width: 8rem;
-        height: 12rem;
+        top: 45%;
+        width: 2rem;
+        height: 6rem;
         border: none;
         outline: none;
         text-indent: -1234em;
@@ -73,12 +73,12 @@
     .gallery-nav-left {
         background: url('svg-img/left.svg') no-repeat center;
         background-size: contain;
-        left: 1rem;
+        left: 15px;
     }
     .gallery-nav-right {
         background: url('svg-img/right.svg') no-repeat center;
         background-size: contain;
-        right: 1rem;
+        right: 15px;
     }
 
 @media screen and (max-width: 700px) {

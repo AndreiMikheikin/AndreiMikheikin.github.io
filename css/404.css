@@ -1809,23 +1809,24 @@
                 /* line 1880, 404.scss */
                 #top .section-banquet-padding .auto-container article .row .banquet-box .banquet-price-block .container .reciep {
                   font-size: 10px;
+                  font-style: italic;
                   text-align: left;
                   line-height: 1; }
-              /* line 1886, 404.scss */
+              /* line 1887, 404.scss */
               #top .section-banquet-padding .auto-container article .row .banquet-box .banquet-price-block .container:not(:first-child) {
                 margin-top: 15px;
                 border-top: 2px dotted #c7a610; }
-  /* line 1899, 404.scss */
+  /* line 1900, 404.scss */
   #top .section-gallery-padding {
     max-width: 1320px; }
-    /* line 1902, 404.scss */
+    /* line 1903, 404.scss */
     #top .section-gallery-padding .auto-container {
       position: static;
       padding: 0 15px; }
-      /* line 1907, 404.scss */
+      /* line 1908, 404.scss */
       #top .section-gallery-padding .auto-container .sortable .filters {
         margin-bottom: 50px; }
-        /* line 1911, 404.scss */
+        /* line 1912, 404.scss */
         #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns {
           font-weight: 500;
           color: #333;
@@ -1840,7 +1841,7 @@
           list-style: none;
           padding: 0;
           margin: 0; }
-          /* line 1922, 404.scss */
+          /* line 1923, 404.scss */
           #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a {
             margin: 0 5px 10px;
             cursor: pointer;
@@ -1855,25 +1856,25 @@
             border-top-right-radius: 10px 10px;
             -webkit-box-shadow: 0 -7px 15px rgba(0, 0, 0, 0.7);
                     box-shadow: 0 -7px 15px rgba(0, 0, 0, 0.7); }
-          /* line 1936, 404.scss */
+          /* line 1937, 404.scss */
           #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a:hover {
             background: #c7a610;
             color: #fff; }
-          /* line 1941, 404.scss */
+          /* line 1942, 404.scss */
           #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns .filter.active {
             background: #c7a610;
             color: #fff;
             -webkit-box-shadow: 0 -10px 15px #c7a610;
                     box-shadow: 0 -10px 15px #c7a610; }
-        /* line 1948, 404.scss */
+        /* line 1949, 404.scss */
         #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
           display: block;
           clear: both;
           content: ""; }
-      /* line 1955, 404.scss */
+      /* line 1956, 404.scss */
       #top .section-gallery-padding .auto-container .sortable [id^="gallery"] {
         display: none; }
-        /* line 1958, 404.scss */
+        /* line 1959, 404.scss */
         #top .section-gallery-padding .auto-container .sortable [id^="gallery"] .slide {
           width: auto;
           margin: 0 auto;
@@ -1888,25 +1889,25 @@
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-      /* line 1968, 404.scss */
+      /* line 1969, 404.scss */
       #top .section-gallery-padding .auto-container .sortable [id^="gallery"].active {
         display: block; }
-  /* line 1974, 404.scss */
+  /* line 1975, 404.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
-    /* line 1978, 404.scss */
+    /* line 1979, 404.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1983, 404.scss */
+      /* line 1984, 404.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1987, 404.scss */
+        /* line 1988, 404.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1914,36 +1915,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
-          /* line 1995, 404.scss */
+          /* line 1996, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 2004, 404.scss */
+          /* line 2005, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
-            /* line 2008, 404.scss */
+            /* line 2009, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
-              /* line 2012, 404.scss */
+              /* line 2013, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
-              /* line 2018, 404.scss */
+              /* line 2019, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
-          /* line 2025, 404.scss */
+          /* line 2026, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
-            /* line 2030, 404.scss */
+            /* line 2031, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -1953,18 +1954,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
-            /* line 2040, 404.scss */
+            /* line 2041, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
-          /* line 2047, 404.scss */
+          /* line 2048, 404.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
-            /* line 2050, 404.scss */
+            /* line 2051, 404.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
-              /* line 2053, 404.scss */
+              /* line 2054, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -1972,7 +1973,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
-              /* line 2062, 404.scss */
+              /* line 2063, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -1993,19 +1994,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
-              /* line 2081, 404.scss */
+              /* line 2082, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
-        /* line 2090, 404.scss */
+        /* line 2091, 404.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
-        /* line 2095, 404.scss */
+        /* line 2096, 404.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
-  /* line 2104, 404.scss */
+  /* line 2105, 404.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -2018,18 +2019,18 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
-    /* line 2115, 404.scss */
+    /* line 2116, 404.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
-    /* line 2122, 404.scss */
+    /* line 2123, 404.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-  /* line 2127, 404.scss */
+  /* line 2128, 404.scss */
   #top .scroll-top:hover {
     color: #c7a610; }
 
