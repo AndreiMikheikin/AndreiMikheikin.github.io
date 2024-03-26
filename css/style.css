@@ -81,8 +81,9 @@
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
             font-size: 32px;
             color: #2c2a49;
-            font-weight: 500; }
-      /* line 64, style.scss */
+            font-weight: 500;
+            margin-left: 5px; }
+      /* line 65, style.scss */
       #top header .container .mobile-column {
         display: none;
         position: relative;
@@ -93,7 +94,7 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 0 0px;
                 flex: 0 0 0; }
-        /* line 71, style.scss */
+        /* line 72, style.scss */
         #top header .container .mobile-column .mobile-column-btn {
           display: block;
           position: relative;
@@ -108,18 +109,18 @@
           margin: 13px 0 13px 15px;
           -webkit-transition: .3s;
           transition: .3s; }
-          /* line 85, style.scss */
+          /* line 86, style.scss */
           #top header .container .mobile-column .mobile-column-btn span::before {
             position: absolute;
             right: 8px;
             content: "\e5d2";
             font-family: "Material Symbols Outlined"; }
-        /* line 93, style.scss */
+        /* line 94, style.scss */
         #top header .container .mobile-column .mobile-column-btn:hover {
           -webkit-transform: scale(1.01);
                   transform: scale(1.01);
           color: #c7a610; }
-      /* line 100, style.scss */
+      /* line 101, style.scss */
       #top header .container .main-menu {
         background-color: #fff;
         -webkit-box-shadow: none;
@@ -130,7 +131,7 @@
         width: max-content;
         position: relative;
         height: 75px; }
-        /* line 108, style.scss */
+        /* line 109, style.scss */
         #top header .container .main-menu ul {
           position: relative;
           display: -webkit-box;
@@ -142,14 +143,14 @@
               -ms-flex-align: center;
                   align-items: center;
           list-style: none; }
-          /* line 115, style.scss */
+          /* line 116, style.scss */
           #top header .container .main-menu ul li {
             position: relative;
             padding: 20px 0;
             margin-right: 30px;
             -webkit-transition: all .3s ease;
             transition: all .3s ease; }
-            /* line 121, style.scss */
+            /* line 122, style.scss */
             #top header .container .main-menu ul li a {
               position: relative;
               display: block;
@@ -161,17 +162,17 @@
               color: #2c2a49;
               padding: 3px 0;
               opacity: 1; }
-            /* line 134, style.scss */
+            /* line 135, style.scss */
             #top header .container .main-menu ul li a:hover {
               color: #c7a610; }
-            /* line 138, style.scss */
+            /* line 139, style.scss */
             #top header .container .main-menu ul li a.expand-more::before {
               position: absolute;
               content: "\e5cf";
               right: -15px;
               top: 5px;
               font-family: "Material Symbols Outlined"; }
-            /* line 146, style.scss */
+            /* line 147, style.scss */
             #top header .container .main-menu ul li ul {
               padding: 0;
               display: block !important;
@@ -191,13 +192,13 @@
               -webkit-box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
                       box-shadow: 2px 2px 5px 1px rgba(0, 0, 0, 0.05), -2px 0 5px 1px rgba(0, 0, 0, 0.05);
               border-top: 1px solid #c7a610; }
-              /* line 163, style.scss */
+              /* line 164, style.scss */
               #top header .container .main-menu ul li ul li {
                 position: relative;
                 width: 100%;
                 height: 40px;
                 padding: 0 25px; }
-                /* line 169, style.scss */
+                /* line 170, style.scss */
                 #top header .container .main-menu ul li ul li a {
                   position: relative;
                   display: block;
@@ -209,7 +210,7 @@
                   font-size: 17px;
                   color: #fff;
                   font-weight: 500; }
-              /* line 182, style.scss */
+              /* line 183, style.scss */
               #top header .container .main-menu ul li ul li::before {
                 position: absolute;
                 content: "";
@@ -220,7 +221,7 @@
                 display: block;
                 -webkit-transition: all .5s ease;
                 transition: all .5s ease; }
-          /* line 195, style.scss */
+          /* line 196, style.scss */
           #top header .container .main-menu ul li::before {
             position: absolute;
             content: "";
@@ -229,18 +230,18 @@
             width: 23px;
             height: 1px;
             opacity: 0; }
-          /* line 205, style.scss */
+          /* line 206, style.scss */
           #top header .container .main-menu ul li:hover ul {
             visibility: visible;
             opacity: 1;
             top: 45px; }
-          /* line 211, style.scss */
+          /* line 212, style.scss */
           #top header .container .main-menu ul a:hover {
             color: #c7a610; }
-      /* line 218, style.scss */
+      /* line 219, style.scss */
       #top header .container .link-btn {
         position: relative; }
-        /* line 221, style.scss */
+        /* line 222, style.scss */
         #top header .container .link-btn a {
           padding: 11px 30px 10px;
           color: #222;
@@ -258,11 +259,11 @@
           -webkit-transition: .5s;
           transition: .5s;
           text-transform: uppercase; }
-        /* line 237, style.scss */
+        /* line 238, style.scss */
         #top header .container .link-btn a:hover {
           color: #fff;
           background-color: #c7a610; }
-    /* line 245, style.scss */
+    /* line 246, style.scss */
     #top header .mobile-menu {
       position: fixed;
       right: 0;
@@ -277,7 +278,7 @@
       z-index: 999999;
       -webkit-transition: all .9s ease;
       transition: all .9s ease; }
-      /* line 259, style.scss */
+      /* line 260, style.scss */
       #top header .mobile-menu .menu-drop {
         position: fixed;
         right: 0;
@@ -290,7 +291,7 @@
         -webkit-transition: all .9s ease;
         transition: all .9s ease;
         background-color: #c7a610; }
-      /* line 271, style.scss */
+      /* line 272, style.scss */
       #top header .mobile-menu .close-btn {
         position: absolute;
         right: 20px;
@@ -304,7 +305,7 @@
         z-index: 10;
         -webkit-transition: all .9s ease;
         transition: all .9s ease; }
-        /* line 284, style.scss */
+        /* line 285, style.scss */
         #top header .mobile-menu .close-btn span {
           display: inline-block;
           font-style: normal;
@@ -313,17 +314,17 @@
           font-variant: normal;
           text-rendering: auto;
           line-height: 1; }
-        /* line 293, style.scss */
+        /* line 294, style.scss */
         #top header .mobile-menu .close-btn span::before {
           position: absolute;
           content: "\e5cd";
           top: 0;
           right: 0;
           font-family: "Material Symbols Outlined"; }
-      /* line 302, style.scss */
+      /* line 303, style.scss */
       #top header .mobile-menu .close-btn:hover {
         color: #c7a610; }
-      /* line 306, style.scss */
+      /* line 307, style.scss */
       #top header .mobile-menu .menu-box {
         opacity: 1;
         visibility: visible;
@@ -342,7 +343,7 @@
         padding: 0;
         z-index: 5;
         border-radius: 0; }
-        /* line 323, style.scss */
+        /* line 324, style.scss */
         #top header .mobile-menu .menu-box .nav-logo {
           position: relative;
           padding: 30px 25px;
@@ -351,7 +352,7 @@
           margin-top: 25px;
           height: 48.15px;
           min-height: 48px; }
-          /* line 332, style.scss */
+          /* line 333, style.scss */
           #top header .mobile-menu .menu-box .nav-logo a {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -361,7 +362,7 @@
             -webkit-box-align: center;
                 -ms-flex-align: center;
                     align-items: center; }
-            /* line 337, style.scss */
+            /* line 338, style.scss */
             #top header .mobile-menu .menu-box .nav-logo a img {
               display: inline-block;
               vertical-align: middle;
@@ -369,33 +370,34 @@
               max-width: 100%;
               height: 48px;
               background: #202020; }
-            /* line 346, style.scss */
+            /* line 347, style.scss */
             #top header .mobile-menu .menu-box .nav-logo a span {
               vertical-align: middle;
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               font-size: 32px;
               color: #c7a610;
-              font-weight: 500; }
-        /* line 357, style.scss */
+              font-weight: 500;
+              margin-left: 5px; }
+        /* line 359, style.scss */
         #top header .mobile-menu .menu-box .menu-wrapper {
           position: relative; }
-          /* line 360, style.scss */
+          /* line 362, style.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse {
             display: block !important;
             width: 100%; }
-            /* line 364, style.scss */
+            /* line 366, style.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix {
               position: relative;
               display: block;
               width: 100%;
               float: none;
               list-style: none; }
-              /* line 371, style.scss */
+              /* line 373, style.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li {
                 position: relative;
                 display: block;
                 border-top: 1px solid rgba(255, 255, 255, 0.1); }
-                /* line 376, style.scss */
+                /* line 378, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:before {
                   content: "";
                   position: absolute;
@@ -404,7 +406,7 @@
                   height: 0;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
-                /* line 385, style.scss */
+                /* line 387, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a {
                   position: relative;
                   display: block;
@@ -416,27 +418,27 @@
                   text-transform: uppercase;
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease; }
-                /* line 397, style.scss */
+                /* line 399, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li a:hover {
                   color: #c7a610; }
-                /* line 399, style.scss */
+                /* line 401, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .not-droped {
                   display: none; }
-                /* line 403, style.scss */
+                /* line 405, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped {
                   display: block; }
-                  /* line 406, style.scss */
+                  /* line 408, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li:first-child {
                     border-top: 1px solid rgba(255, 255, 255, 0.1); }
-                  /* line 411, style.scss */
+                  /* line 413, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a {
                     font-size: 15px;
                     margin-left: 20px;
                     text-transform: capitalize; }
-                  /* line 417, style.scss */
+                  /* line 419, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .droped li a:hover {
                     color: #c7a610; }
-                /* line 423, style.scss */
+                /* line 425, style.scss */
                 #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn {
                   position: absolute;
                   right: 6px;
@@ -453,25 +455,25 @@
                   -webkit-transition: all .5s ease;
                   transition: all .5s ease;
                   z-index: 5; }
-                  /* line 439, style.scss */
+                  /* line 441, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn span::before {
                     content: ""; }
-                  /* line 443, style.scss */
+                  /* line 445, style.scss */
                   #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix li .dropdown-btn span {
                     font-family: "Material Symbols Outlined";
                     font-weight: 900; }
-              /* line 450, style.scss */
+              /* line 452, style.scss */
               #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover .expand-more, #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix .dropdown:hover [class*="dropdown"] {
                 color: #c7a610; }
-            /* line 455, style.scss */
+            /* line 457, style.scss */
             #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse .nav-clearfix:last-child {
               border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
-          /* line 460, style.scss */
+          /* line 462, style.scss */
           #top header .mobile-menu .menu-box .menu-wrapper .nav-collapse::after {
             display: block;
             clear: both;
             content: ""; }
-        /* line 467, style.scss */
+        /* line 469, style.scss */
         #top header .mobile-menu .menu-box .social-links {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -479,19 +481,19 @@
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-          /* line 471, style.scss */
+          /* line 473, style.scss */
           #top header .mobile-menu .menu-box .social-links a {
             margin-top: 30px;
             margin-right: 20px;
             font-size: 15px;
             -webkit-transition: all .2s ease;
             transition: all .2s ease; }
-          /* line 478, style.scss */
+          /* line 480, style.scss */
           #top header .mobile-menu .menu-box .social-links a[href*="www.facebook"]:hover #path4533,
           #top header .mobile-menu .menu-box .social-links a[href*="www.instagram"]:hover #path5,
           #top header .mobile-menu .menu-box .social-links a[href*="vk.com"]:hover #rect4570 {
             fill: #c7a610 !important; }
-  /* line 489, style.scss */
+  /* line 491, style.scss */
   #top main {
     max-width: 1920px;
     height: 100%;
@@ -501,7 +503,7 @@
     background: url(../img/main_background.jpg) no-repeat;
     background-size: cover;
     background-position: center; }
-    /* line 499, style.scss */
+    /* line 501, style.scss */
     #top main .container {
       padding: 100px 15px;
       max-width: 1290px;
@@ -516,12 +518,12 @@
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
-      /* line 507, style.scss */
+      /* line 509, style.scss */
       #top main .container .inner {
         position: relative;
         max-height: 750px;
         padding: 0 10px; }
-        /* line 512, style.scss */
+        /* line 514, style.scss */
         #top main .container .inner h4 {
           position: relative;
           display: block;
@@ -532,7 +534,7 @@
           text-transform: uppercase;
           letter-spacing: 3px;
           line-height: 1.25em; }
-        /* line 524, style.scss */
+        /* line 526, style.scss */
         #top main .container .inner h1 {
           color: #2c2a49;
           position: relative;
@@ -542,19 +544,19 @@
           font-size: 64px;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           margin: 0 0 20px; }
-        /* line 535, style.scss */
+        /* line 537, style.scss */
         #top main .container .inner p {
           color: #2c2a49;
           position: relative;
           font-size: 18px;
           line-height: 32px;
           margin: 0 0 15px; }
-        /* line 543, style.scss */
+        /* line 545, style.scss */
         #top main .container .inner .link-btn {
           position: relative;
           padding-top: 20px;
           margin: 0 -10px; }
-          /* line 548, style.scss */
+          /* line 550, style.scss */
           #top main .container .inner .link-btn a {
             margin: 0 10px 10px;
             padding: 17px 35px 16px;
@@ -573,16 +575,16 @@
             -webkit-transition: .5s;
             transition: .5s;
             text-transform: uppercase; }
-          /* line 565, style.scss */
+          /* line 567, style.scss */
           #top main .container .inner .link-btn a:hover {
             color: #fff;
             background-color: #2c2a49; }
-  /* line 575, style.scss */
+  /* line 577, style.scss */
   #top .auto-container {
     max-width: 1920px;
     padding: 20px 0 8px;
     background-color: #faf5f2; }
-    /* line 580, style.scss */
+    /* line 582, style.scss */
     #top .auto-container .booking-form {
       position: relative;
       max-width: 1290px;
@@ -595,13 +597,13 @@
       -webkit-box-align: end;
           -ms-flex-align: end;
               align-items: flex-end; }
-      /* line 589, style.scss */
+      /* line 591, style.scss */
       #top .auto-container .booking-form .form-group {
         margin: 0 10px 20px;
         -webkit-box-flex: 1;
             -ms-flex-positive: 1;
                 flex-grow: 1; }
-        /* line 593, style.scss */
+        /* line 595, style.scss */
         #top .auto-container .booking-form .form-group label {
           color: #2b2d42;
           font-weight: 500;
@@ -610,7 +612,7 @@
           font-size: 15px;
           text-align: center;
           line-height: 1.8; }
-        /* line 603, style.scss */
+        /* line 605, style.scss */
         #top .auto-container .booking-form .form-group input[type=date], #top .auto-container .booking-form .form-group select {
           display: block;
           border: 1px solid #fff;
@@ -620,15 +622,15 @@
           padding: 0 10px;
           font-size: inherit;
           line-height: inherit; }
-        /* line 614, style.scss */
+        /* line 616, style.scss */
         #top .auto-container .booking-form .form-group input[type=checkbox] {
           margin-right: 5px; }
-        /* line 618, style.scss */
+        /* line 620, style.scss */
         #top .auto-container .booking-form .form-group span {
           color: #2b2d42;
           font-size: 13px;
           text-transform: uppercase; }
-        /* line 624, style.scss */
+        /* line 626, style.scss */
         #top .auto-container .booking-form .form-group input[type=submit] {
           cursor: pointer;
           width: -webkit-max-content;
@@ -649,14 +651,14 @@
           -webkit-transition: .5s;
           transition: .5s;
           background-color: #c7a610; }
-        /* line 640, style.scss */
+        /* line 642, style.scss */
         #top .auto-container .booking-form .form-group input[type=submit]:hover {
           color: #fff;
           background-color: #2c2a49; }
-  /* line 649, style.scss */
+  /* line 651, style.scss */
   #top .section-offer-padding {
     max-width: 1920px; }
-    /* line 652, style.scss */
+    /* line 654, style.scss */
     #top .section-offer-padding .grey-bg {
       position: absolute;
       left: 0;
@@ -664,19 +666,19 @@
       right: 0;
       height: 340px;
       background-color: #faf5f2; }
-    /* line 661, style.scss */
+    /* line 663, style.scss */
     #top .section-offer-padding .auto-container {
       position: static;
       max-width: 1290px;
       padding: 0 15px;
       background: #fff; }
-      /* line 667, style.scss */
+      /* line 669, style.scss */
       #top .section-offer-padding .auto-container .section-heading {
         position: relative;
         z-index: 1;
         margin-bottom: 60px;
         text-align: center; }
-        /* line 673, style.scss */
+        /* line 675, style.scss */
         #top .section-offer-padding .auto-container .section-heading span {
           font-size: 16px;
           color: #c7a610;
@@ -686,7 +688,7 @@
           text-transform: uppercase;
           letter-spacing: 5px;
           position: relative; }
-        /* line 683, style.scss */
+        /* line 685, style.scss */
         #top .section-offer-padding .auto-container .section-heading h2 {
           font-size: 60px;
           font-weight: 700;
@@ -695,12 +697,12 @@
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           text-transform: capitalize; }
-      /* line 694, style.scss */
+      /* line 696, style.scss */
       #top .section-offer-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 697, style.scss */
+        /* line 699, style.scss */
         #top .section-offer-padding .auto-container .row .offer-block {
           position: relative;
           padding: 0 40px;
@@ -710,19 +712,19 @@
               -ms-flex: 1 1 358px;
                   flex: 1 1 358px;
           max-width: 450px; }
-          /* line 705, style.scss */
+          /* line 707, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-image {
             position: relative;
             margin-bottom: 31px;
             width: 100%;
             overflow: hidden; }
-            /* line 711, style.scss */
+            /* line 713, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-image img {
               width: 100%;
               height: auto;
               -webkit-transition: .7s;
               transition: .7s; }
-          /* line 718, style.scss */
+          /* line 720, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-title {
             margin-bottom: 15px;
             font-size: 30px;
@@ -732,16 +734,16 @@
             background: none;
             color: #2b2d42;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 729, style.scss */
+          /* line 731, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-text {
             position: relative;
             margin-bottom: 0;
             line-height: 1.8;
             font-size: 16px; }
-          /* line 736, style.scss */
+          /* line 738, style.scss */
           #top .section-offer-padding .auto-container .row .offer-block .offer-link {
             position: relative; }
-            /* line 739, style.scss */
+            /* line 741, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn {
               width: 60px;
               height: 60px;
@@ -761,7 +763,7 @@
               text-decoration: none;
               -webkit-transition: .3s;
               transition: .3s; }
-              /* line 756, style.scss */
+              /* line 758, style.scss */
               #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn .icon {
                 font-family: 'Material Symbols Outlined';
                 font-style: normal;
@@ -772,13 +774,13 @@
                 text-transform: none;
                 line-height: 1;
                 text-align: center; }
-              /* line 766, style.scss */
+              /* line 768, style.scss */
               #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn .icon::before {
                 content: "\e5c8"; }
-            /* line 771, style.scss */
+            /* line 773, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn:hover {
               color: #fff; }
-            /* line 775, style.scss */
+            /* line 777, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn::before {
               background: #c7a610;
               position: absolute;
@@ -793,15 +795,15 @@
               z-index: -1;
               -webkit-transition: all .5s ease;
               transition: all .5s ease; }
-            /* line 789, style.scss */
+            /* line 791, style.scss */
             #top .section-offer-padding .auto-container .row .offer-block .offer-link .offer-link-btn:hover::before {
               -webkit-transform: scale(1);
                       transform: scale(1); }
-        /* line 795, style.scss */
+        /* line 797, style.scss */
         #top .section-offer-padding .auto-container .row .offer-block:hover .offer-image img {
           -webkit-transform: scale(1.2);
                   transform: scale(1.2); }
-        /* line 799, style.scss */
+        /* line 801, style.scss */
         #top .section-offer-padding .auto-container .row .offer-block::before {
           position: absolute;
           content: "";
@@ -816,21 +818,21 @@
                   animation-duration: 0.8s;
           -webkit-animation-delay: 0.2s;
                   animation-delay: 0.2s; }
-  /* line 817, style.scss */
+  /* line 819, style.scss */
   #top .section-about-padding {
     background-color: #faf5f2;
     max-width: 1920px; }
-    /* line 821, style.scss */
+    /* line 823, style.scss */
     #top .section-about-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 826, style.scss */
+      /* line 828, style.scss */
       #top .section-about-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 829, style.scss */
+        /* line 831, style.scss */
         #top .section-about-padding .auto-container .row .about-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -838,22 +840,22 @@
                   flex: 0 0 auto;
           width: auto;
           max-width: 100%; }
-          /* line 835, style.scss */
+          /* line 837, style.scss */
           #top .section-about-padding .auto-container .row .about-block .about-image {
             margin-bottom: 30px;
             position: relative; }
-            /* line 839, style.scss */
+            /* line 841, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
               position: absolute;
               left: -120px;
               top: -110px;
               -webkit-transition: all .7s ease;
               transition: all .7s ease; }
-            /* line 845, style.scss */
+            /* line 847, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover {
               -webkit-transform: rotate(-150deg);
                       transform: rotate(-150deg); }
-            /* line 849, style.scss */
+            /* line 851, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g1-0 #p1-0-1-3,
@@ -888,7 +890,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .2s;
                       transition-delay: .2s; }
-            /* line 884, style.scss */
+            /* line 886, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g2-0 #p2-0-2-3,
@@ -934,7 +936,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .3s;
                       transition-delay: .3s; }
-            /* line 930, style.scss */
+            /* line 932, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g3-0 #p3-0-3-3,
@@ -963,7 +965,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .4s;
                       transition-delay: .4s; }
-            /* line 959, style.scss */
+            /* line 961, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-1,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-2,
             #top .section-about-padding .auto-container .row .about-block .about-image #circles-0:hover #g4-0 #p4-0-4-3,
@@ -981,17 +983,17 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .5s;
                       transition-delay: .5s; }
-            /* line 976, style.scss */
+            /* line 978, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image {
               position: relative;
               overflow: hidden;
               -webkit-transition: all .8s ease;
               transition: all .8s ease; }
-            /* line 981, style.scss */
+            /* line 983, style.scss */
             #top .section-about-padding .auto-container .row .about-block .about-image .image:hover {
               -webkit-transform: scale(1.05);
                       transform: scale(1.05); }
-        /* line 986, style.scss */
+        /* line 988, style.scss */
         #top .section-about-padding .auto-container .row .about-discription {
           margin: 20px 10px;
           -webkit-box-flex: 0;
@@ -999,11 +1001,11 @@
                   flex: 0 0 auto;
           width: 50%;
           max-width: 100%; }
-          /* line 992, style.scss */
+          /* line 994, style.scss */
           #top .section-about-padding .auto-container .row .about-discription .section-heading {
             z-index: 1;
             margin-bottom: 20px; }
-            /* line 996, style.scss */
+            /* line 998, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading span {
               font-size: 16px;
               color: #c7a610;
@@ -1013,7 +1015,7 @@
               text-transform: uppercase;
               letter-spacing: 5px;
               position: relative; }
-            /* line 1006, style.scss */
+            /* line 1008, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading h2 {
               font-size: 56.8px;
               font-weight: 700;
@@ -1023,18 +1025,18 @@
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               padding-right: 15px;
               text-transform: capitalize; }
-            /* line 1016, style.scss */
+            /* line 1018, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .section-heading p {
               position: relative;
               margin-bottom: 0;
               line-height: 1.8;
               font-size: 16px; }
-          /* line 1023, style.scss */
+          /* line 1025, style.scss */
           #top .section-about-padding .auto-container .row .about-discription .about-btn {
             position: relative;
             padding-top: 20px;
             margin: 0 -10px; }
-            /* line 1028, style.scss */
+            /* line 1030, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .about-btn a {
               margin: 0 10px 10px;
               padding: 17px 35px 16px;
@@ -1054,27 +1056,27 @@
               transition: .5s;
               text-transform: uppercase;
               text-decoration: none; }
-            /* line 1046, style.scss */
+            /* line 1048, style.scss */
             #top .section-about-padding .auto-container .row .about-discription .about-btn a:hover {
               color: #fff;
               background-color: #2c2a49; }
-  /* line 1057, style.scss */
+  /* line 1059, style.scss */
   #top .section-amenities-padding {
     background-color: #fff; }
-    /* line 1060, style.scss */
+    /* line 1062, style.scss */
     #top .section-amenities-padding .auto-container {
       position: static;
       padding: 0 15px;
       background-color: #fff; }
-      /* line 1065, style.scss */
+      /* line 1067, style.scss */
       #top .section-amenities-padding .auto-container .wrapper {
         background-color: #fff; }
-        /* line 1068, style.scss */
+        /* line 1070, style.scss */
         #top .section-amenities-padding .auto-container .wrapper .section-heading {
           z-index: 1;
           margin-bottom: 50px;
           text-align: center; }
-          /* line 1073, style.scss */
+          /* line 1075, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-small {
             font-size: 16px;
             color: #c7a610;
@@ -1084,7 +1086,7 @@
             text-transform: uppercase;
             letter-spacing: 5px;
             position: relative; }
-          /* line 1084, style.scss */
+          /* line 1086, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .section-heading .section-heading-title-big {
             margin-bottom: 20px;
             font-size: 3rem;
@@ -1093,17 +1095,17 @@
             color: #2b2d42;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
             text-transform: capitalize; }
-          /* line 1094, style.scss */
+          /* line 1096, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .section-heading p {
             color: #6e6e6e;
             line-height: 1.8;
             font-size: 16px; }
-        /* line 1101, style.scss */
+        /* line 1103, style.scss */
         #top .section-amenities-padding .auto-container .wrapper .row {
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-          /* line 1104, style.scss */
+          /* line 1106, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
             position: relative;
             margin: 0 1.5rem 30px;
@@ -1117,14 +1119,14 @@
                     flex: 0 0 auto;
             width: 20%;
             min-width: 230px; }
-            /* line 1116, style.scss */
+            /* line 1118, style.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon {
               font-size: 45px;
               color: #2b2d42;
               margin-bottom: 15px;
               -webkit-transition: .5s;
               transition: .5s; }
-              /* line 1122, style.scss */
+              /* line 1124, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon [class*="icon-"] {
                 font-family: "Material Symbols Outlined" !important;
                 font-style: normal;
@@ -1134,74 +1136,74 @@
                 font-variant: normal;
                 text-transform: none;
                 line-height: 1; }
-              /* line 1132, style.scss */
+              /* line 1134, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-1::before {
                 content: "\e63e"; }
-              /* line 1136, style.scss */
+              /* line 1138, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-2::before {
                 content: "\efdd"; }
-              /* line 1140, style.scss */
+              /* line 1142, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-3::before {
                 content: "\e9c7"; }
-              /* line 1144, style.scss */
+              /* line 1146, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-4::before {
                 content: "\f6f9"; }
-              /* line 1148, style.scss */
+              /* line 1150, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-5::before {
                 content: "\ea43"; }
-              /* line 1152, style.scss */
+              /* line 1154, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-6::before {
                 content: "\f00c"; }
-              /* line 1156, style.scss */
+              /* line 1158, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-7::before {
                 content: "\ea47"; }
-              /* line 1160, style.scss */
+              /* line 1162, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-8::before {
                 content: "\e406"; }
-              /* line 1164, style.scss */
+              /* line 1166, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-9::before {
                 content: "\f8a2"; }
-              /* line 1168, style.scss */
+              /* line 1170, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-10::before {
                 content: "\f168"; }
-              /* line 1172, style.scss */
+              /* line 1174, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-11::before {
                 content: "\e6f8"; }
-              /* line 1176, style.scss */
+              /* line 1178, style.scss */
               #top .section-amenities-padding .auto-container .wrapper .row .icon-box .icon .icon-12::before {
                 content: "\e561"; }
-            /* line 1181, style.scss */
+            /* line 1183, style.scss */
             #top .section-amenities-padding .auto-container .wrapper .row .icon-box p {
               text-transform: uppercase;
               margin-bottom: 0;
               font-weight: 500;
               line-height: 1.8;
               font-size: 16px; }
-          /* line 1190, style.scss */
+          /* line 1192, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover {
             -webkit-transform: scale(1.05);
                     transform: scale(1.05);
             -webkit-box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1);
                     box-shadow: 0 10px 80px rgba(0, 0, 0, 0.1); }
-          /* line 1195, style.scss */
+          /* line 1197, style.scss */
           #top .section-amenities-padding .auto-container .wrapper .row .icon-box:hover > .icon > [class*="icon-"] {
             -webkit-transition: .5s;
             transition: .5s; }
-  /* line 1204, style.scss */
+  /* line 1206, style.scss */
   #top .section-contactform-padding {
     background-color: #faf5f2;
     max-width: 1920px; }
-    /* line 1208, style.scss */
+    /* line 1210, style.scss */
     #top .section-contactform-padding .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1213, style.scss */
+      /* line 1215, style.scss */
       #top .section-contactform-padding .auto-container .row {
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1216, style.scss */
+        /* line 1218, style.scss */
         #top .section-contactform-padding .auto-container .row .contact-discription {
           padding: 20px 10px;
           -webkit-box-flex: 0;
@@ -1209,11 +1211,11 @@
                   flex: 0 0 auto;
           width: 50%;
           max-width: 100%; }
-          /* line 1222, style.scss */
+          /* line 1224, style.scss */
           #top .section-contactform-padding .auto-container .row .contact-discription .section-heading {
             z-index: 1;
             margin-bottom: 20px; }
-            /* line 1226, style.scss */
+            /* line 1228, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription .section-heading span {
               font-size: 16px;
               color: #c7a610;
@@ -1223,7 +1225,7 @@
               text-transform: uppercase;
               letter-spacing: 5px;
               position: relative; }
-            /* line 1236, style.scss */
+            /* line 1238, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription .section-heading h2 {
               font-size: 56.8px;
               font-weight: 700;
@@ -1233,20 +1235,20 @@
               font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
               padding-right: 15px;
               text-transform: capitalize; }
-          /* line 1247, style.scss */
+          /* line 1249, style.scss */
           #top .section-contactform-padding .auto-container .row .contact-discription p {
             position: relative;
             padding-right: 15px;
             margin-bottom: 0;
             line-height: 1.8;
             font-size: 16px; }
-            /* line 1254, style.scss */
+            /* line 1256, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription p a {
               color: #2b2d42; }
-            /* line 1257, style.scss */
+            /* line 1259, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-discription p a:hover {
               color: #c7a610; }
-        /* line 1262, style.scss */
+        /* line 1264, style.scss */
         #top .section-contactform-padding .auto-container .row .contact-form {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1255,21 +1257,21 @@
           width: auto;
           max-width: 100%;
           position: relative; }
-          /* line 1269, style.scss */
+          /* line 1271, style.scss */
           #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group {
             position: relative; }
-            /* line 1272, style.scss */
+            /* line 1274, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles {
               position: absolute;
               left: -80px;
               bottom: -110px;
               -webkit-transition: all .7s ease;
               transition: all .7s ease; }
-            /* line 1278, style.scss */
+            /* line 1280, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover {
               -webkit-transform: rotate(150deg);
                       transform: rotate(150deg); }
-            /* line 1282, style.scss */
+            /* line 1284, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g1-1 #p1-1-1-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g1-1 #p1-1-1-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g1-1 #p1-1-1-3,
@@ -1304,7 +1306,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .2s;
                       transition-delay: .2s; }
-            /* line 1317, style.scss */
+            /* line 1319, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g2-1 #p2-1-2-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g2-1 #p2-1-2-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g2-1 #p2-1-2-3,
@@ -1350,7 +1352,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .3s;
                       transition-delay: .3s; }
-            /* line 1363, style.scss */
+            /* line 1365, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g3-1 #p3-1-3-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g3-1 #p3-1-3-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g3-1 #p3-1-3-3,
@@ -1379,7 +1381,7 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .4s;
                       transition-delay: .4s; }
-            /* line 1392, style.scss */
+            /* line 1394, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g4-1 #p4-1-4-1,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g4-1 #p4-1-4-2,
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group #circles:hover #g4-1 #p4-1-4-3,
@@ -1397,14 +1399,14 @@
               fill: #2c2a49 !important;
               -webkit-transition-delay: .5s;
                       transition-delay: .5s; }
-            /* line 1410, style.scss */
+            /* line 1412, style.scss */
             #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form {
               position: relative;
               background: #fff;
               padding: 50px 70px;
               max-width: 560px;
               margin: 0 0 30px auto; }
-              /* line 1417, style.scss */
+              /* line 1419, style.scss */
               #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form {
                 margin-left: -15px;
                 margin-right: -15px;
@@ -1413,7 +1415,7 @@
                 display: flex;
                 -ms-flex-wrap: wrap;
                     flex-wrap: wrap; }
-                /* line 1423, style.scss */
+                /* line 1425, style.scss */
                 #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group {
                   margin-bottom: 20px;
                   padding: 0 15px;
@@ -1422,7 +1424,7 @@
                           flex: 0 0 auto;
                   width: 100%;
                   max-width: 100%; }
-                  /* line 1430, style.scss */
+                  /* line 1432, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group input[type="text"] {
                     background: #fff;
                     border: 1px solid;
@@ -1431,7 +1433,7 @@
                     width: 85%;
                     height: 50px;
                     color: #6e6e6e; }
-                  /* line 1440, style.scss */
+                  /* line 1442, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group textarea {
                     background: #fff;
                     border: 1px solid;
@@ -1443,24 +1445,24 @@
                     color: #6e6e6e;
                     overflow: hidden;
                     resize: vertical; }
-                  /* line 1453, style.scss */
+                  /* line 1455, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p {
                     color: #6e6e6e;
                     line-height: 1.8;
                     font-size: 16px;
                     margin-top: 0;
                     margin-bottom: 1rem; }
-                    /* line 1460, style.scss */
+                    /* line 1462, style.scss */
                     #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .form-group p input[type="checkbox"] {
                       margin-right: 5px;
                       position: relative;
                       top: 2px; }
-                /* line 1467, style.scss */
+                /* line 1469, style.scss */
                 #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
                   position: relative;
                   padding-top: 20px;
                   margin: 0 -10px; }
-                  /* line 1472, style.scss */
+                  /* line 1474, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn button[type="submit"] {
                     cursor: pointer;
                     color: #fff;
@@ -1478,26 +1480,26 @@
                     -webkit-transition: .5s;
                     transition: .5s;
                     background-color: #c7a610; }
-                  /* line 1488, style.scss */
+                  /* line 1490, style.scss */
                   #top .section-contactform-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn [type="submit"]:hover {
                     color: #fff;
                     background-color: #2c2a49; }
-  /* line 1503, style.scss */
+  /* line 1505, style.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
-    /* line 1507, style.scss */
+    /* line 1509, style.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 1512, style.scss */
+      /* line 1514, style.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 1516, style.scss */
+        /* line 1518, style.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -1505,36 +1507,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
-          /* line 1524, style.scss */
+          /* line 1526, style.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 1533, style.scss */
+          /* line 1535, style.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
-            /* line 1537, style.scss */
+            /* line 1539, style.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
-              /* line 1541, style.scss */
+              /* line 1543, style.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
-              /* line 1547, style.scss */
+              /* line 1549, style.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
-          /* line 1554, style.scss */
+          /* line 1556, style.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
-            /* line 1559, style.scss */
+            /* line 1561, style.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -1544,18 +1546,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
-            /* line 1569, style.scss */
+            /* line 1571, style.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
-          /* line 1576, style.scss */
+          /* line 1578, style.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
-            /* line 1579, style.scss */
+            /* line 1581, style.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
-              /* line 1582, style.scss */
+              /* line 1584, style.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -1563,7 +1565,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
-              /* line 1591, style.scss */
+              /* line 1593, style.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -1584,19 +1586,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
-              /* line 1610, style.scss */
+              /* line 1612, style.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
-        /* line 1619, style.scss */
+        /* line 1621, style.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
-        /* line 1624, style.scss */
+        /* line 1626, style.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
-  /* line 1633, style.scss */
+  /* line 1635, style.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -1609,14 +1611,14 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
-    /* line 1644, style.scss */
+    /* line 1646, style.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
-    /* line 1651, style.scss */
+    /* line 1653, style.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
@@ -1809,4 +1811,5 @@
         width: 85% !important;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a; } }
+
 /*# sourceMappingURL=style.css.map */

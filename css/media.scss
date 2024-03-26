@@ -103,6 +103,21 @@
                     }
                 }
             }
+
+            /* mainAmenities section */
+            .section-mainAmenities-padding{
+                .auto-container{
+                    .row{
+                        justify-content: center;
+                        .flexelement{
+                            width: 70%;
+                            .amenities-block {
+                                margin-bottom: 50px;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
     
@@ -252,6 +267,32 @@
                 }
             }
 
+            /* mainAmenities section */
+            .section-mainAmenities-padding{
+                .auto-container{
+                    .row{
+                        justify-content: center;
+                        .flexelement{
+                            width: 70%;
+                            .amenities-block {
+                                margin-bottom: 50px;
+                                .amenities-content {
+                                    .block-heading-title-small {
+                                        font-size: $simple-text * 0.8;
+                                    }
+                                    .block-heading-title-big {
+                                        font-size: $logo-text - 8px;
+                                    }
+                                    .block-heading-title-discription {
+                                        font-size: $simple-text * 0.8;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             /* footer */
             footer{
                 padding: 50px 0 20px;
@@ -352,6 +393,34 @@
                             }
                             .filter-tabs-clearfix::after{
                                 display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* mainAmenities section */
+            .section-mainAmenities-padding{
+                .auto-container{
+                    .row{
+                        justify-content: center;
+                        .flexelement{
+                            width: 70%;
+                            .amenities-block {
+                                margin-bottom: 50px;
+                                .amenities-content {
+                                    padding: 10px 12px 3px;
+                                    margin: -30px 40px 0;
+                                    .block-heading-title-small {
+                                        font-size: $simple-text * 0.8;
+                                    }
+                                    .block-heading-title-big {
+                                        font-size: $logo-text - 12px;
+                                    }
+                                    .block-heading-title-discription {
+                                        font-size: $simple-text * 0.5;
+                                    }
+                                }
                             }
                         }
                     }
@@ -487,6 +556,34 @@
                             }
                             .filter-tabs-clearfix::after{
                                 display: none;
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* mainAmenities section */
+            .section-mainAmenities-padding{
+                .auto-container{
+                    .row{
+                        justify-content: center;
+                        .flexelement{
+                            width: 70%;
+                            .amenities-block {
+                                margin-bottom: 50px;
+                                .amenities-content {
+                                    padding: 10px 12px 3px;
+                                    margin: -30px 40px 0;
+                                    .block-heading-title-small {
+                                        font-size: $simple-text * 0.6;
+                                    }
+                                    .block-heading-title-big {
+                                        font-size: $logo-text - 15px;
+                                    }
+                                    .block-heading-title-discription {
+                                        display: none;
+                                    }
+                                }
                             }
                         }
                     }

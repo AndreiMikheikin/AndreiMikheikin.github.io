@@ -45,6 +45,7 @@
                         font-size: $logo-text;
                         color: $backg;
                         font-weight: 500;
+                        margin-left: 5px;
                     }
 
                 }
@@ -334,6 +335,7 @@
                             font-size: $logo-text;
                             color: $yellow;
                             font-weight: 500;
+                            margin-left: 5px;
                         }
 
                     }
@@ -1969,6 +1971,124 @@
                 [id^="gallery"].active{display: block;}
             }
         }
+    }
+
+    /* mainAmenities section */
+    .section-mainAmenities-padding{
+        background-color: $backg;
+        max-width: 1920px;
+        
+        .auto-container{
+            position: static;
+            max-width: 1320px;
+            padding: 0 15px;
+
+            .section-heading{
+                z-index: 1;
+                margin-bottom: 20px;
+                text-align: center;
+                        
+                .section-heading-title-small{
+                    font-size: $simple-text;
+                    color: $yellow;
+                    margin-bottom: 6px;
+                    display: inline-block;
+                    font-weight: 500;
+                    text-transform: uppercase;
+                    letter-spacing: 5px;
+                    position: relative;
+                }
+                .section-heading-title-big{
+                    font-size: $logo-text * 1.9 - 4px;
+                    font-weight: 700;
+                    line-height: 1;
+                    position: relative;
+                    color: $bf-text;
+                    font-family: $title;
+                    padding-right: 15px;
+                    text-transform: capitalize;
+                    margin-bottom: 0.2em;
+                }
+                p{
+                    position: relative;
+                    margin-bottom: 0;
+                    line-height: 1.8;
+                    font-size: $simple-text;
+                }
+            }
+            
+            .row{
+                display: flex;
+                flex-wrap: wrap;
+                margin: 0 -15px;
+                margin-top: 1.5rem;
+
+                .flexelement{
+                    padding: 0 15px;
+                    flex: 0 0 auto;
+                    width: 50%;
+                    max-width: 100%;
+
+                    .amenities-block {
+                        position: relative;
+                        margin-bottom: 100px;
+
+                        .amenities-image {
+                        max-width: 560px;
+                        position: relative;
+                        overflow: hidden;
+
+                            img {
+                                transition: .7s;
+                                width: 100%;
+                                display: inline-block;
+                                height: auto;
+                                vertical-align: middle;
+                            }
+                            img:hover {
+                                transform: scale(1.1);
+                            }
+                        }
+
+                        .amenities-content {
+                            position: relative;
+                            padding: 32px 40px 15px;
+                            background: $backg;
+                            box-shadow: 0 10px 80px rgba(0,0,0,.1);
+                            max-width: 380px;
+                            margin: -115px 50px 0;
+
+                            .block-heading-title-small {
+                                color: $yellow;
+                                margin-bottom: 5px;
+                                font-weight: 500;
+                                line-height: 1.8;
+                                font-size: $simple-text;
+                                text-transform: uppercase;
+                            }
+
+                            .block-heading-title-big {
+                                margin-bottom: 10px;
+                                font-size: $logo-text - 2px;
+                                font-weight: 700;
+                                position: relative;
+                                line-height: 1.25rem;
+                                color: $bf-text;
+                                font-family: $title;
+                            }
+
+                            .block-heading-title-discription {
+                                color: $common;
+                                line-height: 1.8;
+                                font-size: $simple-text;
+                                margin-top: 0;
+                                margin-bottom: 1rem;
+                            }
+                        }
+                    }
+                }
+            }
+        }        
     }
 
     /* footer */
