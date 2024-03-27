@@ -1,3 +1,17 @@
+@keyframes fadeInLeft {
+    0% {
+      opacity:0;
+      transform:translateX(-20px)
+    }
+    to {
+      opacity:1;
+      transform:translateX(0)
+    }
+}
+.fadeInLeft {
+    animation-name: fadeInLeft;
+}
+
 h1.anim, .offer-block.anim, p.anim, .menu-block.anim{
     transform: translateX(-20%);
     transition: all 1.5s;

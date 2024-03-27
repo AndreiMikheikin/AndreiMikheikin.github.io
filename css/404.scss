@@ -2091,6 +2091,117 @@
         }        
     }
 
+    /* events section */
+    .section-events-padding{
+        .auto-container{
+            max-width: 1320px;
+            .row{
+                .flexelement{
+                    padding: 0 15px;
+                    flex: 0 0 auto;
+                    width: 100%;
+                    max-width: 100%;
+
+                    .event-block{
+                        visibility: visible;
+                        animation: fadeInLeft .8s;
+                        animation-delay: .2s;
+                        box-shadow: 0 10px 80px rgba(0,0,0,.07);
+                        padding: 30px;
+                        margin-bottom: 40px;
+                        display: flex;
+                        align-items: center;
+
+                        .event-image::before{
+                            position: absolute;
+                            content: "";
+                            top: 0;
+                            right: 0;
+                            left: 0;
+                            bottom: 0;
+                            background: rgba(34,34,34,.3);
+                            transition: .5s;
+                            opacity: 0;
+                            pointer-events: none;
+                        }
+
+                        .event-image{
+                            margin-right: 30px;
+                            position: relative;
+                            min-width: 30%;
+
+                            a{
+                                text-decoration: none;
+                                transition: .3s;
+                                color: $bf-text;
+
+                                img{
+                                    width: 100%;
+                                    min-width: 250px;
+                                    display: inline-block;
+                                    height: auto;
+                                    vertical-align: middle;
+                                }
+                            }
+                        }
+
+                        .event-content{
+                            position: relative;
+                            background: $backg;
+                            flex-grow: 1;
+
+                            .event-title{
+                                margin-bottom: 5px;
+                                font-size: $logo-text - 2px;
+                                font-weight: 700;
+                                position: relative;
+                                line-height: 1.25rem;
+                                background: none;
+                                color: $bf-text;
+                                font-family: $title;
+                                text-transform: capitalize;
+                            }
+                            .event-info{
+                                position: relative;
+                                margin-bottom: 15px;
+                                color: $common;
+                                line-height: 1.8;
+                                font-size: $simple-text;
+                            }
+                            .event-info~p {
+                                margin-bottom: 1rem;
+                            }
+                            .link-btn{
+                                .btn{
+                                    color: $btn-text;
+                                    background: $backg;
+                                    border: 1px solid $btn-border;
+                                    padding: 16px 35px 15px;
+                                    position: relative;
+                                    display: inline-flex;
+                                    overflow: hidden;
+                                    text-align: center;
+                                    z-index: 1;
+                                    letter-spacing: 1px;
+                                    font-weight: 500;
+                                    text-transform: uppercase;
+                                    transition: .5s;
+                                }
+                                .btn:hover{
+                                    color: $backg;
+                                    background: $yellow;
+                                }
+                            }
+                        }
+                    }
+                    .event-block:hover .event-image::before {
+                        opacity: 1;
+                    }
+                }
+            }
+        }
+    }
+
     /* footer */
     footer{
         padding: 120px 0 60px;

@@ -1,4 +1,27 @@
-/* line 1, animation.scss */
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+@keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
+/* line 11, animation.scss */
+.fadeInLeft {
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft; }
+
+/* line 15, animation.scss */
 h1.anim, .offer-block.anim, p.anim, .menu-block.anim {
   -webkit-transform: translateX(-20%);
           transform: translateX(-20%);
@@ -6,25 +29,25 @@ h1.anim, .offer-block.anim, p.anim, .menu-block.anim {
   transition: all 1.5s;
   opacity: 0; }
 
-/* line 6, animation.scss */
+/* line 20, animation.scss */
 h1.anim.active, .offer-block.anim.active, p.anim.active, .menu-block.anim.active {
   -webkit-transform: translateX(0);
           transform: translateX(0);
   opacity: 1; }
 
-/* line 11, animation.scss */
+/* line 25, animation.scss */
 h3.anim, h4.anim, span.anim, .icon-box.anim {
   -webkit-transform: rotateY(90deg);
           transform: rotateY(90deg);
   -webkit-transition: 2s;
   transition: 2s; }
 
-/* line 15, animation.scss */
+/* line 29, animation.scss */
 h3.anim.active, h4.anim.active, span.anim.active, .icon-box.anim.active {
   -webkit-transform: rotateY(0);
           transform: rotateY(0); }
 
-/* line 19, animation.scss */
+/* line 33, animation.scss */
 h2.anim, .flexelement.anim {
   -webkit-transform: rotateX(90deg);
           transform: rotateX(90deg);
@@ -32,13 +55,13 @@ h2.anim, .flexelement.anim {
   transition: all 2s;
   opacity: 0; }
 
-/* line 24, animation.scss */
+/* line 38, animation.scss */
 h2.anim.active, .flexelement.anim.active {
   -webkit-transform: rotateX(0);
           transform: rotateX(0);
   opacity: 1; }
 
-/* line 30, animation.scss */
+/* line 44, animation.scss */
 #top > header > .mobile-menu.active {
   visibility: visible;
   opacity: 1;
@@ -48,7 +71,7 @@ h2.anim.active, .flexelement.anim.active {
   -webkit-transition: all .7s ease;
   transition: all .7s ease; }
 
-/* line 39, animation.scss */
+/* line 53, animation.scss */
 #top > header > .mobile-menu.active .menu-drop {
   -webkit-transform: translateX(0);
           transform: translateX(0);
@@ -57,7 +80,7 @@ h2.anim.active, .flexelement.anim.active {
   -webkit-transition: all .7s ease;
   transition: all .7s ease; }
 
-/* line 46, animation.scss */
+/* line 60, animation.scss */
 .btn-rotateZ {
   -webkit-transform: rotateZ(90deg);
           transform: rotateZ(90deg);

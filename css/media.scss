@@ -118,9 +118,23 @@
                     }
                 }
             }
+
+             /* events section */
+            .section-events-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            .event-block{
+                                .event-image{
+                                    min-width: 300px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
         }
-    }
-    
+    }  
 }
 
 @media only all and (max-width: 768px){
@@ -293,6 +307,33 @@
                 }
             }
 
+             /* events section */
+            .section-events-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            .event-block{
+                                flex-direction: column;
+                                justify-content: center;
+                                text-align: center;
+
+                                .event-image{
+                                    position: relative;
+                                    width: 40%;
+                                    margin: 15px;
+                                }
+                                .event-content{
+
+                                    .event-title{
+                                        font-size: $logo-text;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
             /* footer */
             footer{
                 padding: 50px 0 20px;
@@ -419,6 +460,23 @@
                                     }
                                     .block-heading-title-discription {
                                         font-size: $simple-text * 0.5;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* events section */
+            .section-events-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            .event-block{
+                                .event-content{
+                                    .event-title{
+                                        font-size: $logo-text / 1.2;
                                     }
                                 }
                             }
@@ -582,6 +640,23 @@
                                     }
                                     .block-heading-title-discription {
                                         display: none;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+            /* events section */
+            .section-events-padding{
+                .auto-container{
+                    .row{
+                        .flexelement{
+                            .event-block{
+                                .event-content{
+                                    .event-title{
+                                        font-size: $logo-text / 1.5;
                                     }
                                 }
                             }
