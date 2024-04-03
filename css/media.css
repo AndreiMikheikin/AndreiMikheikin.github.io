@@ -18,7 +18,8 @@
     /* testimonials */
     /* gallery section */
     /* mainAmenities section */
-    /* events section */ }
+    /* events section */
+    /* wedding section */ }
     /* line 31, media.scss */
     body #top header .container .mobile-column {
       display: block; }
@@ -71,17 +72,23 @@
           margin-bottom: 50px; }
     /* line 128, media.scss */
     body #top .section-events-padding .auto-container .row .flexelement .event-block .event-image {
-      min-width: 300px; } }
+      min-width: 300px; }
+    /* line 141, media.scss */
+    body #top .section-wedding-padding .auto-container .row .main-post {
+      width: 100%;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto; } }
 @media only all and (max-width: 768px) {
-  /* line 141, media.scss */
+  /* line 153, media.scss */
   [class*="padding"] {
     padding: 70px 12px; }
 
-  /* line 145, media.scss */
+  /* line 157, media.scss */
   h1, h2 {
     font-size: 48px !important; }
 
-  /* line 150, media.scss */
+  /* line 162, media.scss */
   body #top {
     /* about */
     /* amenities */
@@ -90,30 +97,31 @@
     /* gallery section */
     /* mainAmenities section */
     /* events section */
+    /* wedding section */
     /* footer */ }
-    /* line 155, media.scss */
+    /* line 167, media.scss */
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
       padding: 0 15px; }
-      /* line 159, media.scss */
+      /* line 171, media.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
         display: none; }
-      /* line 162, media.scss */
+      /* line 174, media.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image .image-1, body #top .section-about-padding .auto-container .row .about-block .about-image .image-2, body #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
         -webkit-transform: scale(0.8);
                 transform: scale(0.8);
         height: auto; }
-    /* line 168, media.scss */
+    /* line 180, media.scss */
     body #top .section-about-padding .auto-container .row .about-discription {
       width: 100%;
       padding: 0 15px; }
-    /* line 178, media.scss */
+    /* line 190, media.scss */
     body #top .section-amenities-padding .auto-container {
       width: 100%; }
-      /* line 181, media.scss */
+      /* line 193, media.scss */
       body #top .section-amenities-padding .auto-container .wrapper .section-heading {
         padding: 0 20px; }
-      /* line 185, media.scss */
+      /* line 197, media.scss */
       body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
         margin: 0 10px 15px;
         padding: 20px 10px !important;
@@ -121,74 +129,74 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 1 auto;
                 flex: 0 1 auto; }
-    /* line 202, media.scss */
+    /* line 214, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul .location {
       border-left: 1px solid #bebec3 !important; }
-    /* line 205, media.scss */
+    /* line 217, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul .A1 {
       margin-right: 71px; }
-    /* line 208, media.scss */
+    /* line 220, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul li:last-child {
       width: 200px; }
-    /* line 212, media.scss */
+    /* line 224, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul:first-child {
       margin-bottom: 0; }
-    /* line 217, media.scss */
+    /* line 229, media.scss */
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
-      /* line 220, media.scss */
+      /* line 232, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
-        /* line 224, media.scss */
+        /* line 236, media.scss */
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 30px 60px; }
-          /* line 228, media.scss */
+          /* line 240, media.scss */
           body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
             margin: 0 auto; }
-      /* line 235, media.scss */
+      /* line 247, media.scss */
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 90vw;
         margin: 0 !important; }
-    /* line 249, media.scss */
+    /* line 261, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
-      /* line 252, media.scss */
+      /* line 264, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 300px; }
-    /* line 267, media.scss */
+    /* line 279, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns {
       margin-bottom: 30px; }
-      /* line 269, media.scss */
+      /* line 281, media.scss */
       body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a {
         padding: 5px 12px;
         font-size: 10px;
         line-height: 1.2; }
-    /* line 276, media.scss */
+    /* line 288, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
-    /* line 287, media.scss */
+    /* line 299, media.scss */
     body #top .section-mainAmenities-padding .auto-container .row {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      /* line 289, media.scss */
+      /* line 301, media.scss */
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
-        /* line 291, media.scss */
+        /* line 303, media.scss */
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
           margin-bottom: 50px; }
-          /* line 294, media.scss */
+          /* line 306, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-small {
             font-size: 12.8px; }
-          /* line 297, media.scss */
+          /* line 309, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-big {
             font-size: 24px; }
-          /* line 300, media.scss */
+          /* line 312, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-discription {
             font-size: 12.8px; }
-    /* line 315, media.scss */
+    /* line 327, media.scss */
     body #top .section-events-padding .auto-container .row .flexelement .event-block {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -198,18 +206,28 @@
           -ms-flex-pack: center;
               justify-content: center;
       text-align: center; }
-      /* line 320, media.scss */
+      /* line 332, media.scss */
       body #top .section-events-padding .auto-container .row .flexelement .event-block .event-image {
         position: relative;
         width: 40%;
         margin: 15px; }
-      /* line 327, media.scss */
+      /* line 339, media.scss */
       body #top .section-events-padding .auto-container .row .flexelement .event-block .event-content .event-title {
         font-size: 32px; }
-    /* line 338, media.scss */
+    /* line 353, media.scss */
+    body #top .section-wedding-padding .auto-container .row .main-post {
+      width: 100%;
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto; }
+      /* line 358, media.scss */
+      body #top .section-wedding-padding .auto-container .row .main-post .wedding-block .row .requirement {
+        width: 100% !important;
+        margin-right: 0 !important; }
+    /* line 370, media.scss */
     body #top footer {
       padding: 50px 0 20px; }
-      /* line 343, media.scss */
+      /* line 375, media.scss */
       body #top footer .auto-container .row .contact-block {
         max-width: 100%;
         margin-bottom: 20px;
@@ -217,101 +235,101 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 1 auto;
                 flex: 0 1 auto; }
-      /* line 349, media.scss */
+      /* line 381, media.scss */
       body #top footer .auto-container .row .contact-block:nth-child(2) {
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2; }
-      /* line 352, media.scss */
+      /* line 384, media.scss */
       body #top footer .auto-container .row .contact-block:nth-child(4) {
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3; } }
 @media only all and (max-width: 560px) {
-  /* line 364, media.scss */
+  /* line 396, media.scss */
   body #top {
     /* contact */
     /* testimonials */
     /* gallery section */
     /* mainAmenities section */
     /* events section */ }
-    /* line 366, media.scss */
+    /* line 398, media.scss */
     body #top header .container {
       padding: 0 10px;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
-      /* line 369, media.scss */
+      /* line 401, media.scss */
       body #top header .container .mobile-column {
         right: 10px; }
-      /* line 372, media.scss */
+      /* line 404, media.scss */
       body #top header .container .link-btn {
         display: none; }
-    /* line 382, media.scss */
+    /* line 414, media.scss */
     body #top .section-contact-padding .auto-container .row .contact-form {
       width: 100%; }
-      /* line 388, media.scss */
+      /* line 420, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
         margin: 0 auto; }
-    /* line 395, media.scss */
+    /* line 427, media.scss */
     body #top .section-contact-padding .auto-container .row .map {
       width: 100%;
       height: 120vw;
       margin: 0 !important; }
-    /* line 408, media.scss */
+    /* line 440, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
-      /* line 411, media.scss */
+      /* line 443, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 300px; }
-    /* line 426, media.scss */
+    /* line 458, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns {
       margin-bottom: 20px; }
-      /* line 428, media.scss */
+      /* line 460, media.scss */
       body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a {
         padding: 5px 8px;
         font-size: 8px;
         line-height: 1.2; }
-    /* line 435, media.scss */
+    /* line 467, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
-    /* line 446, media.scss */
+    /* line 478, media.scss */
     body #top .section-mainAmenities-padding .auto-container .row {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      /* line 448, media.scss */
+      /* line 480, media.scss */
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
-        /* line 450, media.scss */
+        /* line 482, media.scss */
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
           margin-bottom: 50px; }
-          /* line 452, media.scss */
+          /* line 484, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content {
             padding: 10px 12px 3px;
             margin: -30px 40px 0; }
-            /* line 455, media.scss */
+            /* line 487, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-small {
               font-size: 12.8px; }
-            /* line 458, media.scss */
+            /* line 490, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-big {
               font-size: 20px; }
-            /* line 461, media.scss */
+            /* line 493, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-discription {
               font-size: 8px; }
-    /* line 478, media.scss */
+    /* line 510, media.scss */
     body #top .section-events-padding .auto-container .row .flexelement .event-block .event-content .event-title {
       font-size: 26.6666666667px; } }
 @media only all and (max-width: 400px) {
-  /* line 492, media.scss */
+  /* line 524, media.scss */
   [class*="padding"] {
     padding: 50px 5px; }
 
-  /* line 496, media.scss */
+  /* line 528, media.scss */
   h1, h2 {
     font-size: 32px !important; }
 
-  /* line 501, media.scss */
+  /* line 533, media.scss */
   body #top {
     /* about */
     /* amenities */
@@ -321,101 +339,101 @@
     /* mainAmenities section */
     /* events section */
     /* footer */ }
-    /* line 504, media.scss */
+    /* line 536, media.scss */
     body #top .section-about-padding {
       padding: 50px 10px 5px; }
-      /* line 508, media.scss */
+      /* line 540, media.scss */
       body #top .section-about-padding .auto-container .row .about-discription {
         position: static;
         padding: 0 25px;
         margin: 0 auto;
         width: 100%;
         text-align: center; }
-      /* line 515, media.scss */
+      /* line 547, media.scss */
       body #top .section-about-padding .auto-container .row .about-block {
         width: 100%;
         padding: 0 15px; }
-        /* line 519, media.scss */
+        /* line 551, media.scss */
         body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
           display: none; }
-        /* line 522, media.scss */
+        /* line 554, media.scss */
         body #top .section-about-padding .auto-container .row .about-block .about-image .image-1, body #top .section-about-padding .auto-container .row .about-block .about-image .image-2, body #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
           height: auto; }
-    /* line 537, media.scss */
+    /* line 569, media.scss */
     body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
       margin: 0 15px 15px;
       padding: 30px 0;
       width: 150px;
       min-width: 100px; }
-    /* line 553, media.scss */
+    /* line 585, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li {
       border-left: 1px solid #bebec3 !important; }
-    /* line 557, media.scss */
+    /* line 589, media.scss */
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
-      /* line 559, media.scss */
+      /* line 591, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
-        /* line 563, media.scss */
+        /* line 595, media.scss */
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 15px 20px; }
-          /* line 567, media.scss */
+          /* line 599, media.scss */
           body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
             margin: 0 auto; }
-      /* line 574, media.scss */
+      /* line 606, media.scss */
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 150vw;
         margin: 0 !important; }
-    /* line 588, media.scss */
+    /* line 620, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
-      /* line 591, media.scss */
+      /* line 623, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 350px; }
-    /* line 606, media.scss */
+    /* line 638, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns {
       margin-bottom: 10px; }
-      /* line 608, media.scss */
+      /* line 640, media.scss */
       body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a {
         padding: 5px 2px;
         font-size: 7px;
         line-height: 1.2; }
-    /* line 615, media.scss */
+    /* line 647, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
-    /* line 626, media.scss */
+    /* line 658, media.scss */
     body #top .section-mainAmenities-padding .auto-container .row {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      /* line 628, media.scss */
+      /* line 660, media.scss */
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
-        /* line 630, media.scss */
+        /* line 662, media.scss */
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
           margin-bottom: 50px; }
-          /* line 632, media.scss */
+          /* line 664, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content {
             padding: 10px 12px 3px;
             margin: -30px 40px 0; }
-            /* line 635, media.scss */
+            /* line 667, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-small {
               font-size: 9.6px; }
-            /* line 638, media.scss */
+            /* line 670, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-big {
               font-size: 17px; }
-            /* line 641, media.scss */
+            /* line 673, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-discription {
               display: none; }
-    /* line 658, media.scss */
+    /* line 690, media.scss */
     body #top .section-events-padding .auto-container .row .flexelement .event-block .event-content .event-title {
       font-size: 21.3333333333px; }
-    /* line 669, media.scss */
+    /* line 701, media.scss */
     body #top footer {
       padding: 50px 0 20px; }
-      /* line 674, media.scss */
+      /* line 706, media.scss */
       body #top footer .auto-container .row .contact-block {
         width: 80% !important;
         margin-bottom: 20px;

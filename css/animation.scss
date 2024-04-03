@@ -22,11 +22,11 @@ h1.anim.active, .offer-block.anim.active, p.anim.active, .menu-block.anim.active
     opacity: 1;
 }
 
-h3.anim, h4.anim, span.anim, .icon-box.anim{
+h3.anim, h4.anim, span.anim, .icon-box.anim, .event-block.anim{
     transform: rotateY(90deg);
     transition: 2s;
 }
-h3.anim.active, h4.anim.active, span.anim.active, .icon-box.anim.active{
+h3.anim.active, h4.anim.active, span.anim.active, .icon-box.anim.active, .event-block.anim.active{
     transform: rotateY(0);
 }
 

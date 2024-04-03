@@ -36,14 +36,14 @@ h1.anim.active, .offer-block.anim.active, p.anim.active, .menu-block.anim.active
   opacity: 1; }
 
 /* line 25, animation.scss */
-h3.anim, h4.anim, span.anim, .icon-box.anim {
+h3.anim, h4.anim, span.anim, .icon-box.anim, .event-block.anim {
   -webkit-transform: rotateY(90deg);
           transform: rotateY(90deg);
   -webkit-transition: 2s;
   transition: 2s; }
 
 /* line 29, animation.scss */
-h3.anim.active, h4.anim.active, span.anim.active, .icon-box.anim.active {
+h3.anim.active, h4.anim.active, span.anim.active, .icon-box.anim.active, .event-block.anim.active {
   -webkit-transform: rotateY(0);
           transform: rotateY(0); }
 

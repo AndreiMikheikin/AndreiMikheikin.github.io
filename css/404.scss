@@ -2151,6 +2151,7 @@
                             flex-grow: 1;
 
                             .event-title{
+                                text-decoration: none;
                                 margin-bottom: 5px;
                                 font-size: $logo-text - 2px;
                                 font-weight: 700;
@@ -2197,6 +2198,186 @@
                     .event-block:hover .event-image::before {
                         opacity: 1;
                     }
+                }
+            }
+        }
+    }
+
+    /* wedding section */
+    .section-wedding-padding{
+        .auto-container{
+            max-width: 1320px;
+            .feature-image{
+                position: relative;
+                margin: 0 auto 60px;
+                text-align: center;
+                max-width: 1290px;
+                box-shadow: 0 10px 80px rgba(0,0,0,.07);
+
+                img{
+                    width: 100%;
+                    height: auto;
+                }
+            }
+            .row{
+                margin: 0 auto;
+                padding: 0 15px;
+
+                .main-post{
+                    width: 66.6667%;
+                    max-width: 100%;
+                    flex-shrink: 0;
+                    
+                    .wedding-block{
+                        h2{
+                            margin-bottom: 20px;
+                            font-size: $logo-text * 2 - 4px;
+                            font-weight: 700;
+                            line-height: 1;
+                            position: relative;
+                            background: none;
+                            color: $bf-text;
+                            font-family: $title;
+                            text-transform: capitalize;
+                        }
+                        p{
+                            line-height: 1.8;
+                            font-size: $simple-text;
+                        }
+                        .mb_20{
+                            margin-bottom: 20px;
+                        }
+                        .mb_30{
+                            margin-bottom: 30px;
+                        }
+                        .mb_50{
+                            margin-bottom: 50px;
+                        }
+                        .mb_70{
+                            margin-bottom: 70px;
+                        }
+                        h4{
+                            position: relative;
+                            line-height: 1.25rem;
+                            color: $bf-text;
+                            font-family: $title;
+                            font-size: $logo-text - 2px;
+                            font-weight: 700;
+                            text-transform: capitalize;
+                        }
+                        h6{
+                            position: relative;
+                            line-height: 1rem;
+                            text-indent: 20px;
+                            color: $bf-text;
+                            font-family: $title;
+                            font-size: $logo-text - 10px;
+                            font-weight: 500;
+                            text-transform: capitalize;
+                        }
+                        .row{
+                            width: 100%;
+                            padding: 0;
+                            justify-content: center;
+                            .requirement{
+                                flex: 0 0 auto;
+                                max-width: 100%;
+                                width: 45%;
+                                height: auto;
+                                border: 1px solid $btn-border;
+                                border-radius: 5px;
+                                padding: 22px 10px 30px;
+                                background: $bf-bg;
+                                box-shadow: 0 5px 8px $yellow, 0 -5px 8px $yellow;
+                            }
+                            .requirement:nth-child(odd){
+                                margin-right: 5px;
+                            }
+                        }
+
+                        .sortable{
+                            .filters{
+                                margin-top: 20px;
+                                margin-bottom: 20px;
+                                
+                                .filter-tabs-clearfix{
+                                    .filter-btns{
+                                        font-weight: 500;
+                                        color: $acc-text;
+                                        text-transform: uppercase;
+                                        margin-bottom: 70px;
+                                        display: flex;
+                                        justify-content: center;
+                                        list-style: none;
+                                        padding: 0;
+                                        margin: 0;
+                                        
+                                        a{
+                                            margin: 0 5px 10px;
+                                            cursor: pointer;
+                                            color: $bf-text;
+                                            background: $filter-btns;
+                                            padding: 11px 25px;
+                                            font-weight: 500;
+                                            transition: .5s;
+                                            text-align: center;
+                                            border-top-left-radius: 10px 10px;
+                                            border-top-right-radius: 10px 10px;
+                                            box-shadow: 0 -7px 15px rgba(0,0,0,.7);
+                                        }
+            
+                                        a:hover{
+                                            background: $yellow;
+                                            color: $backg;
+                                        }
+            
+                                        .filter.active{
+                                            background: $yellow;
+                                            color: $backg;
+                                            box-shadow: 0 -10px 15px $yellow;
+                                        }
+                                    }
+                                }
+                                .filter-tabs-clearfix::after{
+                                    display: block;
+                                    clear: both;
+                                    content: "";
+                                }
+                            }
+                            
+                            [id^="gallery"]{
+                                display: none;
+            
+                                .slide{
+                                    width: 100%;
+                                    margin: 0 auto;
+                                    height: auto;
+                                    pointer-events: none;
+                                    display: flex;
+                                    align-items: center;
+                                    justify-content: center;
+                                    padding: 0 15px;
+                                }
+                                
+                                .galary-nav{
+                                    display: flex;
+                                    justify-content: center;
+                                    padding: 1rem 0 0;
+
+                                    .galary-nav-left,
+                                    .galary-nav-right{
+                                        position: absolute !important;
+                                    }
+                                }
+                            }
+                            [id^="gallery"].active{display: block; position: relative;}
+                        }
+                    }
+                }
+                .widgets-post{
+                    width: 33.3%;
+                    min-width: 300px;
+                    border-left: 5px solid #000;
                 }
             }
         }
