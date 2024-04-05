@@ -2641,7 +2641,7 @@
           flex-wrap: wrap; }
       /* line 151, media.scss */
       body #top .section-wedding-padding .auto-container .row .widgets-post .event-widget {
-        margin: 0 15px; } }
+        margin: 0 15px 20px; } }
 @media only all and (max-width: 768px) {
   /* line 163, media.scss */
   [class*="padding"] {
@@ -2789,7 +2789,7 @@
         margin-right: 0 !important; }
     /* line 379, media.scss */
     body #top .section-wedding-padding .auto-container .row .widgets-post .event-widget ul li a {
-      font-size: 16px; }
+      font-size: 18px; }
     /* line 391, media.scss */
     body #top footer {
       padding: 50px 0 20px; }

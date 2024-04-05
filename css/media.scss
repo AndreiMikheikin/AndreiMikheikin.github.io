@@ -149,7 +149,7 @@
                             flex-wrap: wrap;
 
                             .event-widget{
-                                margin: 0 15px;
+                                margin: 0 15px 20px;
                             }
                         }
                     }
@@ -377,7 +377,7 @@
                                 ul{
                                     li{
                                         a{
-                                            font-size: $simple-text;
+                                            font-size: $under-title-text;
                                         }
                                     }
                                 }
