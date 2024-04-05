@@ -2227,6 +2227,7 @@
                     width: 66.6667%;
                     max-width: 100%;
                     flex-shrink: 0;
+                    padding-right: 15px;
                     
                     .wedding-block{
                         h2{
@@ -2372,12 +2373,104 @@
                             }
                             [id^="gallery"].active{display: block; position: relative;}
                         }
+                        ul {
+                            li{
+                                list-style: none;
+                                strong::before{
+                                    content: "\e876";
+                                    color: $yellow;
+                                    font-family: $icon;
+                                    font-size: $simple-text - 1px;
+                                    margin-right: 18px;
+                                    position: relative;
+                                    bottom: -2px;
+                                }
+                            }
+                        }
+                        .icon-18, .icon-19,
+                        .icon-20, .icon-21 {
+                            color: $yellow;
+                            font-family: $icon;
+                            font-size: $simple-text + 4px;
+                            font-style: normal;
+                            margin-right: 18px;
+                            position: relative;
+                            bottom: -3px;
+                        }
+                        .icon-18::before{
+                            content: "\e531";
+                        }
+                        .icon-19::before{
+                            content: "\e530";
+                        }
+                        .icon-20::before{
+                            content: "\eb3c";
+                        }
+                        .icon-21::before{
+                            content: "\e559";
+                        }
                     }
                 }
                 .widgets-post{
                     width: 33.3%;
                     min-width: 300px;
-                    border-left: 5px solid #000;
+                    padding-left: 15px;
+                    flex: 0 1 auto;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: wrap;
+
+                    .mb_20{
+                        margin-bottom: 20px;
+                    }
+                    .mb_30{
+                        margin-bottom: 30px;
+                    }
+                    .mb_50{
+                        margin-bottom: 50px;
+                    }
+                    .mb_70{
+                        margin-bottom: 70px;
+                    }
+
+                    .event-widget{
+                        flex: 300px 1 auto;
+                        h4{
+                            background-color: $yellow;
+                            padding: 16px;
+                            padding-left: 30px;
+                            color: $widget-color;
+                            font-size: $logo-text - 2px;
+                            font-weight: 700;
+                            position: relative;
+                            line-height: 1.25em;
+                            font-family: $title;
+                            text-transform: capitalize; 
+                        }
+                        ul{
+                            background-color: $bf-bg;
+                            padding: 30px 40px;
+                            font-size: $under-title-text;
+                            list-style: none;
+
+                            li{
+                                font-weight: 500;
+                                padding: 20px 0;
+                                border-bottom: 1px solid $footer-li;
+
+                                span{
+                                    color: $dark-widget-color;
+                                }
+                                a{
+                                    text-decoration: none;
+                                    color: $title-color;
+                                }
+                            }
+                            li:last-child{
+                                border-bottom: none;
+                            }
+                        }
+                    }
                 }
             }
         }

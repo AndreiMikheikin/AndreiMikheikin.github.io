@@ -142,6 +142,16 @@
                             width: 100%;
                             flex: 0 0 auto;
                         }
+                        .widgets-post{
+                            width: 100%;
+                            flex-direction: row;
+                            justify-content: center;
+                            flex-wrap: wrap;
+
+                            .event-widget{
+                                margin: 0 15px;
+                            }
+                        }
                     }
                 }
             }
@@ -362,6 +372,17 @@
                                 }
                             }
                         }
+                        .widgets-post{
+                            .event-widget{
+                                ul{
+                                    li{
+                                        a{
+                                            font-size: $simple-text;
+                                        }
+                                    }
+                                }
+                            }
+                        }
                     }
                 }
             }
@@ -516,8 +537,21 @@
                     }
                 }
             }
+
+                        /* wedding section */
+            .section-wedding-padding{
+                .auto-container{
+                    .row{
+                        .widgets-post{
+                            .event-widget{
+                                margin: 0;
+                            }
+                        }
+                    }
+                }
+            }
         }
-    } 
+    }  
 }
 
 @media only all and (max-width: 400px){

@@ -2146,8 +2146,9 @@
         width: 66.6667%;
         max-width: 100%;
         -ms-flex-negative: 0;
-            flex-shrink: 0; }
-        /* line 2232, 404.scss */
+            flex-shrink: 0;
+        padding-right: 15px; }
+        /* line 2233, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block h2 {
           margin-bottom: 20px;
           font-size: 60px;
@@ -2158,23 +2159,23 @@
           color: #2b2d42;
           font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
           text-transform: capitalize; }
-        /* line 2243, 404.scss */
+        /* line 2244, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block p {
           line-height: 1.8;
           font-size: 16px; }
-        /* line 2247, 404.scss */
+        /* line 2248, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .mb_20 {
           margin-bottom: 20px; }
-        /* line 2250, 404.scss */
+        /* line 2251, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .mb_30 {
           margin-bottom: 30px; }
-        /* line 2253, 404.scss */
+        /* line 2254, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .mb_50 {
           margin-bottom: 50px; }
-        /* line 2256, 404.scss */
+        /* line 2257, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .mb_70 {
           margin-bottom: 70px; }
-        /* line 2259, 404.scss */
+        /* line 2260, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block h4 {
           position: relative;
           line-height: 1.25rem;
@@ -2183,7 +2184,7 @@
           font-size: 30px;
           font-weight: 700;
           text-transform: capitalize; }
-        /* line 2268, 404.scss */
+        /* line 2269, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block h6 {
           position: relative;
           line-height: 1rem;
@@ -2193,14 +2194,14 @@
           font-size: 22px;
           font-weight: 500;
           text-transform: capitalize; }
-        /* line 2278, 404.scss */
+        /* line 2279, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .row {
           width: 100%;
           padding: 0;
           -webkit-box-pack: center;
               -ms-flex-pack: center;
                   justify-content: center; }
-          /* line 2282, 404.scss */
+          /* line 2283, 404.scss */
           #top .section-wedding-padding .auto-container .row .main-post .wedding-block .row .requirement {
             -webkit-box-flex: 0;
                 -ms-flex: 0 0 auto;
@@ -2214,14 +2215,14 @@
             background: #faf5f2;
             -webkit-box-shadow: 0 5px 8px #c7a610, 0 -5px 8px #c7a610;
                     box-shadow: 0 5px 8px #c7a610, 0 -5px 8px #c7a610; }
-          /* line 2293, 404.scss */
+          /* line 2294, 404.scss */
           #top .section-wedding-padding .auto-container .row .main-post .wedding-block .row .requirement:nth-child(odd) {
             margin-right: 5px; }
-        /* line 2299, 404.scss */
+        /* line 2300, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable .filters {
           margin-top: 20px;
           margin-bottom: 20px; }
-          /* line 2304, 404.scss */
+          /* line 2305, 404.scss */
           #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable .filters .filter-tabs-clearfix .filter-btns {
             font-weight: 500;
             color: #333;
@@ -2236,7 +2237,7 @@
             list-style: none;
             padding: 0;
             margin: 0; }
-            /* line 2315, 404.scss */
+            /* line 2316, 404.scss */
             #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable .filters .filter-tabs-clearfix .filter-btns a {
               margin: 0 5px 10px;
               cursor: pointer;
@@ -2251,25 +2252,25 @@
               border-top-right-radius: 10px 10px;
               -webkit-box-shadow: 0 -7px 15px rgba(0, 0, 0, 0.7);
                       box-shadow: 0 -7px 15px rgba(0, 0, 0, 0.7); }
-            /* line 2329, 404.scss */
+            /* line 2330, 404.scss */
             #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable .filters .filter-tabs-clearfix .filter-btns a:hover {
               background: #c7a610;
               color: #fff; }
-            /* line 2334, 404.scss */
+            /* line 2335, 404.scss */
             #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable .filters .filter-tabs-clearfix .filter-btns .filter.active {
               background: #c7a610;
               color: #fff;
               -webkit-box-shadow: 0 -10px 15px #c7a610;
                       box-shadow: 0 -10px 15px #c7a610; }
-          /* line 2341, 404.scss */
+          /* line 2342, 404.scss */
           #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable .filters .filter-tabs-clearfix::after {
             display: block;
             clear: both;
             content: ""; }
-        /* line 2348, 404.scss */
+        /* line 2349, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable [id^="gallery"] {
           display: none; }
-          /* line 2351, 404.scss */
+          /* line 2352, 404.scss */
           #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable [id^="gallery"] .slide {
             width: 100%;
             margin: 0 auto;
@@ -2285,7 +2286,7 @@
                 -ms-flex-pack: center;
                     justify-content: center;
             padding: 0 15px; }
-          /* line 2362, 404.scss */
+          /* line 2363, 404.scss */
           #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable [id^="gallery"] .galary-nav {
             display: -webkit-box;
             display: -ms-flexbox;
@@ -2294,35 +2295,131 @@
                 -ms-flex-pack: center;
                     justify-content: center;
             padding: 1rem 0 0; }
-            /* line 2367, 404.scss */
+            /* line 2368, 404.scss */
             #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable [id^="gallery"] .galary-nav .galary-nav-left,
             #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable [id^="gallery"] .galary-nav .galary-nav-right {
               position: absolute !important; }
-        /* line 2373, 404.scss */
+        /* line 2374, 404.scss */
         #top .section-wedding-padding .auto-container .row .main-post .wedding-block .sortable [id^="gallery"].active {
           display: block;
           position: relative; }
-      /* line 2377, 404.scss */
+        /* line 2377, 404.scss */
+        #top .section-wedding-padding .auto-container .row .main-post .wedding-block ul li {
+          list-style: none; }
+          /* line 2379, 404.scss */
+          #top .section-wedding-padding .auto-container .row .main-post .wedding-block ul li strong::before {
+            content: "\e876";
+            color: #c7a610;
+            font-family: "Material Symbols Outlined";
+            font-size: 15px;
+            margin-right: 18px;
+            position: relative;
+            bottom: -2px; }
+        /* line 2390, 404.scss */
+        #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-18, #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-19,
+        #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-20, #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-21 {
+          color: #c7a610;
+          font-family: "Material Symbols Outlined";
+          font-size: 20px;
+          font-style: normal;
+          margin-right: 18px;
+          position: relative;
+          bottom: -3px; }
+        /* line 2400, 404.scss */
+        #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-18::before {
+          content: "\e531"; }
+        /* line 2403, 404.scss */
+        #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-19::before {
+          content: "\e530"; }
+        /* line 2406, 404.scss */
+        #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-20::before {
+          content: "\eb3c"; }
+        /* line 2409, 404.scss */
+        #top .section-wedding-padding .auto-container .row .main-post .wedding-block .icon-21::before {
+          content: "\e559"; }
+      /* line 2414, 404.scss */
       #top .section-wedding-padding .auto-container .row .widgets-post {
         width: 33.3%;
         min-width: 300px;
-        border-left: 5px solid #000; }
-  /* line 2387, 404.scss */
+        padding-left: 15px;
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+                flex: 0 1 auto;
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap; }
+        /* line 2423, 404.scss */
+        #top .section-wedding-padding .auto-container .row .widgets-post .mb_20 {
+          margin-bottom: 20px; }
+        /* line 2426, 404.scss */
+        #top .section-wedding-padding .auto-container .row .widgets-post .mb_30 {
+          margin-bottom: 30px; }
+        /* line 2429, 404.scss */
+        #top .section-wedding-padding .auto-container .row .widgets-post .mb_50 {
+          margin-bottom: 50px; }
+        /* line 2432, 404.scss */
+        #top .section-wedding-padding .auto-container .row .widgets-post .mb_70 {
+          margin-bottom: 70px; }
+        /* line 2436, 404.scss */
+        #top .section-wedding-padding .auto-container .row .widgets-post .event-widget {
+          -webkit-box-flex: 300px;
+              -ms-flex: 300px 1 auto;
+                  flex: 300px 1 auto; }
+          /* line 2438, 404.scss */
+          #top .section-wedding-padding .auto-container .row .widgets-post .event-widget h4 {
+            background-color: #c7a610;
+            padding: 16px;
+            padding-left: 30px;
+            color: #f8f9fa;
+            font-size: 30px;
+            font-weight: 700;
+            position: relative;
+            line-height: 1.25em;
+            font-family: "Cormorant", Georgia, "Times New Roman", Times, serif;
+            text-transform: capitalize; }
+          /* line 2450, 404.scss */
+          #top .section-wedding-padding .auto-container .row .widgets-post .event-widget ul {
+            background-color: #faf5f2;
+            padding: 30px 40px;
+            font-size: 18px;
+            list-style: none; }
+            /* line 2456, 404.scss */
+            #top .section-wedding-padding .auto-container .row .widgets-post .event-widget ul li {
+              font-weight: 500;
+              padding: 20px 0;
+              border-bottom: 1px solid #bebec3; }
+              /* line 2461, 404.scss */
+              #top .section-wedding-padding .auto-container .row .widgets-post .event-widget ul li span {
+                color: #212529; }
+              /* line 2464, 404.scss */
+              #top .section-wedding-padding .auto-container .row .widgets-post .event-widget ul li a {
+                text-decoration: none;
+                color: #2c2a49; }
+            /* line 2469, 404.scss */
+            #top .section-wedding-padding .auto-container .row .widgets-post .event-widget ul li:last-child {
+              border-bottom: none; }
+  /* line 2480, 404.scss */
   #top footer {
     padding: 120px 0 60px;
     background: #252638; }
-    /* line 2391, 404.scss */
+    /* line 2484, 404.scss */
     #top footer .auto-container {
       position: static;
       max-width: 1320px;
       padding: 0 15px; }
-      /* line 2396, 404.scss */
+      /* line 2489, 404.scss */
       #top footer .auto-container .row {
         background: #252638;
         -webkit-box-pack: center;
             -ms-flex-pack: center;
                 justify-content: center; }
-        /* line 2400, 404.scss */
+        /* line 2493, 404.scss */
         #top footer .auto-container .row .contact-block {
           padding: 0 15px;
           -webkit-box-flex: 0;
@@ -2330,36 +2427,36 @@
                   flex: 0 0 auto;
           width: 25%;
           min-width: 200px; }
-          /* line 2408, 404.scss */
+          /* line 2501, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-title h4 {
             color: #fff;
             margin-bottom: 30px;
             font-size: 30px;
             line-height: 1.25em;
             font-family: "Cormorant", Georgia, "Times New Roman", Times, serif; }
-          /* line 2417, 404.scss */
+          /* line 2510, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-list {
             list-style: none;
             padding-left: 0; }
-            /* line 2421, 404.scss */
+            /* line 2514, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-list li {
               margin-bottom: 8px;
               color: #bebec3; }
-              /* line 2425, 404.scss */
+              /* line 2518, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a, #top footer .auto-container .row .contact-block .contact-block-list li address {
                 font-style: normal;
                 color: #bebec3;
                 -webkit-transition: all 0.2s ease;
                 transition: all 0.2s ease; }
-              /* line 2431, 404.scss */
+              /* line 2524, 404.scss */
               #top footer .auto-container .row .contact-block .contact-block-list li a:hover {
                 color: #c7a610; }
-          /* line 2438, 404.scss */
+          /* line 2531, 404.scss */
           #top footer .auto-container .row .contact-block .contact-block-social {
             list-style: none;
             min-width: 250px;
             height: auto; }
-            /* line 2443, 404.scss */
+            /* line 2536, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a {
               display: inline-block;
               margin-top: 30px;
@@ -2369,18 +2466,18 @@
               color: #bebec3;
               -webkit-transition: all .2s ease;
               transition: all .2s ease; }
-            /* line 2453, 404.scss */
+            /* line 2546, 404.scss */
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="facebook"]:hover #path4532,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="instagram"]:hover #path6,
             #top footer .auto-container .row .contact-block .contact-block-social a[href*="vk"]:hover #r4 {
               fill: #c7a610 !important; }
-          /* line 2460, 404.scss */
+          /* line 2553, 404.scss */
           #top footer .auto-container .row .contact-block .footer-form {
             position: relative; }
-            /* line 2463, 404.scss */
+            /* line 2556, 404.scss */
             #top footer .auto-container .row .contact-block .footer-form form {
               line-height: inherit; }
-              /* line 2466, 404.scss */
+              /* line 2559, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form input {
                 background: transparent;
                 border-color: rgba(255, 255, 255, 0.15);
@@ -2388,7 +2485,7 @@
                 width: 80%;
                 height: 60px;
                 border: 1px solid #bebec3; }
-              /* line 2475, 404.scss */
+              /* line 2568, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form button[type="submit"] {
                 cursor: pointer;
                 color: #fff;
@@ -2409,19 +2506,19 @@
                 -webkit-transition: .5s;
                 transition: .5s;
                 background-color: #c7a610; }
-              /* line 2494, 404.scss */
+              /* line 2587, 404.scss */
               #top footer .auto-container .row .contact-block .footer-form form [type="submit"]:hover {
                 color: #fff;
                 background-color: #2c2a49; }
-        /* line 2503, 404.scss */
+        /* line 2596, 404.scss */
         #top footer .auto-container .row .contact-block:nth-child(2) {
           width: 15%;
           min-width: 150px; }
-        /* line 2508, 404.scss */
+        /* line 2601, 404.scss */
         #top footer .auto-container .row .contact-block:last-child {
           width: 35%;
           min-width: 250px; }
-  /* line 2517, 404.scss */
+  /* line 2610, 404.scss */
   #top .scroll-top {
     position: fixed;
     right: 0;
@@ -2434,18 +2531,18 @@
     -webkit-transition: .3s;
     transition: .3s;
     color: #999; }
-    /* line 2528, 404.scss */
+    /* line 2621, 404.scss */
     #top .scroll-top .scroll-text {
       font-size: 14px;
       font-weight: 600;
       cursor: pointer;
       -webkit-transition: all .5s ease;
       transition: all .5s ease; }
-    /* line 2535, 404.scss */
+    /* line 2628, 404.scss */
     #top .scroll-top .scroll-text:hover {
       -webkit-transform: scale(1.1);
               transform: scale(1.1); }
-  /* line 2540, 404.scss */
+  /* line 2633, 404.scss */
   #top .scroll-top:hover {
     color: #c7a610; }
 
@@ -2529,17 +2626,32 @@
       width: 100%;
       -webkit-box-flex: 0;
           -ms-flex: 0 0 auto;
-              flex: 0 0 auto; } }
+              flex: 0 0 auto; }
+    /* line 145, media.scss */
+    body #top .section-wedding-padding .auto-container .row .widgets-post {
+      width: 100%;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
+      /* line 151, media.scss */
+      body #top .section-wedding-padding .auto-container .row .widgets-post .event-widget {
+        margin: 0 15px; } }
 @media only all and (max-width: 768px) {
-  /* line 153, media.scss */
+  /* line 163, media.scss */
   [class*="padding"] {
     padding: 70px 12px; }
 
-  /* line 157, media.scss */
+  /* line 167, media.scss */
   h1, h2 {
     font-size: 48px !important; }
 
-  /* line 162, media.scss */
+  /* line 172, media.scss */
   body #top {
     /* about */
     /* amenities */
@@ -2550,29 +2662,29 @@
     /* events section */
     /* wedding section */
     /* footer */ }
-    /* line 167, media.scss */
+    /* line 177, media.scss */
     body #top .section-about-padding .auto-container .row .about-block {
       width: 100%;
       padding: 0 15px; }
-      /* line 171, media.scss */
+      /* line 181, media.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
         display: none; }
-      /* line 174, media.scss */
+      /* line 184, media.scss */
       body #top .section-about-padding .auto-container .row .about-block .about-image .image-1, body #top .section-about-padding .auto-container .row .about-block .about-image .image-2, body #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
         -webkit-transform: scale(0.8);
                 transform: scale(0.8);
         height: auto; }
-    /* line 180, media.scss */
+    /* line 190, media.scss */
     body #top .section-about-padding .auto-container .row .about-discription {
       width: 100%;
       padding: 0 15px; }
-    /* line 190, media.scss */
+    /* line 200, media.scss */
     body #top .section-amenities-padding .auto-container {
       width: 100%; }
-      /* line 193, media.scss */
+      /* line 203, media.scss */
       body #top .section-amenities-padding .auto-container .wrapper .section-heading {
         padding: 0 20px; }
-      /* line 197, media.scss */
+      /* line 207, media.scss */
       body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
         margin: 0 10px 15px;
         padding: 20px 10px !important;
@@ -2580,74 +2692,74 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 1 auto;
                 flex: 0 1 auto; }
-    /* line 214, media.scss */
+    /* line 224, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul .location {
       border-left: 1px solid #bebec3 !important; }
-    /* line 217, media.scss */
+    /* line 227, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul .A1 {
       margin-right: 71px; }
-    /* line 220, media.scss */
+    /* line 230, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul li:last-child {
       width: 200px; }
-    /* line 224, media.scss */
+    /* line 234, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li ul:first-child {
       margin-bottom: 0; }
-    /* line 229, media.scss */
+    /* line 239, media.scss */
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
-      /* line 232, media.scss */
+      /* line 242, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
-        /* line 236, media.scss */
+        /* line 246, media.scss */
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 30px 60px; }
-          /* line 240, media.scss */
+          /* line 250, media.scss */
           body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
             margin: 0 auto; }
-      /* line 247, media.scss */
+      /* line 257, media.scss */
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 90vw;
         margin: 0 !important; }
-    /* line 261, media.scss */
+    /* line 271, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
-      /* line 264, media.scss */
+      /* line 274, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 300px; }
-    /* line 279, media.scss */
+    /* line 289, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns {
       margin-bottom: 30px; }
-      /* line 281, media.scss */
+      /* line 291, media.scss */
       body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a {
         padding: 5px 12px;
         font-size: 10px;
         line-height: 1.2; }
-    /* line 288, media.scss */
+    /* line 298, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
-    /* line 299, media.scss */
+    /* line 309, media.scss */
     body #top .section-mainAmenities-padding .auto-container .row {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      /* line 301, media.scss */
+      /* line 311, media.scss */
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
-        /* line 303, media.scss */
+        /* line 313, media.scss */
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
           margin-bottom: 50px; }
-          /* line 306, media.scss */
+          /* line 316, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-small {
             font-size: 12.8px; }
-          /* line 309, media.scss */
+          /* line 319, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-big {
             font-size: 24px; }
-          /* line 312, media.scss */
+          /* line 322, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-discription {
             font-size: 12.8px; }
-    /* line 327, media.scss */
+    /* line 337, media.scss */
     body #top .section-events-padding .auto-container .row .flexelement .event-block {
       -webkit-box-orient: vertical;
       -webkit-box-direction: normal;
@@ -2657,28 +2769,31 @@
           -ms-flex-pack: center;
               justify-content: center;
       text-align: center; }
-      /* line 332, media.scss */
+      /* line 342, media.scss */
       body #top .section-events-padding .auto-container .row .flexelement .event-block .event-image {
         position: relative;
         width: 40%;
         margin: 15px; }
-      /* line 339, media.scss */
+      /* line 349, media.scss */
       body #top .section-events-padding .auto-container .row .flexelement .event-block .event-content .event-title {
         font-size: 32px; }
-    /* line 353, media.scss */
+    /* line 363, media.scss */
     body #top .section-wedding-padding .auto-container .row .main-post {
       width: 100%;
       -webkit-box-flex: 0;
           -ms-flex: 0 0 auto;
               flex: 0 0 auto; }
-      /* line 358, media.scss */
+      /* line 368, media.scss */
       body #top .section-wedding-padding .auto-container .row .main-post .wedding-block .row .requirement {
         width: 100% !important;
         margin-right: 0 !important; }
-    /* line 370, media.scss */
+    /* line 379, media.scss */
+    body #top .section-wedding-padding .auto-container .row .widgets-post .event-widget ul li a {
+      font-size: 16px; }
+    /* line 391, media.scss */
     body #top footer {
       padding: 50px 0 20px; }
-      /* line 375, media.scss */
+      /* line 396, media.scss */
       body #top footer .auto-container .row .contact-block {
         max-width: 100%;
         margin-bottom: 20px;
@@ -2686,101 +2801,105 @@
         -webkit-box-flex: 0;
             -ms-flex: 0 1 auto;
                 flex: 0 1 auto; }
-      /* line 381, media.scss */
+      /* line 402, media.scss */
       body #top footer .auto-container .row .contact-block:nth-child(2) {
         -webkit-box-ordinal-group: 3;
             -ms-flex-order: 2;
                 order: 2; }
-      /* line 384, media.scss */
+      /* line 405, media.scss */
       body #top footer .auto-container .row .contact-block:nth-child(4) {
         -webkit-box-ordinal-group: 4;
             -ms-flex-order: 3;
                 order: 3; } }
 @media only all and (max-width: 560px) {
-  /* line 396, media.scss */
+  /* line 417, media.scss */
   body #top {
     /* contact */
     /* testimonials */
     /* gallery section */
     /* mainAmenities section */
-    /* events section */ }
-    /* line 398, media.scss */
+    /* events section */
+    /* wedding section */ }
+    /* line 419, media.scss */
     body #top header .container {
       padding: 0 10px;
       -webkit-box-pack: justify;
           -ms-flex-pack: justify;
               justify-content: space-between; }
-      /* line 401, media.scss */
+      /* line 422, media.scss */
       body #top header .container .mobile-column {
         right: 10px; }
-      /* line 404, media.scss */
+      /* line 425, media.scss */
       body #top header .container .link-btn {
         display: none; }
-    /* line 414, media.scss */
+    /* line 435, media.scss */
     body #top .section-contact-padding .auto-container .row .contact-form {
       width: 100%; }
-      /* line 420, media.scss */
+      /* line 441, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
         margin: 0 auto; }
-    /* line 427, media.scss */
+    /* line 448, media.scss */
     body #top .section-contact-padding .auto-container .row .map {
       width: 100%;
       height: 120vw;
       margin: 0 !important; }
-    /* line 440, media.scss */
+    /* line 461, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
-      /* line 443, media.scss */
+      /* line 464, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 300px; }
-    /* line 458, media.scss */
+    /* line 479, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns {
       margin-bottom: 20px; }
-      /* line 460, media.scss */
+      /* line 481, media.scss */
       body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a {
         padding: 5px 8px;
         font-size: 8px;
         line-height: 1.2; }
-    /* line 467, media.scss */
+    /* line 488, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
-    /* line 478, media.scss */
+    /* line 499, media.scss */
     body #top .section-mainAmenities-padding .auto-container .row {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      /* line 480, media.scss */
+      /* line 501, media.scss */
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
-        /* line 482, media.scss */
+        /* line 503, media.scss */
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
           margin-bottom: 50px; }
-          /* line 484, media.scss */
+          /* line 505, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content {
             padding: 10px 12px 3px;
             margin: -30px 40px 0; }
-            /* line 487, media.scss */
+            /* line 508, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-small {
               font-size: 12.8px; }
-            /* line 490, media.scss */
+            /* line 511, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-big {
               font-size: 20px; }
-            /* line 493, media.scss */
+            /* line 514, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-discription {
               font-size: 8px; }
-    /* line 510, media.scss */
+    /* line 531, media.scss */
     body #top .section-events-padding .auto-container .row .flexelement .event-block .event-content .event-title {
-      font-size: 26.6666666667px; } }
+      font-size: 26.6666666667px; }
+    /* line 546, media.scss */
+    body #top .section-wedding-padding .auto-container .row .widgets-post .event-widget {
+      margin: 0; } }
 @media only all and (max-width: 400px) {
-  /* line 524, media.scss */
+  /* line 558, media.scss */
   [class*="padding"] {
     padding: 50px 5px; }
 
-  /* line 528, media.scss */
+  /* line 562, media.scss */
   h1, h2 {
     font-size: 32px !important; }
 
-  /* line 533, media.scss */
+  /* line 567, media.scss */
   body #top {
     /* about */
     /* amenities */
@@ -2790,101 +2909,101 @@
     /* mainAmenities section */
     /* events section */
     /* footer */ }
-    /* line 536, media.scss */
+    /* line 570, media.scss */
     body #top .section-about-padding {
       padding: 50px 10px 5px; }
-      /* line 540, media.scss */
+      /* line 574, media.scss */
       body #top .section-about-padding .auto-container .row .about-discription {
         position: static;
         padding: 0 25px;
         margin: 0 auto;
         width: 100%;
         text-align: center; }
-      /* line 547, media.scss */
+      /* line 581, media.scss */
       body #top .section-about-padding .auto-container .row .about-block {
         width: 100%;
         padding: 0 15px; }
-        /* line 551, media.scss */
+        /* line 585, media.scss */
         body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
           display: none; }
-        /* line 554, media.scss */
+        /* line 588, media.scss */
         body #top .section-about-padding .auto-container .row .about-block .about-image .image-1, body #top .section-about-padding .auto-container .row .about-block .about-image .image-2, body #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
           height: auto; }
-    /* line 569, media.scss */
+    /* line 603, media.scss */
     body #top .section-amenities-padding .auto-container .wrapper .row .icon-box {
       margin: 0 15px 15px;
       padding: 30px 0;
       width: 150px;
       min-width: 100px; }
-    /* line 585, media.scss */
+    /* line 619, media.scss */
     body #top .section-contact-padding .auto-container .contact-info li {
       border-left: 1px solid #bebec3 !important; }
-    /* line 589, media.scss */
+    /* line 623, media.scss */
     body #top .section-contact-padding .auto-container .row {
       -webkit-box-shadow: none !important;
               box-shadow: none !important; }
-      /* line 591, media.scss */
+      /* line 625, media.scss */
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
-        /* line 595, media.scss */
+        /* line 629, media.scss */
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
           padding: 15px 20px; }
-          /* line 599, media.scss */
+          /* line 633, media.scss */
           body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form .flex-form .contact-btn {
             margin: 0 auto; }
-      /* line 606, media.scss */
+      /* line 640, media.scss */
       body #top .section-contact-padding .auto-container .row .map {
         width: 100%;
         height: 150vw;
         margin: 0 !important; }
-    /* line 620, media.scss */
+    /* line 654, media.scss */
     body #top .section-testimonials-padding .auto-container .row .flexelement {
       width: 100%; }
-      /* line 623, media.scss */
+      /* line 657, media.scss */
       body #top .section-testimonials-padding .auto-container .row .flexelement .testimonial-block .content {
         height: 350px; }
-    /* line 638, media.scss */
+    /* line 672, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns {
       margin-bottom: 10px; }
-      /* line 640, media.scss */
+      /* line 674, media.scss */
       body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix .filter-btns a {
         padding: 5px 2px;
         font-size: 7px;
         line-height: 1.2; }
-    /* line 647, media.scss */
+    /* line 681, media.scss */
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
-    /* line 658, media.scss */
+    /* line 692, media.scss */
     body #top .section-mainAmenities-padding .auto-container .row {
       -webkit-box-pack: center;
           -ms-flex-pack: center;
               justify-content: center; }
-      /* line 660, media.scss */
+      /* line 694, media.scss */
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
-        /* line 662, media.scss */
+        /* line 696, media.scss */
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
           margin-bottom: 50px; }
-          /* line 664, media.scss */
+          /* line 698, media.scss */
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content {
             padding: 10px 12px 3px;
             margin: -30px 40px 0; }
-            /* line 667, media.scss */
+            /* line 701, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-small {
               font-size: 9.6px; }
-            /* line 670, media.scss */
+            /* line 704, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-big {
               font-size: 17px; }
-            /* line 673, media.scss */
+            /* line 707, media.scss */
             body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-discription {
               display: none; }
-    /* line 690, media.scss */
+    /* line 724, media.scss */
     body #top .section-events-padding .auto-container .row .flexelement .event-block .event-content .event-title {
       font-size: 21.3333333333px; }
-    /* line 701, media.scss */
+    /* line 735, media.scss */
     body #top footer {
       padding: 50px 0 20px; }
-      /* line 706, media.scss */
+      /* line 740, media.scss */
       body #top footer .auto-container .row .contact-block {
         width: 80% !important;
         margin-bottom: 20px;
