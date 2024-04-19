@@ -413,6 +413,14 @@
 }
 
 @media only all and (max-width: 560px){
+    class*="padding"] {
+        padding: 50px 5px;
+    }
+
+    h1, h2, h4 {
+        font-size: $logo-text !important;
+    }
+
     body{
         #top{
             header{
