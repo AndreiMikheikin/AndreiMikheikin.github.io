@@ -277,3 +277,7 @@
     }
 }
 
+@media print {
+
+    @page {size: A4 landscape;max-height:100%; max-width:100%}
+}
