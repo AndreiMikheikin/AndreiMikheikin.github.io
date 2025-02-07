@@ -1,17 +1,14 @@
 /* font-family */
 /* font-size */
 /* color */
-/* line 3, commonstyles.scss */
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border: none;
   outline: none;
   font-size: 100%; }
 
-/* line 12, commonstyles.scss */
 body {
   font-family: "Open Sans", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -20,7 +17,6 @@ body {
   font-weight: 400;
   background: #fff; }
 
-/* line 21, commonstyles.scss */
 *[class*="container"],
 *[class*="section"],
 article, .back-to-home,
@@ -29,29 +25,21 @@ article, .back-to-home,
   width: 100%;
   margin: 0 auto; }
 
-/* line 30, commonstyles.scss */
 *[class*="padding"] {
   padding: 100px 0 120px; }
 
-/* line 35, commonstyles.scss */
 *[class*="row"] {
   margin: 0 -15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap; }
+  flex-wrap: wrap; }
 
-/* line 41, commonstyles.scss */
 sup, sub {
   font-size: 9px; }
 
-/* line 45, commonstyles.scss */
 a, address {
   text-decoration: none;
   font-style: normal; }
 
-/* line 50, commonstyles.scss */
 .scroll-text:hover, a:hover, .icon-box:hover > .icon > [class*="icon"] {
   color: #c7a610; }
 
