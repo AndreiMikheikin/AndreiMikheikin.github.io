@@ -1,36 +1,57 @@
+@-webkit-keyframes fadeInLeft {
+  0% {
+    opacity: 0;
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px); }
+  to {
+    opacity: 1;
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
 @keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: translateX(-20px); }
+    -webkit-transform: translateX(-20px);
+            transform: translateX(-20px); }
   to {
     opacity: 1;
-    transform: translateX(0); } }
+    -webkit-transform: translateX(0);
+            transform: translateX(0); } }
 .fadeInLeft {
-  animation-name: fadeInLeft; }
+  -webkit-animation-name: fadeInLeft;
+          animation-name: fadeInLeft; }
 
 h1.anim, .offer-block.anim, p.anim, .menu-block.anim {
-  transform: translateX(-20%);
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+  -webkit-transition: all 1.5s;
   transition: all 1.5s;
   opacity: 0; }
 
 h1.anim.active, .offer-block.anim.active, p.anim.active, .menu-block.anim.active {
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
   opacity: 1; }
 
 h3.anim, h4.anim, span.anim, .icon-box.anim, .event-block.anim {
-  transform: rotateY(90deg);
+  -webkit-transform: rotateY(90deg);
+          transform: rotateY(90deg);
+  -webkit-transition: 2s;
   transition: 2s; }
 
 h3.anim.active, h4.anim.active, span.anim.active, .icon-box.anim.active, .event-block.anim.active {
-  transform: rotateY(0); }
+  -webkit-transform: rotateY(0);
+          transform: rotateY(0); }
 
 h2.anim, .flexelement.anim {
-  transform: rotateX(90deg);
+  -webkit-transform: rotateX(90deg);
+          transform: rotateX(90deg);
+  -webkit-transition: all 2s;
   transition: all 2s;
   opacity: 0; }
 
 h2.anim.active, .flexelement.anim.active {
-  transform: rotateX(0);
+  -webkit-transform: rotateX(0);
+          transform: rotateX(0);
   opacity: 1; }
 
 #top > header > .mobile-menu.active {
@@ -39,16 +60,21 @@ h2.anim.active, .flexelement.anim.active {
   width: 320px;
   padding-right: 30px;
   overflow: auto;
+  -webkit-transition: all .7s ease;
   transition: all .7s ease; }
 
 #top > header > .mobile-menu.active .menu-drop {
-  transform: translateX(0);
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
   visibility: visible;
   opacity: .7;
+  -webkit-transition: all .7s ease;
   transition: all .7s ease; }
 
 .btn-rotateZ {
-  transform: rotateZ(90deg);
+  -webkit-transform: rotateZ(90deg);
+          transform: rotateZ(90deg);
+  -webkit-transition: all .3s;
   transition: all .3s; }
 
 /*# sourceMappingURL=animation.css.map */

@@ -21,7 +21,8 @@
     body #top header .container .main-menu {
       display: none; }
     body #top .section-contact-padding .auto-container .row {
-      box-shadow: none !important; }
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; }
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 30%; }
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
@@ -43,7 +44,9 @@
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
     body #top .section-mainAmenities-padding .auto-container .row {
-      justify-content: center; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
@@ -52,12 +55,20 @@
       min-width: 300px; }
     body #top .section-wedding-padding .auto-container .row .main-post {
       width: 100%;
-      flex: 0 0 auto; }
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto; }
     body #top .section-wedding-padding .auto-container .row .widgets-post {
       width: 100%;
-      flex-direction: row;
-      justify-content: center;
-      flex-wrap: wrap; }
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: row;
+              flex-direction: row;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; }
       body #top .section-wedding-padding .auto-container .row .widgets-post .event-widget {
         margin: 0 15px 20px; } }
 @media only all and (max-width: 768px) {
@@ -83,7 +94,8 @@
       body #top .section-about-padding .auto-container .row .about-block .about-image #circles-0 {
         display: none; }
       body #top .section-about-padding .auto-container .row .about-block .about-image .image-1, body #top .section-about-padding .auto-container .row .about-block .about-image .image-2, body #top .section-about-padding .auto-container .row .about-block .about-image .video-area {
-        transform: scale(0.8);
+        -webkit-transform: scale(0.8);
+                transform: scale(0.8);
         height: auto; }
     body #top .section-about-padding .auto-container .row .about-discription {
       width: 100%;
@@ -96,7 +108,9 @@
         margin: 0 10px 15px;
         padding: 20px 10px !important;
         width: auto !important;
-        flex: 0 1 auto; }
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+                flex: 0 1 auto; }
     body #top .section-contact-padding .auto-container .contact-info li ul .location {
       border-left: 1px solid #bebec3 !important; }
     body #top .section-contact-padding .auto-container .contact-info li ul .A1 {
@@ -106,7 +120,8 @@
     body #top .section-contact-padding .auto-container .contact-info li ul:first-child {
       margin-bottom: 0; }
     body #top .section-contact-padding .auto-container .row {
-      box-shadow: none !important; }
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; }
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
@@ -130,7 +145,9 @@
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
     body #top .section-mainAmenities-padding .auto-container .row {
-      justify-content: center; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
@@ -142,8 +159,13 @@
           body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block .amenities-content .block-heading-title-discription {
             font-size: 12.8px; }
     body #top .section-events-padding .auto-container .row .flexelement .event-block {
-      flex-direction: column;
-      justify-content: center;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+              flex-direction: column;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
       text-align: center; }
       body #top .section-events-padding .auto-container .row .flexelement .event-block .event-image {
         position: relative;
@@ -153,7 +175,9 @@
         font-size: 32px; }
     body #top .section-wedding-padding .auto-container .row .main-post {
       width: 100%;
-      flex: 0 0 auto; }
+      -webkit-box-flex: 0;
+          -ms-flex: 0 0 auto;
+              flex: 0 0 auto; }
       body #top .section-wedding-padding .auto-container .row .main-post .wedding-block .row .requirement {
         width: 100% !important;
         margin-right: 0 !important; }
@@ -165,11 +189,17 @@
         max-width: 100%;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a;
-        flex: 0 1 auto; }
+        -webkit-box-flex: 0;
+            -ms-flex: 0 1 auto;
+                flex: 0 1 auto; }
       body #top footer .auto-container .row .contact-block:nth-child(2) {
-        order: 2; }
+        -webkit-box-ordinal-group: 3;
+            -ms-flex-order: 2;
+                order: 2; }
       body #top footer .auto-container .row .contact-block:nth-child(4) {
-        order: 3; } }
+        -webkit-box-ordinal-group: 4;
+            -ms-flex-order: 3;
+                order: 3; } }
 @media only all and (max-width: 560px) {
   [class*="padding"] {
     padding: 50px 5px; }
@@ -186,7 +216,9 @@
     /* wedding section */ }
     body #top header .container {
       padding: 0 10px;
-      justify-content: space-between; }
+      -webkit-box-pack: justify;
+          -ms-flex-pack: justify;
+              justify-content: space-between; }
       body #top header .container .mobile-column {
         right: 10px; }
       body #top header .container .link-btn {
@@ -212,7 +244,9 @@
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
     body #top .section-mainAmenities-padding .auto-container .row {
-      justify-content: center; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
@@ -269,7 +303,8 @@
     body #top .section-contact-padding .auto-container .contact-info li {
       border-left: 1px solid #bebec3 !important; }
     body #top .section-contact-padding .auto-container .row {
-      box-shadow: none !important; }
+      -webkit-box-shadow: none !important;
+              box-shadow: none !important; }
       body #top .section-contact-padding .auto-container .row .contact-form {
         width: 100%; }
         body #top .section-contact-padding .auto-container .row .contact-form .contact-form-group .form {
@@ -293,7 +328,9 @@
     body #top .section-gallery-padding .auto-container .sortable .filters .filter-tabs-clearfix::after {
       display: none; }
     body #top .section-mainAmenities-padding .auto-container .row {
-      justify-content: center; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
       body #top .section-mainAmenities-padding .auto-container .row .flexelement {
         width: 70%; }
         body #top .section-mainAmenities-padding .auto-container .row .flexelement .amenities-block {
@@ -317,6 +354,8 @@
         border-bottom: 1px solid #3a3a3a; } }
 @media print {
   body {
+    max-width: -webkit-fit-content;
+    max-width: -moz-fit-content;
     max-width: fit-content; }
 
   @page {
