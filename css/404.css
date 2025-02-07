@@ -2554,6 +2554,8 @@
     max-width: -webkit-fit-content;
     max-width: -moz-fit-content;
     max-width: fit-content; }
+    body [class*="padding"] {
+      max-width: 500px; }
 
   @page {
     size: A4 landscape;
