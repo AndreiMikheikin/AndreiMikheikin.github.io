@@ -204,8 +204,11 @@
   [class*="padding"] {
     padding: 50px 5px; }
 
-  h1, h2, h4 {
+  h1, h2 {
     font-size: 32px !important; }
+
+  h4 {
+    font-size: 18px; }
 
   body #top {
     /* contact */
@@ -352,17 +355,5 @@
         width: 80% !important;
         margin-bottom: 20px;
         border-bottom: 1px solid #3a3a3a; } }
-@media print {
-  body {
-    max-width: -webkit-fit-content;
-    max-width: -moz-fit-content;
-    max-width: fit-content; }
-    body [class*="padding"] {
-      max-width: 500px; }
-
-  @page {
-    size: A4;
-    max-height: 100%;
-    max-width: 100%; } }
 
 /*# sourceMappingURL=media.css.map */
